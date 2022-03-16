@@ -6,6 +6,20 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 
 ### 1.1 Lesson: Introduction to Databases 
 
+#### Welcome to SQL
+
+A database is a collection of data that is organized in a manner that facilitates ease of access, as well as efficient management and updating.
+
+A database is made up of tables that store relevant information.
+
+For example, you would use a database, if you were to create a website like YouTube, which contains a lot of information like videos, usernames, passwords, comments.
+
+![Welcome to SQL](https://user-images.githubusercontent.com/95575665/158609766-75a74d42-04ed-4776-82ca-11c521dca276.png)
+
+> :warning: In this course we will learn how to create and query databases using SQL!
+
+#### Database Tables
+
 ### 2.1 Lesson: SQL Statements: SELECT
 
 ### 3.1 Lesson: SQL Syntax Rules
