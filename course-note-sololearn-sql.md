@@ -10,7 +10,7 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 
 #### Welcome to SQL
 
-A database is a collection of data that is organized in a manner that facilitates ease of access, as well as efficient management and updating.
+A **database** is a collection of data that is organized in a manner that facilitates ease of access, as well as efficient management and updating.
 
 A database is made up of tables that store relevant information.
 
@@ -22,9 +22,45 @@ For example, you would use a database, if you were to create a website like YouT
 
 #### Database Tables
 
+A **table** stores and displays data in a structured format consisting of columns and rows that are similar to those seen in Excel spreadsheets.
+
+Databases often contain multiple tables, each designed for a specific purpose. For example, imagine creating a database table of names and telephone numbers.
+
+First, we would set up columns with the titles *FirstName*, *LastName* and *TelephoneNumber*.
+
+Each table includes its own set of fields, based on the data it will store.
+
+![Database Tables](https://user-images.githubusercontent.com/95575665/159118091-2fffc40d-b727-4a14-bdd4-b9f6be994b9a.png)
+
+> ⚠️ A table has a specified number of columns but can have any number of rows.
+
 #### Primary Keys
 
+A primary key is a field in the table that uniquely identifies the table records.
+
+The primary key's main features:
+- It must contain a **unique value** for each row.
+- It cannot contain **NULL** values.
+
+For example, our table contains a record for each name in a phone book. The unique **ID** number would be a good choice for a primary key in the table, as there is always the chance for more than one person to have the same name.
+
+![Primary Keys](https://user-images.githubusercontent.com/95575665/159118288-c044be04-074d-4c5f-b2d1-89a09515a587.png)
+
+> ⚠️ <br /> - Tables are limited to ONE primary key each. <br /> - The primary key's value must be different for each row.
+
 #### What is SQL?
+
+Once you understand what a database is, understanding SQL is easy. **SQL** stands for **S**tructured **Q**uery **L**anguage.
+
+**SQL** is used to access and manipulate a **database**.
+**MySQL** is a **program** that understands **SQL**.
+
+SQL can:
+- insert, update, or delete records in a database.
+- create new databases, tables, stored procedures and views.
+- retrieve data from a database, etc.
+
+> ⚠️ SQL is an ANSI (American National Standards Institute) standard, but there are different versions of the SQL language. <br /> Most SQL database programs have their own proprietary extensions in addition to the SQL standard, but all of them support the major commands.
 
 ### 2.1 Lesson: SQL Statements: SELECT
 
