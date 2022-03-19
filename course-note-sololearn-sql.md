@@ -485,6 +485,8 @@ _____ name;
 
 ### 8 Code Project: Cakes
 
+#### Cakes
+
 A local bakery creates unique cake sets. Each cake set contains three different cakes.
 Here is the cakes table:
 
@@ -495,7 +497,11 @@ Write a query to sort the cakes by calorie count and select the first 3 cakes fr
 
 > :warning: Try to combine ORDER BY and LIMIT keywords.
 
+#### Solution
 
+```sql
+SELECT * FROM cakes ORDER BY calories LIMIT 3
+```
 
 ## Filtering, Functions, Subqueries
 
