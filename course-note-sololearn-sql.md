@@ -456,10 +456,6 @@ Question 01: A database consists of:
 - [ ] Rows
 - [ ] Columns
 
-A) Tables
-B) Rows
-C) Columns
-
 Question 02: Drag and drop from the options below to list the table names.
 ```
 _____ TABLES;
