@@ -1,5 +1,5 @@
 # Description 
-This repository contains the code for the online course *"SQL"* provided by (SoloLearn)[https://www.sololearn.com] and notes in .md format. 
+This repository contains the code for the online course *"SQL"* provided by [SoloLearn](https://www.sololearn.com) and notes in .md format. 
 
 # Course Information
 - <ins>Course Provider</ins>: SoloLearn
