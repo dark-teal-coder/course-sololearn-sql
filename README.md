@@ -1,3 +1,5 @@
+<!-- This is a README file for an online course. -->
+
 # Description 
 This repository contains the code for the online course *"SQL"* provided by [SoloLearn](https://www.sololearn.com) and notes in .md format. 
 
