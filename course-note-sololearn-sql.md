@@ -344,6 +344,26 @@ SELECT DISTINCT checks
 FROM Operation; 
 ```
 
+### 5.3 Practice: The Lucky Four
+
+#### The LIMIT Keyword
+
+8 people are registered for an online course, but only the first 4 of them are able to participate.
+Here is the Participants table:
+
+![5 3](https://user-images.githubusercontent.com/95575665/159120092-408b4e28-00c7-4d86-a64d-1dde197d22aa.jpg)
+
+Select the first four participants from the given list.
+
+> :warning: The LIMIT keyword can help you.
+
+#### Solution 
+
+```sql
+SELECT firstname, lastname
+FROM Participants LIMIT 4
+```
+
 ### 6.1 Lesson: Sorting Results
 
 #### Fully Qualified Names
