@@ -69,7 +69,7 @@ SQL can:
 The SQL ```SHOW``` statement displays information contained in the database and its tables. This helpful tool lets you keep track of your database contents and remind yourself about the structure of your tables.
 For example, the ```SHOW DATABASES``` command lists the databases managed by the server.
 
-```
+```sql
 SHOW DATABASES
 ```
 
@@ -91,7 +91,7 @@ For our example, we have created a database, my_database, with a table called cu
 
 The following example displays the columns in our customers table:
 
-```
+```sql
 SHOW COLUMNS FROM customers
 ```
 
@@ -119,7 +119,7 @@ To create a simple SELECT statement, specify the name(s) of the column(s) you ne
 
 **Syntax of the SQL SELECT Statement**:
 
-```
+```sql
 SELECT column_list
 FROM table_name
 ```
@@ -133,7 +133,7 @@ FROM table_name
 
 The following SQL statement selects the FirstName from the customers table:
 
-```
+```sql
 SELECT FirstName FROM customers
 ```
 
@@ -147,9 +147,53 @@ Result:
 
 #### Multiple Queries
 
+SQL allows to run multiple queries or commands at the same time.
+
+The following SQL statement selects the FirstName and City columns from the customers table:
+
+```sql
+SELECT FirstName FROM customers;
+SELECT City FROM customers;
+```
+
+Result:
+
+![Multiple Queries](https://user-images.githubusercontent.com/95575665/159118855-d1749cf7-7362-4c66-afd4-5aad1395ce89.png)
+
+![Multiple Queries 2](https://user-images.githubusercontent.com/95575665/159118860-5379778b-7504-49be-adb3-0a8f20a735b4.png)
+
+> :warning: Remember to end each SQL statement with a semicolon to indicate that the statement is complete and ready to be interpreted. <br /> In this tutorial, we will use semicolon at the end of each SQL statement.
+
 #### Case Sensitivity
 
+SQL is case **insensitive**.
+The following statements are equivalent and will produce the same result:
+
+```sql 
+select City from customers;
+SELECT City FROM customers;
+sElEct City From customers;
+```
+
+> :warning: It is common practice to write all SQL commands in **upper-case**.
+
 #### Syntax Rules
+
+A single SQL statement can be placed on one or more text lines. In addition, multiple SQL statements can be combined on a single text line.
+
+White spaces and multiple lines are ignored in SQL.
+
+For example, the following query is absolutely correct.
+
+```sql
+SELECT        City
+
+FROM customers;
+```
+
+However, it is recommended to avoid unnecessary white spaces and lines.
+
+> :warning: Combined with proper spacing and indenting, breaking up the commands into logical lines will make your SQL statements much easier to read and maintain.
 
 ### 4.1 Lesson: Selecting Multiple Columns
 
