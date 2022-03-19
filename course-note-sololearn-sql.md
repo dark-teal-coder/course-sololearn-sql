@@ -199,7 +199,37 @@ However, it is recommended to avoid unnecessary white spaces and lines.
 
 #### Selecting Multiple Columns
 
+As previously mentioned, the SQL SELECT statement retrieves records from tables in your SQL database.
+
+You can select multiple table columns at once.
+Just list the column names, separated by **commas**
+
+```sql
+SELECT FirstName, LastName, City 
+FROM customers;
+```
+
+Result:
+
+![Selecting Multiple Columns](https://user-images.githubusercontent.com/95575665/159119176-9e8b6b65-5f00-44af-a3a1-52b5c77ffb98.png)
+
+> :warning: Do not put a comma after the last column name.
+
 #### Selecting All Columns
+
+To retrieve all of the information contained in your table, place an **asterisk (\*)** sign after the SELECT command, rather than typing in each column names separately.
+
+The following SQL statement selects all of the columns in the customers table:
+
+```sql 
+SELECT * FROM customers; 
+```
+
+Result:
+
+![Selecting All Columns](https://user-images.githubusercontent.com/95575665/159119280-1eda5930-fd4d-489c-8f0b-6ff56ac61e12.png)
+
+> :warning: In SQL, the asterisk means all.
 
 ### 5.1 Lesson: DISTINCT and LIMIT
 
