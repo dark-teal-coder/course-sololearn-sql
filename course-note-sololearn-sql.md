@@ -452,23 +452,27 @@ ORDER BY losses
 ### 7.1 Lesson: Module 1 Quiz
 
 Question 01: A database consists of:
-- Tables
-- Rows
-- Columns
+- [ ] Tables
+- [ ] Rows
+- [ ] Columns
+
+A) Tables
+B) Rows
+C) Columns
 
 Question 02: Drag and drop from the options below to list the table names.
 ```
 _____ TABLES;
 ```
-- ```SHOW```
-- ```LIMIT```
-- ```VIEW```
-- ```SELECT```
+- [ ] ```SHOW```
+- [ ] ```LIMIT```
+- [ ] ```VIEW```
+- [ ] ```SELECT```
 
 Question 03: Why use primary keys?
-- It's an SQL standard
-- To guarantee the uniqueness of a row
-- Just for fun
+- [ ] It's an SQL standard
+- [ ] To guarantee the uniqueness of a row
+- [ ] Just for fun
 
 Question 04: Drag and drop from the options below to select distinct names from the ''students'' table, ordered by name.
 ```
@@ -476,12 +480,12 @@ SELECT _____ name
 _____ students
 _____ name;
 ```
-- ```BY```
-- ```LIMIT```
-- ```FROM```
-- ```DISTINCT```
-- ```IN```
-- ```ORDER BY```
+- [ ] ```BY```
+- [ ] ```LIMIT```
+- [ ] ```FROM```
+- [ ] ```DISTINCT```
+- [ ] ```IN```
+- [ ] ```ORDER BY```
 
 ### 8 Code Project: Cakes
 
