@@ -368,9 +368,59 @@ FROM Participants LIMIT 4
 
 #### Fully Qualified Names
 
+In SQL, you can provide the table name prior to the column name, by separating them with a **dot**.
+
+The following statements are equivalent:
+
+```sql
+SELECT City FROM customers;
+SELECT customers.City FROM customers;
+```
+
+The term for the above-mentioned syntax is called the "fully qualified name" of that column.
+
+> :warning: This form of writing is especially useful when working with multiple tables that may share the same column names.
+
 #### Order By
 
+```ORDER BY``` is used with ```SELECT``` to **sort** the returned data.
+
+The following example sorts our customers table by the FirstName column.
+
+```
+SELECT * FROM customers
+ORDER BY FirstName;
+```
+
+Result:
+
+![Order By](https://user-images.githubusercontent.com/95575665/159120210-8ec818f9-e6d8-4660-bae2-5a0b6bb25d87.png)
+
+As you can see, the rows are ordered alphabetically by the FirstName column.
+
+> :warning: By default, the ORDER BY keyword sorts the results in ascending order.
+
 #### Sorting Multiple Columns
+
+ORDER BY can sort retrieved data by multiple columns. When using ORDER BY with more than one column, separate the list of columns to follow ORDER BY with commas.
+Here is the customers table, showing the following records:
+
+![Sorting Multiple Columns](https://user-images.githubusercontent.com/95575665/159120241-6779910a-bf40-41bb-9d4b-90e3f2f3a865.png)
+
+To order by LastName and Age:
+
+```sql
+SELECT * FROM customers 
+ORDER BY LastName, Age;
+```
+
+This ORDER BY statement returns the following result:
+
+![Order By 2](https://user-images.githubusercontent.com/95575665/159120284-52489a1d-f0e7-465b-a418-781161b5cb26.png)
+
+As we have two Smiths, they will be ordered by the Age column in ascending order.
+
+> :warning: The ORDER BY command starts ordering in the same sequence as the columns. It will order by the first column listed, then by the second, and so on.
 
 ### 7.1 Lesson: Module 1 Quiz
 
