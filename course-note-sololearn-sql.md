@@ -323,6 +323,27 @@ This would produce the following result:
 
 > ⚠️ The reason that it produces results starting from ID number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
 
+### 5.2 Practice: Customer Copies
+
+#### The DISTINCT Keyword
+
+At the conclusion of a bank transaction, 6 checks are printed -- 3 originals for the bank, and 3 copies for the customer.
+Here is the list of all the checks named Operation
+
+![5 2](https://user-images.githubusercontent.com/95575665/159119901-c15df489-8d7f-4587-863e-218393619e19.jpg)
+
+Write a query to show only the unique checks that are given to the customer.
+
+> :warning: Use the DISTINCT statement to return the unique values of mentioned column.
+
+#### Solution
+
+```sql
+/* table name: Operation */
+SELECT DISTINCT checks 
+FROM Operation; 
+```
+
 ### 6.1 Lesson: Sorting Results
 
 #### Fully Qualified Names
