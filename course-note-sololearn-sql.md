@@ -422,6 +422,33 @@ As we have two Smiths, they will be ordered by the Age column in ascending order
 
 > :warning: The ORDER BY command starts ordering in the same sequence as the columns. It will order by the first column listed, then by the second, and so on.
 
+### 6.2
+
+#### Sorting Results
+
+Six players have competed in a chess tournament and their scores have been tallied.
+Here is the table of Players:
+
+![6 2](https://user-images.githubusercontent.com/95575665/159120409-cd38fbb9-6f3c-4e52-8bda-d3ae22e13590.jpg)
+
+Sort the players by losses to derive the leaderboard.
+
+> :warning: Recall the ORDER BY keyword.
+
+#### Solution
+
+```sql
+SELECT * 
+FROM Players 
+ORDER BY losses
+```
+Or: 
+```sql
+SELECT firstname, lastname, losses
+FROM Players 
+ORDER BY losses
+```
+
 ### 7.1 Lesson: Module 1 Quiz
 
 Question 01: A database consists of:
