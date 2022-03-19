@@ -67,6 +67,7 @@ SQL can:
 #### Basic SQL Commands
 
 The SQL ```SHOW``` statement displays information contained in the database and its tables. This helpful tool lets you keep track of your database contents and remind yourself about the structure of your tables.
+
 For example, the ```SHOW DATABASES``` command lists the databases managed by the server.
 
 ```sql
@@ -112,9 +113,11 @@ SHOW COLUMNS displays the following values for each table column:
 #### SELECT Statement
 
 The ```SELECT``` statement is used to select data from a database.
+
 The result is stored in a result table, which is called the **result-set**.
 
 A **query** may retrieve information from selected columns or from all columns in the table.
+
 To create a simple SELECT statement, specify the name(s) of the column(s) you need from the table.
 
 **Syntax of the SQL SELECT Statement**:
@@ -167,6 +170,7 @@ Result:
 #### Case Sensitivity
 
 SQL is case **insensitive**.
+
 The following statements are equivalent and will produce the same result:
 
 ```sql 
@@ -202,6 +206,7 @@ However, it is recommended to avoid unnecessary white spaces and lines.
 As previously mentioned, the SQL SELECT statement retrieves records from tables in your SQL database.
 
 You can select multiple table columns at once.
+
 Just list the column names, separated by **commas**
 
 ```sql
@@ -236,6 +241,7 @@ Result:
 #### Selecting Multiple Columns
 
 When buying food, it is important to make sure it is fresh and not expired.
+
 You are given the following 'Products' list:
 
 ![Best Before Selecting Multiple Columns](https://user-images.githubusercontent.com/95575665/159119537-fab9ac3d-c4d1-4840-a8de-6ac6b1498bfe.jpg)
@@ -328,6 +334,7 @@ This would produce the following result:
 #### The DISTINCT Keyword
 
 At the conclusion of a bank transaction, 6 checks are printed -- 3 originals for the bank, and 3 copies for the customer.
+
 Here is the list of all the checks named Operation
 
 ![5 2](https://user-images.githubusercontent.com/95575665/159119901-c15df489-8d7f-4587-863e-218393619e19.jpg)
@@ -349,6 +356,7 @@ FROM Operation;
 #### The LIMIT Keyword
 
 8 people are registered for an online course, but only the first 4 of them are able to participate.
+
 Here is the Participants table:
 
 ![5 3](https://user-images.githubusercontent.com/95575665/159120092-408b4e28-00c7-4d86-a64d-1dde197d22aa.jpg)
@@ -403,6 +411,7 @@ As you can see, the rows are ordered alphabetically by the FirstName column.
 #### Sorting Multiple Columns
 
 ORDER BY can sort retrieved data by multiple columns. When using ORDER BY with more than one column, separate the list of columns to follow ORDER BY with commas.
+
 Here is the customers table, showing the following records:
 
 ![Sorting Multiple Columns](https://user-images.githubusercontent.com/95575665/159120241-6779910a-bf40-41bb-9d4b-90e3f2f3a865.png)
@@ -427,6 +436,7 @@ As we have two Smiths, they will be ordered by the Age column in ascending order
 #### Sorting Results
 
 Six players have competed in a chess tournament and their scores have been tallied.
+
 Here is the table of Players:
 
 ![6 2](https://user-images.githubusercontent.com/95575665/159120409-cd38fbb9-6f3c-4e52-8bda-d3ae22e13590.jpg)
@@ -488,11 +498,13 @@ _____ name;
 #### Cakes
 
 A local bakery creates unique cake sets. Each cake set contains three different cakes.
+
 Here is the cakes table:
 
 ![Cakes](https://user-images.githubusercontent.com/95575665/158824685-330ff471-5424-4bc5-bca0-ed6431399ddb.jpg)
 
 Тoday a customer want a cake set that has minimal calories.
+
 Write a query to sort the cakes by calorie count and select the first 3 cakes from the list to offer the customer.
 
 > :warning: Try to combine ORDER BY and LIMIT keywords.
@@ -502,6 +514,8 @@ Write a query to sort the cakes by calorie count and select the first 3 cakes fr
 ```sql
 SELECT * FROM cakes ORDER BY calories LIMIT 3
 ```
+
+
 
 ## Filtering, Functions, Subqueries
 
