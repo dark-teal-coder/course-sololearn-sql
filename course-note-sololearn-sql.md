@@ -6,6 +6,8 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 
 ## Basic Concepts 
 
+
+
 ### 1.1 Lesson: Introduction to Databases 
 
 #### Welcome to SQL
@@ -61,6 +63,8 @@ SQL can:
 - retrieve data from a database, etc.
 
 > ⚠️ SQL is an ANSI (American National Standards Institute) standard, but there are different versions of the SQL language. <br /> Most SQL database programs have their own proprietary extensions in addition to the SQL standard, but all of them support the major commands.
+
+
 
 ### 2.1 Lesson: SQL Statements: SELECT
 
@@ -146,6 +150,8 @@ Result:
 
 > :warning: A SELECT statement retrieves zero or more rows from one or more database tables.
 
+
+
 ### 3.1 Lesson: SQL Syntax Rules
 
 #### Multiple Queries
@@ -199,6 +205,8 @@ However, it is recommended to avoid unnecessary white spaces and lines.
 
 > :warning: Combined with proper spacing and indenting, breaking up the commands into logical lines will make your SQL statements much easier to read and maintain.
 
+
+
 ### 4.1 Lesson: Selecting Multiple Columns
 
 #### Selecting Multiple Columns
@@ -236,6 +244,8 @@ Result:
 
 > :warning: In SQL, the asterisk means all.
 
+
+
 ### 4.2 Practice: Best Before 
 
 #### Selecting Multiple Columns
@@ -255,6 +265,8 @@ Write a query to select the ProductName, ProductionDate and ExpirationDate.
 SELECT ProductName, ProductionDate, ExpirationDate 
 FROM Products;
 ```
+
+
 
 ### 5.1 Lesson: DISTINCT and LIMIT
 
@@ -329,6 +341,8 @@ This would produce the following result:
 
 > ⚠️ The reason that it produces results starting from ID number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
 
+
+
 ### 5.2 Practice: Customer Copies
 
 #### The DISTINCT Keyword
@@ -337,7 +351,7 @@ At the conclusion of a bank transaction, 6 checks are printed -- 3 originals for
 
 Here is the list of all the checks named Operation
 
-![5 2](https://user-images.githubusercontent.com/95575665/159119901-c15df489-8d7f-4587-863e-218393619e19.jpg)
+![5 2](https://user-images.githubusercontent.com/95575665/159119901-c15df489-8d7f-4587-863e-218393619e19.jpg#gh-dark-mode-only)
 
 Write a query to show only the unique checks that are given to the customer.
 
@@ -350,6 +364,8 @@ Write a query to show only the unique checks that are given to the customer.
 SELECT DISTINCT checks 
 FROM Operation; 
 ```
+
+
 
 ### 5.3 Practice: The Lucky Four
 
@@ -371,6 +387,8 @@ Select the first four participants from the given list.
 SELECT firstname, lastname
 FROM Participants LIMIT 4
 ```
+
+
 
 ### 6.1 Lesson: Sorting Results
 
@@ -431,6 +449,8 @@ As we have two Smiths, they will be ordered by the Age column in ascending order
 
 > :warning: The ORDER BY command starts ordering in the same sequence as the columns. It will order by the first column listed, then by the second, and so on.
 
+
+
 ### 6.2
 
 #### Sorting Results
@@ -458,6 +478,8 @@ SELECT firstname, lastname, losses
 FROM Players 
 ORDER BY losses
 ```
+
+
 
 ### 7.1 Lesson: Module 1 Quiz
 
@@ -519,23 +541,43 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 
 ## Filtering, Functions, Subqueries
 
+
+
 ### 9.1 Lesson: The WHERE Statement
+
+
 
 ### 9.4 Lesson: Salary Range 
 
+
+
 ### 10.1 Lesson: Filtering with AND, OR
+
+
 
 ### 11.1 Lesson: IN, NOT IN Statements
 
+
+
 ### 12.1 Lesson: Custom Columns
+
+
 
 ### 13.1 Lesson: Functions
 
+
+
 ### 14.1 Lesson: Subqueries
+
+
 
 ### 15.1 Lesson: LIKE and MIN
 
+
+
 ### 16.1 Lesson: Module 2 Quiz
+
+
 
 ### 17 Code Project: Apartments 
 
@@ -543,25 +585,47 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 
 ## JOIN, Table Operations
 
+
+
 ### 18.1 Lesson: Joining Tables
+
+
 
 ### 19.1 Lesson: Types of Join
 
+
+
 ### 20.1 Lesson: UNION
+
+
 
 ### 21.1 Lesson: The INSERT Statement
 
+
+
 ### 22.1 Lesson: UPDATE and DELETE Statements
+
+
 
 ### 23.1 Lesson: Creating a Table
 
+
+
 ### 24.1 Lesson: NOT NULL and AUTO_INCREMENT
+
+
 
 ### 25.1 Lesson: Alter, Drop, Rename a Table
 
+
+
 ### 26.1 Lesson: Views
 
+
+
 ### 27.1 Lesson: Module 3 Quiz
+
+
 
 ### 28 Code Project: Zoo
 
@@ -569,6 +633,10 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 
 ## Challenges
 
+
+
 ### 29.1 Lesson: Challenge 1
+
+
 
 ### 30.1 Lesson: Challenge 2
