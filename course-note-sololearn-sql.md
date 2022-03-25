@@ -2,7 +2,7 @@
 
 This course covers an array of SQL-related topics, such as retrieving, updating and filtering data; functions and subqueries; creating & updating tables; & many more! 
 
-
+<br />
 
 ## Basic Concepts 
 
@@ -537,7 +537,7 @@ Write a query to sort the cakes by calorie count and select the first 3 cakes fr
 SELECT * FROM cakes ORDER BY calories LIMIT 3
 ```
 
-
+<br />
 
 ## Filtering, Functions, Subqueries
 
@@ -545,43 +545,69 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 
 ### 9.1 Lesson: The WHERE Statement
 
+#### The WHERE Statement
 
+#### SQL Operators
 
-### 9.4 Lesson: Salary Range 
+#### The BETWEEN Operator
+
+#### Text Values
+
+#### 
+
+### 9.4 Practice: Salary Range 
 
 
 
 ### 10.1 Lesson: Filtering with AND, OR
 
+#### Logical Operators
 
+#### OR
+
+#### Combining AND & OR
 
 ### 11.1 Lesson: IN, NOT IN Statements
 
+#### The IN Operator
 
+#### The IN Operator
+
+#### The NOT IN Operator
 
 ### 12.1 Lesson: Custom Columns
 
+#### The CONCAT Function
 
+#### The AS Keyword
+
+#### Arithmetic Operators
 
 ### 13.1 Lesson: Functions
 
+#### The UPPER Function
 
+#### SQRT and AVG
+
+#### The SUM function
 
 ### 14.1 Lesson: Subqueries
 
+#### Subqueries
 
+#### Subqueries
 
 ### 15.1 Lesson: LIKE and MIN
 
+#### The Like Operator
 
+#### The MIN Function
 
 ### 16.1 Lesson: Module 2 Quiz
 
-
-
 ### 17 Code Project: Apartments 
 
-
+<br />
 
 ## JOIN, Table Operations
 
@@ -589,47 +615,93 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 
 ### 18.1 Lesson: Joining Tables
 
+#### Joining Tables
 
+#### Joining Tables
+
+#### Joining Tables
 
 ### 19.1 Lesson: Types of Join
 
+#### Custom Names
 
+#### Types of Join
+
+#### LEFT JOIN
+
+#### RIGHT JOIN
 
 ### 20.1 Lesson: UNION
 
+#### Set Operation
 
+#### UNION
+
+#### UNION ALL
 
 ### 21.1 Lesson: The INSERT Statement
 
+#### Inserting Data
 
+#### Inserting Data
+
+#### Inserting Data
 
 ### 22.1 Lesson: UPDATE and DELETE Statements
 
+#### Updating Data
 
+#### Updating Data
+
+#### Updating Multiple Columns
+
+#### Deleting Data
 
 ### 23.1 Lesson: Creating a Table
 
+#### SQL Tables
 
+#### Creating a Table
+
+#### Creating a Table
+
+#### Data Types
+
+#### Primary Key
+
+#### Creating a Table
 
 ### 24.1 Lesson: NOT NULL and AUTO_INCREMENT
 
+#### SQL Constraints
 
+#### AUTO INCREMENT
+
+#### Using Constraints
 
 ### 25.1 Lesson: Alter, Drop, Rename a Table
 
+#### ALTER TABLE
 
+#### Dropping
+
+#### Renaming
 
 ### 26.1 Lesson: Views
 
+#### Views
 
+#### Creating Views
+
+#### Updating a View
 
 ### 27.1 Lesson: Module 3 Quiz
 
-
+...
 
 ### 28 Code Project: Zoo
 
-
+<br />
 
 ## Challenges
 
