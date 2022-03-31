@@ -547,13 +547,86 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 
 #### The WHERE Statement
 
+The WHERE clause is used to extract only those records that fulfill a specified criterion.
+
+The syntax for the WHERE clause:
+```sql
+SELECT column_list 
+FROM table_name
+WHERE condition;
+```
+
+Consider the following table:
+
+![The WHERE Statement](https://user-images.githubusercontent.com/95575665/160995996-e94a18bd-53d3-4b62-951f-ead57a718507.png)
+
+Result: 
+
+![The WHERE Statement 2](https://user-images.githubusercontent.com/95575665/160996542-00d5ba66-ed6e-4442-b156-9d1f57314eaa.png)
+
+> :warning: The WHERE clause is used to extract only those records that fulfill a specified criterion.
+
 #### SQL Operators
+
+Comparison Operators and Logical Operators are used in the WHERE clause to filter the data to be selected.
+
+The following comparison operators can be used in the WHERE clause:
+
+![SQL Operators](https://user-images.githubusercontent.com/95575665/160996745-fc687068-5799-460c-8f29-c01fafd51727.png)
+
+For example, we can display all customers names listed in our table, with the exception of the one with ID 5.
+
+```
+SELECT * FROM customers
+WHERE ID != 5;
+```
+
+Result:
+
+![SQL Operators 2](https://user-images.githubusercontent.com/95575665/160996972-03d2aeac-3481-4489-8d06-882bc145d6c5.png)
+
+> :warning: As you can see, the record with ID=5 is excluded from the list.
 
 #### The BETWEEN Operator
 
+The BETWEEN operator selects values within a range. The first value must be lower bound and the second value, the upper bound.
+
+The syntax for the BETWEEN clause is as follows:
+
+```
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+```
+
+The following SQL statement selects all records with IDs that fall between 3 and 7:
+
+```sql
+SELECT * FROM customers 
+WHERE ID BETWEEN 3 AND 7;
+```
+
+Result:
+
+![The BETWEEN Operator](https://user-images.githubusercontent.com/95575665/160997266-7ab522fe-d5ff-425e-84fb-94d860bcca1c.png)
+
+> :warning: As you can see, the lower bound and upper bound are both included in the range.
+
 #### Text Values
 
-#### 
+When working with text columns, surround any text that appears in the statement with single quotation marks (').
+
+The following SQL statement selects all records in which the City is equal to 'New York'.
+
+```sql
+SELECT ID, FirstName, LastName, City 
+FROM customers
+WHERE City = 'New York';
+```
+
+![Uploading Text Values.png…]()
+
+> :warning: If your text contains an apostrophe (single quote), you should use two single quote characters to escape the apostrophe. For example: 'Can''t'.
 
 ### 9.4 Practice: Salary Range 
 
