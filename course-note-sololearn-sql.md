@@ -624,7 +624,7 @@ FROM customers
 WHERE City = 'New York';
 ```
 
-![Uploading Text Values.png…]()
+![Text Values](https://user-images.githubusercontent.com/95575665/161008686-2a879e1c-dba6-4cc3-8af0-7813b08ae64d.png)
 
 > :warning: If your text contains an apostrophe (single quote), you should use two single quote characters to escape the apostrophe. For example: 'Can''t'.
 
