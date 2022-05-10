@@ -740,6 +740,10 @@ WHERE City = 'New York';
 
 #### The MIN Function
 
+
+
+### 15.2 Practice: Chocolate!
+
 <br />
 
 
@@ -751,6 +755,8 @@ WHERE City = 'New York';
 
 
 ### 17 Code Project: Apartments 
+
+#### Apartments
 
 <br />
 
@@ -768,6 +774,10 @@ WHERE City = 'New York';
 
 #### Joining Tables
 
+
+
+### 18.2 Practice: Mentor And Apprentice
+
 <br />
 
 
@@ -782,6 +792,10 @@ WHERE City = 'New York';
 
 #### RIGHT JOIN
 
+
+
+### 19.2 Practice: Sorting The Inventory
+
 <br />
 
 
@@ -794,6 +808,10 @@ WHERE City = 'New York';
 
 #### UNION ALL
 
+
+
+### 20.2 Practice: Chess Tournament 
+
 <br />
 
 
@@ -805,6 +823,10 @@ WHERE City = 'New York';
 #### Inserting Data
 
 #### Inserting Data
+
+
+
+### 21.2 Practice: More Cars! 
 
 <br />
 
@@ -819,6 +841,8 @@ WHERE City = 'New York';
 #### Updating Multiple Columns
 
 #### Deleting Data
+
+### 22.2 Practice: Match The Requirements 
 
 <br />
 
@@ -837,6 +861,10 @@ WHERE City = 'New York';
 #### Primary Key
 
 #### Creating a Table
+
+
+
+### 23.2 Practice: Video Game Scores 
 
 <br />
 
@@ -862,6 +890,10 @@ WHERE City = 'New York';
 
 #### Renaming
 
+
+
+### 25.2 Practice: The Most Beautiful Locations
+
 <br />
 
 
@@ -874,6 +906,10 @@ WHERE City = 'New York';
 
 #### Updating a View
 
+
+
+### 26.2 Practice: Social Media App Views 
+
 <br />
 
 
@@ -882,7 +918,11 @@ WHERE City = 'New York';
 
 <br />
 
+
+
 ### 28 Code Project: Zoo
+
+#### Zoo 
 
 <br />
 
