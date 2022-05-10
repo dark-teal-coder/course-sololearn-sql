@@ -8,6 +8,8 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 
 ## Basic Concepts 
 
+
+
 ### 1.1 Lesson: Introduction to Databases 
 
 #### Welcome to SQL
@@ -559,6 +561,8 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 
 ## Filtering, Functions, Subqueries
 
+
+
 ### 9.1 Lesson: The WHERE Statement
 
 #### The WHERE Statement
@@ -754,6 +758,8 @@ WHERE City = 'New York';
 
 ## JOIN, Table Operations
 
+
+
 ### 18.1 Lesson: Joining Tables
 
 #### Joining Tables
@@ -883,6 +889,8 @@ WHERE City = 'New York';
 
 
 ## Challenges
+
+
 
 ### 29.1 Lesson: Challenge 1
 
