@@ -4,6 +4,8 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 
 <br />
 
+
+
 ## Basic Concepts 
 
 ### 1.1 Lesson: Introduction to Databases 
@@ -63,6 +65,8 @@ SQL can:
 > ⚠️ SQL is an ANSI (American National Standards Institute) standard, but there are different versions of the SQL language. <br /> Most SQL database programs have their own proprietary extensions in addition to the SQL standard, but all of them support the major commands.
 
 <br />
+
+
 
 ### 2.1 Lesson: SQL Statements: SELECT
 
@@ -150,6 +154,8 @@ Result:
 
 <br />
 
+
+
 ### 3.1 Lesson: SQL Syntax Rules
 
 #### Multiple Queries
@@ -205,6 +211,8 @@ However, it is recommended to avoid unnecessary white spaces and lines.
 
 <br />
 
+
+
 ### 4.1 Lesson: Selecting Multiple Columns
 
 #### Selecting Multiple Columns
@@ -242,6 +250,8 @@ Result:
 
 > :warning: In SQL, the asterisk means all.
 
+
+
 ### 4.2 Practice: Best Before 
 
 #### Selecting Multiple Columns
@@ -263,6 +273,8 @@ FROM Products;
 ```
 
 <br />
+
+
 
 ### 5.1 Lesson: DISTINCT and LIMIT
 
@@ -384,6 +396,8 @@ SELECT firstname, lastname
 FROM Participants LIMIT 4
 ```
 
+<br />
+
 
 
 ### 6.1 Lesson: Sorting Results
@@ -475,6 +489,8 @@ FROM Players
 ORDER BY losses
 ```
 
+<br />
+
 
 
 ### 7.1 Lesson: Module 1 Quiz
@@ -511,6 +527,8 @@ _____ name;
 - [ ] ```IN```
 - [ ] ```ORDER BY```
 
+<br />
+
 
 
 ### 8 Code Project: Cakes
@@ -537,9 +555,9 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 
 <br />
 
+
+
 ## Filtering, Functions, Subqueries
-
-
 
 ### 9.1 Lesson: The WHERE Statement
 
@@ -626,7 +644,11 @@ WHERE City = 'New York';
 
 > :warning: If your text contains an apostrophe (single quote), you should use two single quote characters to escape the apostrophe. For example: 'Can''t'.
 
+
+
 ### 9.2 Practice: Salary Range 
+
+<br />
 
 
 
@@ -638,7 +660,11 @@ WHERE City = 'New York';
 
 #### Combining AND & OR
 
+
+
 ### 10.2 Practice: Superheros
+
+<br />
 
 
 
@@ -650,9 +676,13 @@ WHERE City = 'New York';
 
 #### The NOT IN Operator
 
+
+
 ### 11.2 Practice: Get The Ball Rolling!
 
 <br />
+
+
 
 ### 12.1 Lesson: Custom Columns
 
@@ -662,9 +692,13 @@ WHERE City = 'New York';
 
 #### Arithmetic Operators
 
+
+
 ### 12.2 Practice: Annual Bonuses
 
 <br />
+
+
 
 ### 13.1 Lesson: Functions
 
@@ -674,9 +708,13 @@ WHERE City = 'New York';
 
 #### The SUM function
 
+
+
 ### 13.2 Practice: Average Grades 
 
 <br />
+
+
 
 ### 14.1 Lesson: Subqueries
 
@@ -684,9 +722,13 @@ WHERE City = 'New York';
 
 #### Subqueries
 
+
+
 ### 14.2 Practice: Let's Get Fit! 
 
 <br />
+
+
 
 ### 15.1 Lesson: LIKE and MIN
 
@@ -696,17 +738,21 @@ WHERE City = 'New York';
 
 <br />
 
+
+
 ### 16.1 Lesson: Module 2 Quiz
 
 <br />
 
+
+
 ### 17 Code Project: Apartments 
+
+<br />
 
 
 
 ## JOIN, Table Operations
-
-
 
 ### 18.1 Lesson: Joining Tables
 
@@ -717,6 +763,8 @@ WHERE City = 'New York';
 #### Joining Tables
 
 <br />
+
+
 
 ### 19.1 Lesson: Types of Join
 
@@ -730,6 +778,8 @@ WHERE City = 'New York';
 
 <br />
 
+
+
 ### 20.1 Lesson: UNION
 
 #### Set Operation
@@ -740,6 +790,8 @@ WHERE City = 'New York';
 
 <br />
 
+
+
 ### 21.1 Lesson: The INSERT Statement
 
 #### Inserting Data
@@ -749,6 +801,8 @@ WHERE City = 'New York';
 #### Inserting Data
 
 <br />
+
+
 
 ### 22.1 Lesson: UPDATE and DELETE Statements
 
@@ -761,6 +815,8 @@ WHERE City = 'New York';
 #### Deleting Data
 
 <br />
+
+
 
 ### 23.1 Lesson: Creating a Table
 
@@ -778,6 +834,8 @@ WHERE City = 'New York';
 
 <br />
 
+
+
 ### 24.1 Lesson: NOT NULL and AUTO_INCREMENT
 
 #### SQL Constraints
@@ -787,6 +845,8 @@ WHERE City = 'New York';
 #### Using Constraints
 
 <br />
+
+
 
 ### 25.1 Lesson: Alter, Drop, Rename a Table
 
@@ -798,6 +858,8 @@ WHERE City = 'New York';
 
 <br />
 
+
+
 ### 26.1 Lesson: Views
 
 #### Views
@@ -808,6 +870,8 @@ WHERE City = 'New York';
 
 <br />
 
+
+
 ### 27.1 Lesson: Module 3 Quiz
 
 <br />
@@ -816,12 +880,17 @@ WHERE City = 'New York';
 
 <br />
 
+
+
 ## Challenges
-
-
 
 ### 29.1 Lesson: Challenge 1
 
 <br />
 
+
+
 ### 30.1 Lesson: Challenge 2
+
+<br />
+
