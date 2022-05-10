@@ -6,8 +6,6 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 
 ## Basic Concepts 
 
-
-
 ### 1.1 Lesson: Introduction to Databases 
 
 #### Welcome to SQL
@@ -64,7 +62,7 @@ SQL can:
 
 > ⚠️ SQL is an ANSI (American National Standards Institute) standard, but there are different versions of the SQL language. <br /> Most SQL database programs have their own proprietary extensions in addition to the SQL standard, but all of them support the major commands.
 
-
+<br />
 
 ### 2.1 Lesson: SQL Statements: SELECT
 
@@ -150,7 +148,7 @@ Result:
 
 > :warning: A SELECT statement retrieves zero or more rows from one or more database tables.
 
-
+<br />
 
 ### 3.1 Lesson: SQL Syntax Rules
 
@@ -205,7 +203,7 @@ However, it is recommended to avoid unnecessary white spaces and lines.
 
 > :warning: Combined with proper spacing and indenting, breaking up the commands into logical lines will make your SQL statements much easier to read and maintain.
 
-
+<br />
 
 ### 4.1 Lesson: Selecting Multiple Columns
 
@@ -244,8 +242,6 @@ Result:
 
 > :warning: In SQL, the asterisk means all.
 
-
-
 ### 4.2 Practice: Best Before 
 
 #### Selecting Multiple Columns
@@ -266,7 +262,7 @@ SELECT ProductName, ProductionDate, ExpirationDate
 FROM Products;
 ```
 
-
+<br />
 
 ### 5.1 Lesson: DISTINCT and LIMIT
 
@@ -451,7 +447,7 @@ As we have two Smiths, they will be ordered by the Age column in ascending order
 
 
 
-### 6.2
+### 6.2 Practice: Leaderboarding
 
 #### Sorting Results
 
@@ -514,6 +510,8 @@ _____ name;
 - [ ] ```DISTINCT```
 - [ ] ```IN```
 - [ ] ```ORDER BY```
+
+
 
 ### 8 Code Project: Cakes
 
@@ -628,7 +626,7 @@ WHERE City = 'New York';
 
 > :warning: If your text contains an apostrophe (single quote), you should use two single quote characters to escape the apostrophe. For example: 'Can''t'.
 
-### 9.4 Practice: Salary Range 
+### 9.2 Practice: Salary Range 
 
 
 
@@ -640,6 +638,10 @@ WHERE City = 'New York';
 
 #### Combining AND & OR
 
+### 10.2 Practice: Superheros
+
+
+
 ### 11.1 Lesson: IN, NOT IN Statements
 
 #### The IN Operator
@@ -647,6 +649,10 @@ WHERE City = 'New York';
 #### The IN Operator
 
 #### The NOT IN Operator
+
+### 11.2 Practice: Get The Ball Rolling!
+
+<br />
 
 ### 12.1 Lesson: Custom Columns
 
@@ -656,6 +662,10 @@ WHERE City = 'New York';
 
 #### Arithmetic Operators
 
+### 12.2 Practice: Annual Bonuses
+
+<br />
+
 ### 13.1 Lesson: Functions
 
 #### The UPPER Function
@@ -664,11 +674,19 @@ WHERE City = 'New York';
 
 #### The SUM function
 
+### 13.2 Practice: Average Grades 
+
+<br />
+
 ### 14.1 Lesson: Subqueries
 
 #### Subqueries
 
 #### Subqueries
+
+### 14.2 Practice: Let's Get Fit! 
+
+<br />
 
 ### 15.1 Lesson: LIKE and MIN
 
@@ -676,11 +694,15 @@ WHERE City = 'New York';
 
 #### The MIN Function
 
+<br />
+
 ### 16.1 Lesson: Module 2 Quiz
+
+<br />
 
 ### 17 Code Project: Apartments 
 
-<br />
+
 
 ## JOIN, Table Operations
 
@@ -694,6 +716,8 @@ WHERE City = 'New York';
 
 #### Joining Tables
 
+<br />
+
 ### 19.1 Lesson: Types of Join
 
 #### Custom Names
@@ -704,6 +728,8 @@ WHERE City = 'New York';
 
 #### RIGHT JOIN
 
+<br />
+
 ### 20.1 Lesson: UNION
 
 #### Set Operation
@@ -712,6 +738,8 @@ WHERE City = 'New York';
 
 #### UNION ALL
 
+<br />
+
 ### 21.1 Lesson: The INSERT Statement
 
 #### Inserting Data
@@ -719,6 +747,8 @@ WHERE City = 'New York';
 #### Inserting Data
 
 #### Inserting Data
+
+<br />
 
 ### 22.1 Lesson: UPDATE and DELETE Statements
 
@@ -729,6 +759,8 @@ WHERE City = 'New York';
 #### Updating Multiple Columns
 
 #### Deleting Data
+
+<br />
 
 ### 23.1 Lesson: Creating a Table
 
@@ -744,6 +776,8 @@ WHERE City = 'New York';
 
 #### Creating a Table
 
+<br />
+
 ### 24.1 Lesson: NOT NULL and AUTO_INCREMENT
 
 #### SQL Constraints
@@ -751,6 +785,8 @@ WHERE City = 'New York';
 #### AUTO INCREMENT
 
 #### Using Constraints
+
+<br />
 
 ### 25.1 Lesson: Alter, Drop, Rename a Table
 
@@ -760,6 +796,8 @@ WHERE City = 'New York';
 
 #### Renaming
 
+<br />
+
 ### 26.1 Lesson: Views
 
 #### Views
@@ -768,9 +806,11 @@ WHERE City = 'New York';
 
 #### Updating a View
 
+<br />
+
 ### 27.1 Lesson: Module 3 Quiz
 
-...
+<br />
 
 ### 28 Code Project: Zoo
 
@@ -782,6 +822,6 @@ WHERE City = 'New York';
 
 ### 29.1 Lesson: Challenge 1
 
-
+<br />
 
 ### 30.1 Lesson: Challenge 2
