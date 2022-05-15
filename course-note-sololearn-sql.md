@@ -660,6 +660,32 @@ WHERE City = 'New York';
 
 #### Logical Operators
 
+Logical operators can be used to combine two Boolean values and return a result of true, false, or null.
+
+The following operators can be used:
+
+![10-1-a](https://user-images.githubusercontent.com/95575665/168480190-a8fde876-a12a-486d-954a-a81a34e54359.png)
+
+When retrieving data using a SELECT statement, use logical operators in the WHERE clause to combine multiple conditions.
+
+If you want to select rows that satisfy all of the given conditions, use the logical operator, AND.
+
+![10-1-b](https://user-images.githubusercontent.com/95575665/168480198-3ea6c2b0-657f-4bb6-9b11-39ed11d00cda.png)
+
+To find the names of the customers between 30 to 40 years of age, set up the query as seen here:
+
+```sql
+SELECT ID, FirstName, LastName, Age
+FROM customers
+WHERE Age >= 30 AND Age <= 40;
+```
+
+This results in the following output:
+
+![10-1-c](https://user-images.githubusercontent.com/95575665/168480745-52128345-e3ad-4610-8573-8279dcc82494.png)
+
+> :warning: You can combine as many conditions as needed to return the desired results.
+
 #### OR
 
 #### Combining AND & OR
