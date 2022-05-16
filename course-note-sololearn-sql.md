@@ -724,13 +724,17 @@ Logical operators can be used to combine two Boolean values and return a result 
 
 The following operators can be used:
 
-![10-1-a](https://user-images.githubusercontent.com/95575665/168480190-a8fde876-a12a-486d-954a-a81a34e54359.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/168480190-a8fde876-a12a-486d-954a-a81a34e54359.png" alt="10-1-a" width="50%" height="50%">
+</p>
 
 When retrieving data using a SELECT statement, use logical operators in the WHERE clause to combine multiple conditions.
 
 If you want to select rows that satisfy all of the given conditions, use the logical operator, AND.
 
-![10-1-b](https://user-images.githubusercontent.com/95575665/168480198-3ea6c2b0-657f-4bb6-9b11-39ed11d00cda.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/168480198-3ea6c2b0-657f-4bb6-9b11-39ed11d00cda.png" alt="10-1-b" width="50%" height="50%">
+</p>
 
 To find the names of the customers between 30 to 40 years of age, set up the query as seen here:
 
@@ -742,7 +746,9 @@ WHERE Age >= 30 AND Age <= 40;
 
 This results in the following output:
 
-![10-1-c](https://user-images.githubusercontent.com/95575665/168480745-52128345-e3ad-4610-8573-8279dcc82494.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/168480745-52128345-e3ad-4610-8573-8279dcc82494.png" alt="10-1-c" width="50%" height="50%">
+</p>
 
 > :warning: You can combine as many conditions as needed to return the desired results.
 
@@ -1027,4 +1033,3 @@ This results in the following output:
 ### 30.1 Lesson: Challenge 2
 
 <br />
-
