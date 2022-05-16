@@ -36,7 +36,9 @@ First, we would set up columns with the titles *FirstName*, *LastName* and *Tele
 
 Each table includes its own set of fields, based on the data it will store.
 
-![Database Tables](https://user-images.githubusercontent.com/95575665/159118091-2fffc40d-b727-4a14-bdd4-b9f6be994b9a.png)
+<p align="center">
+  <img src="./images/1060-01-01-p02-a.png" alt="./images/1060-01-01-p02-a.png" width="50%" height="50%">
+</p>
 
 > ⚠️ A table has a specified number of columns but can have any number of rows.
 
