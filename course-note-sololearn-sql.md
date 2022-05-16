@@ -21,7 +21,7 @@ A database is made up of tables that store relevant information.
 For example, you would use a database, if you were to create a website like YouTube, which contains a lot of information like videos, usernames, passwords, comments.
 
 <p align="center">
-  <img src="./images/1060-01-01-p01-a.png" alt="./images/1060-01-01-p01-a.png" width="40%" height="40%">
+  <img src="./images/1060-01-01-p01-a.png" alt="./images/1060-01-01-p01-a.png" width="50%" height="50%">
 </p>
 
 > :warning: In this course we will learn how to create and query databases using SQL! 
