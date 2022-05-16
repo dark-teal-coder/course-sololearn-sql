@@ -52,7 +52,9 @@ The primary key's main features:
 
 For example, our table contains a record for each name in a phone book. The unique **ID** number would be a good choice for a primary key in the table, as there is always the chance for more than one person to have the same name.
 
-![Primary Keys](https://user-images.githubusercontent.com/95575665/159118288-c044be04-074d-4c5f-b2d1-89a09515a587.png)
+<p align="center">
+  <img src="./images/1060-01-01-p03-a.png" alt="./images/1060-01-01-p03-a.png" width="50%" height="50%">
+</p>
 
 > ⚠️ <br /> - Tables are limited to ONE primary key each. <br /> - The primary key's value must be different for each row.
 
