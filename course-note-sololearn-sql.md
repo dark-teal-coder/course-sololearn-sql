@@ -96,7 +96,10 @@ Throughout the tutorial we will be using the MySQL engine and the PHPMyAdmin too
 
 The ```SHOW TABLES``` command is used to display all of the tables in the currently selected MySQL database.
 
-![Basic SQL Commands](https://user-images.githubusercontent.com/95575665/159118511-2c027c60-55d6-4e77-b619-0638ffa989db.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159118511-2c027c60-55d6-4e77-b619-0638ffa989db.png" alt="Basic SQL Commands" width="50%" height="50%">
+</p>
+
 
 For our example, we have created a database, my_database, with a table called customers.
 
@@ -112,7 +115,9 @@ SHOW COLUMNS FROM customers
 
 Result:
 
-![Basic SQL Commands 2](https://user-images.githubusercontent.com/95575665/159118594-0cbd76ea-de70-4ae1-b592-5e469e682eb7.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159118594-0cbd76ea-de70-4ae1-b592-5e469e682eb7.png" alt="Basic SQL Commands 2" width="50%" height="50%">
+</p>
 
 SHOW COLUMNS displays the following values for each table column:
 
@@ -146,7 +151,10 @@ FROM table_name
 
 **Below is the data from our customers table:**
 
-![SELECT Statement](https://user-images.githubusercontent.com/95575665/159118714-6193482d-d575-4593-9d1d-c5127ddf8846.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159118714-6193482d-d575-4593-9d1d-c5127ddf8846.png" alt="SELECT Statement" width="50%" height="50%">
+</p>
+
 
 The following SQL statement selects the FirstName from the customers table:
 
@@ -156,7 +164,9 @@ SELECT FirstName FROM customers
 
 Result: 
 
-![SELECT Statement 2](https://user-images.githubusercontent.com/95575665/159118779-d251729a-e0d8-4850-aa2d-50df632f398a.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159118779-d251729a-e0d8-4850-aa2d-50df632f398a.png" alt="SELECT Statement 2" width="50%" height="50%">
+</p>
 
 > :warning: A SELECT statement retrieves zero or more rows from one or more database tables.
 
@@ -179,9 +189,13 @@ SELECT City FROM customers;
 
 Result:
 
-![Multiple Queries](https://user-images.githubusercontent.com/95575665/159118855-d1749cf7-7362-4c66-afd4-5aad1395ce89.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159118855-d1749cf7-7362-4c66-afd4-5aad1395ce89.png" alt="Multiple Queries" width="50%" height="50%">
+</p>
 
-![Multiple Queries 2](https://user-images.githubusercontent.com/95575665/159118860-5379778b-7504-49be-adb3-0a8f20a735b4.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159118860-5379778b-7504-49be-adb3-0a8f20a735b4.png" alt="Multiple Queries 2" width="50%" height="50%">
+</p>
 
 > :warning: Remember to end each SQL statement with a semicolon to indicate that the statement is complete and ready to be interpreted. <br /> In this tutorial, we will use semicolon at the end of each SQL statement.
 
@@ -238,7 +252,9 @@ FROM customers;
 
 Result:
 
-![Selecting Multiple Columns](https://user-images.githubusercontent.com/95575665/159119176-9e8b6b65-5f00-44af-a3a1-52b5c77ffb98.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159119176-9e8b6b65-5f00-44af-a3a1-52b5c77ffb98.png" alt="Selecting Multiple Columns" width="50%" height="50%">
+</p>
 
 > :warning: Do not put a comma after the last column name.
 
@@ -254,7 +270,9 @@ SELECT * FROM customers;
 
 Result:
 
-![Selecting All Columns](https://user-images.githubusercontent.com/95575665/159119280-1eda5930-fd4d-489c-8f0b-6ff56ac61e12.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159119280-1eda5930-fd4d-489c-8f0b-6ff56ac61e12.png" alt="Selecting All Columns" width="50%" height="50%">
+</p>
 
 > :warning: In SQL, the asterisk means all.
 
@@ -268,7 +286,9 @@ When buying food, it is important to make sure it is fresh and not expired.
 
 You are given the following 'Products' list:
 
-![Best Before Selecting Multiple Columns](https://user-images.githubusercontent.com/95575665/159119537-fab9ac3d-c4d1-4840-a8de-6ac6b1498bfe.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159119537-fab9ac3d-c4d1-4840-a8de-6ac6b1498bfe.jpg" alt="Best Before Selecting Multiple Columns" width="50%" height="50%">
+</p>
 
 Write a query to select the ProductName, ProductionDate and ExpirationDate.
 
@@ -301,7 +321,9 @@ FROM table_name;
 
 See the customers table below:
 
-![The DISTINCT Keyword](https://user-images.githubusercontent.com/95575665/159119628-45057d8d-29a8-4c36-b1fc-3e442c8440b8.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159119628-45057d8d-29a8-4c36-b1fc-3e442c8440b8.png" alt="The DISTINCT Keyword" width="50%" height="50%">
+</p>
 
 Note that there are duplicate City names. The following SQL statement selects only distinct values from the City column:
 
@@ -311,7 +333,9 @@ SELECT DISTINCT City FROM customers;
 
 This would produce the following result. Duplicate entries have been removed.
 
-![The DISTINCT Keyword 2](https://user-images.githubusercontent.com/95575665/159119653-5ad626a8-abc6-49b8-818e-260592606ea2.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159119653-5ad626a8-abc6-49b8-818e-260592606ea2.png" alt="The DISTINCT Keyword 2" width="50%" height="50%">
+</p>
 
 > ⚠️ The DISTINCT keyword only fetches the unique values.
 
@@ -336,7 +360,9 @@ FROM customers LIMIT 5;
 
 This would produce the following result:
 
-![The LIMIT Keyword](https://user-images.githubusercontent.com/95575665/159119695-d11a2607-27b2-42be-98c7-91fde6bb2267.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159119695-d11a2607-27b2-42be-98c7-91fde6bb2267.png" alt="The LIMIT Keyword" width="50%" height="50%">
+</p>
 
 > :warning: By default, all results that satisfy the conditions specified in the SQL statement are returned.
 
@@ -353,7 +379,9 @@ FROM customers OFFSET 3 LIMIT 4;
 
 This would produce the following result:
 
-![The LIMIT Keyword 2](https://user-images.githubusercontent.com/95575665/159119758-b1593190-9350-44a0-b149-13b6e3d8fd28.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159119758-b1593190-9350-44a0-b149-13b6e3d8fd28.png" alt="The LIMIT Keyword 2" width="50%" height="50%">
+</p>
 
 > ⚠️ The reason that it produces results starting from ID number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
 
@@ -367,7 +395,9 @@ At the conclusion of a bank transaction, 6 checks are printed -- 3 originals for
 
 Here is the list of all the checks named Operation
 
-![5 2](https://user-images.githubusercontent.com/95575665/159119901-c15df489-8d7f-4587-863e-218393619e19.jpg#gh-dark-mode-only)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159119901-c15df489-8d7f-4587-863e-218393619e19.jpg#gh-dark-mode-only" alt="5 2" width="50%" height="50%">
+</p>
 
 Write a query to show only the unique checks that are given to the customer.
 
@@ -391,7 +421,9 @@ FROM Operation;
 
 Here is the Participants table:
 
-![5 3](https://user-images.githubusercontent.com/95575665/159120092-408b4e28-00c7-4d86-a64d-1dde197d22aa.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159120092-408b4e28-00c7-4d86-a64d-1dde197d22aa.jpg" alt="5 2" width="50%" height="50%">
+</p>
 
 Select the first four participants from the given list.
 
@@ -438,7 +470,9 @@ ORDER BY FirstName;
 
 Result:
 
-![Order By](https://user-images.githubusercontent.com/95575665/159120210-8ec818f9-e6d8-4660-bae2-5a0b6bb25d87.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159120210-8ec818f9-e6d8-4660-bae2-5a0b6bb25d87.png" alt="Order By" width="50%" height="50%">
+</p>
 
 As you can see, the rows are ordered alphabetically by the FirstName column.
 
@@ -450,7 +484,9 @@ ORDER BY can sort retrieved data by multiple columns. When using ORDER BY with m
 
 Here is the customers table, showing the following records:
 
-![Sorting Multiple Columns](https://user-images.githubusercontent.com/95575665/159120241-6779910a-bf40-41bb-9d4b-90e3f2f3a865.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159120241-6779910a-bf40-41bb-9d4b-90e3f2f3a865.png" alt="Sorting Multiple Columns" width="50%" height="50%">
+</p>
 
 To order by LastName and Age:
 
@@ -461,7 +497,9 @@ ORDER BY LastName, Age;
 
 This ORDER BY statement returns the following result:
 
-![Order By 2](https://user-images.githubusercontent.com/95575665/159120284-52489a1d-f0e7-465b-a418-781161b5cb26.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159120284-52489a1d-f0e7-465b-a418-781161b5cb26.png" alt="Order By 2" width="50%" height="50%">
+</p>
 
 As we have two Smiths, they will be ordered by the Age column in ascending order.
 
@@ -477,7 +515,9 @@ Six players have competed in a chess tournament and their scores have been talli
 
 Here is the table of Players:
 
-![6 2](https://user-images.githubusercontent.com/95575665/159120409-cd38fbb9-6f3c-4e52-8bda-d3ae22e13590.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/159120409-cd38fbb9-6f3c-4e52-8bda-d3ae22e13590.jpg" alt="6 2" width="50%" height="50%">
+</p>
 
 Sort the players by losses to derive the leaderboard.
 
@@ -547,7 +587,9 @@ A local bakery creates unique cake sets. Each cake set contains three different 
 
 Here is the cakes table:
 
-![Cakes](https://user-images.githubusercontent.com/95575665/158824685-330ff471-5424-4bc5-bca0-ed6431399ddb.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/158824685-330ff471-5424-4bc5-bca0-ed6431399ddb.jpg" alt="Cakes" width="50%" height="50%">
+</p>
 
 Тoday a customer want a cake set that has minimal calories.
 
@@ -584,11 +626,15 @@ WHERE condition;
 
 Consider the following table:
 
-![The WHERE Statement](https://user-images.githubusercontent.com/95575665/160995996-e94a18bd-53d3-4b62-951f-ead57a718507.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/160995996-e94a18bd-53d3-4b62-951f-ead57a718507.png" alt="The WHERE Statement" width="50%" height="50%">
+</p>
 
 Result: 
 
-![The WHERE Statement 2](https://user-images.githubusercontent.com/95575665/160996542-00d5ba66-ed6e-4442-b156-9d1f57314eaa.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/160996542-00d5ba66-ed6e-4442-b156-9d1f57314eaa.png" alt="The WHERE Statement 2" width="50%" height="50%">
+</p>
 
 > :warning: The WHERE clause is used to extract only those records that fulfill a specified criterion.
 
@@ -598,7 +644,9 @@ Comparison Operators and Logical Operators are used in the WHERE clause to filte
 
 The following comparison operators can be used in the WHERE clause:
 
-![SQL Operators](https://user-images.githubusercontent.com/95575665/160996745-fc687068-5799-460c-8f29-c01fafd51727.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/160996745-fc687068-5799-460c-8f29-c01fafd51727.png" alt="SQL Operators" width="50%" height="50%">
+</p>
 
 For example, we can display all customers names listed in our table, with the exception of the one with ID 5.
 
@@ -609,7 +657,9 @@ WHERE ID != 5;
 
 Result:
 
-![SQL Operators 2](https://user-images.githubusercontent.com/95575665/160996972-03d2aeac-3481-4489-8d06-882bc145d6c5.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/160996972-03d2aeac-3481-4489-8d06-882bc145d6c5.png" alt="SQL Operators 2" width="50%" height="50%">
+</p>
 
 > :warning: As you can see, the record with ID=5 is excluded from the list.
 
@@ -634,7 +684,9 @@ WHERE ID BETWEEN 3 AND 7;
 
 Result:
 
-![The BETWEEN Operator](https://user-images.githubusercontent.com/95575665/160997266-7ab522fe-d5ff-425e-84fb-94d860bcca1c.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/160997266-7ab522fe-d5ff-425e-84fb-94d860bcca1c.png" alt="The BETWEEN Operator" width="50%" height="50%">
+</p>
 
 > :warning: As you can see, the lower bound and upper bound are both included in the range.
 
@@ -650,7 +702,9 @@ FROM customers
 WHERE City = 'New York';
 ```
 
-![Text Values](https://user-images.githubusercontent.com/95575665/161008686-2a879e1c-dba6-4cc3-8af0-7813b08ae64d.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95575665/161008686-2a879e1c-dba6-4cc3-8af0-7813b08ae64d.png" alt="Text Values" width="50%" height="50%">
+</p>
 
 > :warning: If your text contains an apostrophe (single quote), you should use two single quote characters to escape the apostrophe. For example: 'Can''t'.
 
