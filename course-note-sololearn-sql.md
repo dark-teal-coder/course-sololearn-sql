@@ -1227,6 +1227,24 @@ Write a query to output the apartments whose prices are greater than the average
 
 #### Joining Tables
 
+All of the queries shown up until now have selected from just one table at a time.
+
+One of the most beneficial features of SQL is the ability to combine data from two or more tables.
+
+In the two tables that follow, the table named customers stores information about customers:
+
+<p align="center">
+  <img src="./images/1060-18-01-p01-a.png" alt="1060-18-01-p01-a.png" width="50%" height="50%">
+</p>
+
+The orders table stores information about individual orders with their corresponding amount:
+
+<p align="center">
+  <img src="./images/1060-18-01-p01-b.png" alt="1060-18-01-p01-b.png" width="50%" height="50%">
+</p>
+
+: warning: In SQL, "joining tables" means combining data from two or more tables. A table join creates a temporary table showing the data from the joined tables.
+
 #### Joining Tables
 
 #### Joining Tables
