@@ -884,6 +884,22 @@ Result:
 
 #### The CONCAT Function
 
+The CONCAT function is used to concatenate two or more text values and returns the concatenating string.
+
+Let's concatenate the FirstName with the City, separating them with a comma:
+
+```sql
+SELECT CONCAT(FirstName, ', ' , City) FROM customers;
+```
+
+The output result is:
+
+<p align="center">
+  <img src="./images/1060-12-01-p01-a.png" alt="1060-12-01-p01-a.png" width="50%" height="50%">
+</p>
+
+: warning: The CONCAT() function takes two or more parameters.
+
 #### The AS Keyword
 
 #### Arithmetic Operators
