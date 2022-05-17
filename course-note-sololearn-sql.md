@@ -838,7 +838,7 @@ Result:
   <img src="./images/1060-11-01-p01-a.png" alt="1060-11-01-p01-a.png" width="50%" height="50%">
 </p>
 
-: warning: The IN operator is used when you want to compare a column with more than one value.
+> :warning: The IN operator is used when you want to compare a column with more than one value.
 
 #### The IN Operator
 
@@ -855,7 +855,7 @@ This would also produce the same result:
   <img src="./images/1060-11-01-p02-a.png" alt="1060-11-01-p02-a.png" width="50%" height="50%">
 </p>
 
-: warning: Note the use of parentheses in the syntax.
+> :warning: Note the use of parentheses in the syntax.
 
 #### The NOT IN Operator
 
@@ -874,7 +874,7 @@ Result:
   <img src="./images/1060-11-01-p03-a.png" alt="1060-11-01-p03-a.png" width="50%" height="50%">
 </p>
 
-: warning: The NOT IN operator allows you to exclude a list of specific values from the result set.
+> :warning: The NOT IN operator allows you to exclude a list of specific values from the result set.
 
 ### 11.2 Practice: Get The Ball Rolling!
 
@@ -900,7 +900,7 @@ The output result is:
   <img src="./images/1060-12-01-p01-a.png" alt="1060-12-01-p01-a.png" width="50%" height="50%">
 </p>
 
-: warning: The CONCAT() function takes two or more parameters.
+> :warning: The CONCAT() function takes two or more parameters.
 
 #### The AS Keyword
 
@@ -919,7 +919,7 @@ And when you run the query, the column name appears to be changed.
   <img src="./images/1060-12-01-p02-a.png" alt="1060-12-01-p02-a.png" width="50%" height="50%">
 </p>
 
-: warning: A concatenation results in a new column.
+> :warning: A concatenation results in a new column.
 
 #### Arithmetic Operators
 
@@ -944,7 +944,7 @@ Result:
   <img src="./images/1060-12-01-p03-b.png" alt="1060-12-01-p03-b.png" width="50%" height="50%">
 </p>
 
-: warning: Parentheses can be used to force an operation to take priority over any other operators. They are also used to improve code readability.
+> :warning: Parentheses can be used to force an operation to take priority over any other operators. They are also used to improve code readability.
 
 
 
@@ -975,7 +975,7 @@ Result:
   <img src="./images/1060-13-01-p01-a.png" alt="1060-13-01-p01-a.png" width="50%" height="50%">
 </p>
 
-: warning: If there are characters in the string that are not letters, this function will have no effect on them.
+> :warning: If there are characters in the string that are not letters, this function will have no effect on them.
 
 #### SQRT and AVG
 
@@ -1006,7 +1006,7 @@ Result:
   <img src="./images/1060-13-01-p02-b.png" alt="1060-13-01-p02-b.png" width="50%" height="50%">
 </p>
 
-: warning: Another way to do the SQRT is to use POWER with the 1/2 exponent. However, SQRT seems to work faster than POWER in this case.
+> :warning: Another way to do the SQRT is to use POWER with the 1/2 exponent. However, SQRT seems to work faster than POWER in this case.
 
 #### The SUM function
 
@@ -1024,7 +1024,7 @@ Result:
   <img src="./images/1060-13-01-p03-a.png" alt="1060-13-01-p03-a.png" width="50%" height="50%">
 </p>
 
-: warning: The sum of all of the employees' salaries is 31000.
+> :warning: The sum of all of the employees' salaries is 31000.
 
 
 
@@ -1062,7 +1062,7 @@ Result:
   <img src="./images/1060-14-01-p01-a.png" alt="1060-14-01-p01-a.png" width="50%" height="50%">
 </p>
 
-: warning: The DESC keyword sorts results in descending order. Similarly, ASC sorts the results in ascending order.
+> :warning: The DESC keyword sorts results in descending order. Similarly, ASC sorts the results in ascending order.
 
 #### Subqueries
 
@@ -1080,7 +1080,7 @@ The same result will be produced.
   <img src="./images/1060-14-01-p02-a.png" alt="1060-14-01-p02-a.png" width="50%" height="50%">
 </p>
 
-: warning: Enclose the subquery in parentheses. Also, note that there is no semicolon at the end of the subquery, as it is part of our single query.
+> :warning: Enclose the subquery in parentheses. Also, note that there is no semicolon at the end of the subquery, as it is part of our single query.
 
 
 
@@ -1130,7 +1130,7 @@ Result:
   <img src="./images/1060-15-01-p01-b.png" alt="1060-15-01-p01-b.png" width="50%" height="50%">
 </p>
 
-: warning: The % wildcard can be used multiple times within the same pattern.
+> :warning: The % wildcard can be used multiple times within the same pattern.
 
 #### The MIN Function
 
@@ -1213,7 +1213,7 @@ You want to rent an apartment and have the following table named Apartments:
 
 Write a query to output the apartments whose prices are greater than the average and are also not rented, sorted by the 'Price' column.
 
-: warning: Recall the AVG keyword.
+> :warning: Recall the AVG keyword.
 
 <br />
 
@@ -1243,9 +1243,15 @@ The orders table stores information about individual orders with their correspon
   <img src="./images/1060-18-01-p01-b.png" alt="1060-18-01-p01-b.png" width="50%" height="50%">
 </p>
 
-: warning: In SQL, "joining tables" means combining data from two or more tables. A table join creates a temporary table showing the data from the joined tables.
+> :warning: In SQL, "joining tables" means combining data from two or more tables. A table join creates a temporary table showing the data from the joined tables.
 
 #### Joining Tables
+
+Rather than storing the customer name in both tables, the orders table contains a reference to the customer ID that appears in the customers table. This approach is more efficient, as opposed to storing the same text values in both tables.
+
+In order to be able to select the corresponding data from both tables, we will need to join them on that condition.
+
+> :warning: Tap continue to see how!
 
 #### Joining Tables
 
