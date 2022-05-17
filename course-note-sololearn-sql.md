@@ -754,6 +754,27 @@ This results in the following output:
 
 #### OR
 
+If you want to select rows that satisfy at least one of the given conditions, you can use the logical OR operator.
+
+The following table describes how the logical OR operator functions:
+
+<p align="center">
+  <img src="./images/1060-10-01-p02-a.png" alt="1060-10-01-p02-a.png" width="50%" height="50%">
+</p>
+
+For example, if you want to find the customers who live either in New York or Chicago, the query would look like this:
+
+```sql
+SELECT * FROM customers 
+WHERE City = 'New York' OR City = 'Chicago';
+```
+
+Result:
+
+1060-10-01-p02-b.png
+
+> :warning: You can OR two or more conditions.
+
 #### Combining AND & OR
 
 
