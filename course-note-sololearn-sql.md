@@ -1066,6 +1066,22 @@ Result:
 
 #### Subqueries
 
+A single subquery will return the same result more easily.
+
+```sql
+SELECT FirstName, Salary FROM employees 
+WHERE  Salary > (SELECT AVG(Salary) FROM employees) 
+ORDER BY Salary DESC;
+```
+
+The same result will be produced.
+
+<p align="center">
+  <img src="./images/1060-14-01-p02-a.png" alt="1060-14-01-p02-a.png" width="50%" height="50%">
+</p>
+
+: warning: Enclose the subquery in parentheses. Also, note that there is no semicolon at the end of the subquery, as it is part of our single query.
+
 
 
 ### 14.2 Practice: Let's Get Fit! 
