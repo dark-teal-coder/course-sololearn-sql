@@ -958,6 +958,25 @@ Result:
 
 #### The UPPER Function
 
+The UPPER function converts all letters in the specified string to uppercase.
+
+The LOWER function converts the string to lowercase.
+
+The following SQL query selects all LastNames as uppercase:
+
+```sql
+SELECT FirstName, UPPER(LastName) AS LastName 
+FROM employees;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-13-01-p01-a.png" alt="1060-13-01-p01-a.png" width="50%" height="50%">
+</p>
+
+: warning: If there are characters in the string that are not letters, this function will have no effect on them.
+
 #### SQRT and AVG
 
 #### The SUM function
