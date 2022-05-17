@@ -1134,6 +1134,22 @@ Result:
 
 #### The MIN Function
 
+The MIN function is used to return the minimum value of an expression in a SELECT statement.
+
+For example, you might wish to know the minimum salary among the employees.
+
+```sql
+SELECT MIN(Salary) AS Salary FROM employees;
+```
+
+Result: 
+
+<p align="center">
+  <img src="./images/1060-15-01-p02-a.png" alt="1060-15-01-p02-a.png" width="50%" height="50%">
+</p>
+
+> :warning: All of the SQL functions can be combined together to create a single expression.
+
 
 
 ### 15.2 Practice: Chocolate!
