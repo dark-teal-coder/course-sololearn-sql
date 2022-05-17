@@ -1205,6 +1205,16 @@ FROM students)
 
 #### Apartments
 
+You want to rent an apartment and have the following table named Apartments:
+
+<p align="center">
+  <img src="./images/1060-17-a.png" alt="1060-17-a.png" width="50%" height="50%">
+</p>
+
+Write a query to output the apartments whose prices are greater than the average and are also not rented, sorted by the 'Price' column.
+
+: warning: Recall the AVG keyword.
+
 <br />
 
 
