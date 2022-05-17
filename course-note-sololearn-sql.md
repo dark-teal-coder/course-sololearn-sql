@@ -1094,6 +1094,44 @@ The same result will be produced.
 
 #### The Like Operator
 
+The LIKE keyword is useful when specifying a search condition within your WHERE clause.
+
+```
+SELECT column_name(s)
+FROM table_name
+WHERE column_name LIKE pattern;
+```
+
+SQL pattern matching enables you to use `_` to match any single character and "%" to match an arbitrary number of characters (including zero characters).
+
+For example, to select employees whose FirstNames begin with the letter A, you would use the following query:
+
+```sql
+SELECT * FROM employees 
+WHERE FirstName LIKE 'A%';
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-15-01-p01-a.png" alt="1060-15-01-p01-a.png" width="50%" height="50%">
+</p>
+
+As another example, the following SQL query selects all employees with a LastName ending with the letter "s":
+
+```sql
+SELECT * FROM employees 
+WHERE LastName LIKE '%s';
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-15-01-p01-b.png" alt="1060-15-01-p01-b.png" width="50%" height="50%">
+</p>
+
+: warning: The % wildcard can be used multiple times within the same pattern.
+
 #### The MIN Function
 
 
