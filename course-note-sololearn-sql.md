@@ -1010,6 +1010,22 @@ Result:
 
 #### The SUM function
 
+The SUM function is used to calculate the sum for a column's values.
+
+For example, to get the sum of all of the salaries in the employees table, our SQL query would look like this:
+
+```sql
+SELECT SUM(Salary) FROM employees;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-13-01-p03-a.png" alt="1060-13-01-p03-a.png" width="50%" height="50%">
+</p>
+
+: warning: The sum of all of the employees' salaries is 31000.
+
 
 
 ### 13.2 Practice: Average Grades 
