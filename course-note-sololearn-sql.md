@@ -979,6 +979,35 @@ Result:
 
 #### SQRT and AVG
 
+The SQRT function returns the square root of given value in the argument.
+
+Let's calculate the square root of each Salary:
+
+```sql
+SELECT Salary, SQRT(Salary) 
+FROM employees;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-13-01-p02-a.png" alt="1060-13-01-p02-a.png" width="50%" height="50%">
+</p>
+
+Similarly, the AVG function returns the average value of a numeric column:
+
+```sql
+SELECT AVG(Salary) FROM employees;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-13-01-p02-b.png" alt="1060-13-01-p02-b.png" width="50%" height="50%">
+</p>
+
+: warning: Another way to do the SQRT is to use POWER with the 1/2 exponent. However, SQRT seems to work faster than POWER in this case.
+
 #### The SUM function
 
 
