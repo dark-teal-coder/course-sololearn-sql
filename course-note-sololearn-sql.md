@@ -1384,6 +1384,39 @@ The result set contains all the rows from the left table and matching data from 
 
 #### RIGHT JOIN
 
+The RIGHT JOIN returns all rows from the right table, even if there are no matches in the left table.
+
+<p align="center">
+  <img src="./images/1060-19-01-p04-a.png" alt="1060-19-01-p04-a.png" width="50%" height="50%">
+</p>
+
+The basic syntax of RIGHT JOIN is as follows:
+
+```
+SELECT table1.column1, table2.column2...
+FROM table1 RIGHT OUTER JOIN table2
+ON table1.column_name = table2.column_name;
+```
+
+> :warning: Again, the OUTER keyword is optional, and can be omitted.
+
+Consider the same example from our previous lesson, but this time with a RIGHT JOIN:
+
+```
+SELECT customers.Name, items.Name FROM customers
+RIGHT JOIN items ON customers.ID=items.Seller_id;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-19-01-p04-b.png" alt="1060-19-01-p04-b.png" width="50%" height="50%">
+</p>
+
+The RIGHT JOIN returns all the rows from the right table (items), even if there are no matches in the left table (customers).
+
+> :warning: There are other types of joins in the SQL language, but they are not supported by MySQL.
+
 
 
 ### 19.2 Practice: Sorting The Inventory
