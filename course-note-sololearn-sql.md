@@ -902,6 +902,23 @@ The output result is:
 
 #### The AS Keyword
 
+A concatenation results in a new column. The default column name will be the CONCAT function.
+
+You can assign a custom name to the resulting column using the AS keyword:
+
+```sql
+SELECT CONCAT(FirstName,', ', City) AS new_column 
+FROM customers;
+```
+
+And when you run the query, the column name appears to be changed.
+
+<p align="center">
+  <img src="./images/1060-12-01-p02-a.png" alt="1060-12-01-p02-a.png" width="50%" height="50%">
+</p>
+
+: warning: A concatenation results in a new column.
+
 #### Arithmetic Operators
 
 
