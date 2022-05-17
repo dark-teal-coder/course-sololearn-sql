@@ -1160,6 +1160,43 @@ Result:
 
 ### 16.1 Lesson: Module 2 Quiz
 
+Question 01: Fill in the blanks to select all values from the "students" table in which the field "university" equals "MIT". 
+```sql
+SELECT * FROM _____
+WHERE _____ = 'MIT';
+```
+
+Question 02: Rearrange the code to select students from MIT and Stanford, and order the results by the "university" column.
+- [ ] ```FROM students WHERE university```
+- [ ] ```SELECT name, university```
+- [ ] ```ORDER BY university;```
+- [ ] ```IN('Stanford', 'MIT')```
+
+Question 03: Which keyword is the correct one for custom columns?
+- [ ] ```SIMILAR```
+- [ ] ```LIKE```
+- [ ] ```AS```
+
+Question 04: What is the name of the aggregate function for calculating the sum?
+- [ ] ```AGGR```
+- [ ] ```SUM```
+- [ ] ```SQRT```
+- [ ] ```AVG```
+
+Question 05: Drag and drop from the options below to select name and age from ''students'', where age is greater than the average of all ages. Use a subquery to calculate the average value of age.
+```sql
+_____ name, age 
+FROM students 
+_____ age > 
+(SELECT _____(age) 
+FROM students)
+```
+- [ ] ```SELECT```
+- [ ] ```ORDER BY```
+- [ ] ```WHERE```
+- [ ] ```VALUE```
+- [ ] ```AVG```
+
 <br />
 
 
