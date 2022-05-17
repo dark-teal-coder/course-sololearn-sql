@@ -1303,6 +1303,31 @@ ORDER BY ct.ID;
 
 #### Types of Join
 
+The following are the types of JOIN that can be used in MySQL:
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+
+INNER JOIN is equivalent to JOIN. It returns rows when there is a match between the tables.
+
+Syntax:
+
+```
+SELECT column_name(s)
+FROM table1 INNER JOIN table2 
+ON table1.column_name=table2.column_name;
+```
+
+> :warning: Note the ON keyword for specifying the inner join condition.
+
+The image below demonstrates how INNER JOIN works:
+
+<p align="center">
+  <img src="./images/1060-19-01-p02-a.png" alt="1060-19-01-p02-a.png" width="50%" height="50%">
+</p>
+
+> :warning: Only the records matching the join condition are returned.
+
 #### LEFT JOIN
 
 #### RIGHT JOIN
