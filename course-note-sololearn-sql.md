@@ -817,6 +817,27 @@ Result:
 
 #### The IN Operator
 
+The IN operator is used when you want to compare a column with more than one value.
+
+For example, you might need to select all customers from New York, Los Angeles, and Chicago.
+
+With the OR condition, your SQL would look like this:
+
+```sql
+SELECT * FROM customers 
+WHERE City = 'New York'
+OR City = 'Los Angeles'
+OR City = 'Chicago';
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-11-01-p01-a.png" alt="1060-11-01-p01-a.png" width="50%" height="50%">
+</p>
+
+: warning: The IN operator is used when you want to compare a column with more than one value.
+
 #### The IN Operator
 
 #### The NOT IN Operator
