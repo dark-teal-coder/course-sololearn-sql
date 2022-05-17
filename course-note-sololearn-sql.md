@@ -1038,6 +1038,32 @@ Result:
 
 #### Subqueries
 
+A subquery is a query within another query.
+
+Let's consider an example. We might need the list of all employees whose salaries are greater than the average.
+
+First, calculate the average:
+
+```sql
+SELECT AVG(Salary) FROM employees;
+```
+
+As we already know the average, we can use a simple WHERE to list the salaries that are greater than that number.
+
+```sql
+SELECT FirstName, Salary FROM employees 
+WHERE  Salary > 3100
+ORDER BY Salary DESC;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-14-01-p01-a.png" alt="1060-14-01-p01-a.png" width="50%" height="50%">
+</p>
+
+: warning: The DESC keyword sorts results in descending order. Similarly, ASC sorts the results in ascending order.
+
 #### Subqueries
 
 
