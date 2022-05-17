@@ -1255,6 +1255,29 @@ In order to be able to select the corresponding data from both tables, we will n
 
 #### Joining Tables
 
+To join the two tables, specify them as a comma-separated list in the FROM clause:
+
+```sql
+SELECT customers.ID, customers.Name, orders.Name, orders.Amount
+FROM customers, orders
+WHERE customers.ID=orders.Customer_ID
+ORDER BY customers.ID;
+```
+
+> :warning: Each table contains "ID" and "Name" columns, so in order to select the correct ID and Name, fully qualified names are used.
+
+Note that the WHERE clause "joins" the tables on the condition that the ID from the customers table should be equal to the customer_ID of the orders table.
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-18-01-p03-a.png" alt="1060-18-01-p03-a.png" width="50%" height="50%">
+</p>
+
+The returned data shows customer orders and their corresponding amount.
+
+> :warning: Specify multiple table names in the FROM by comma-separating them.
+
 
 
 ### 18.2 Practice: Mentor And Apprentice
