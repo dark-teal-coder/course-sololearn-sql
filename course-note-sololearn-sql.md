@@ -840,6 +840,21 @@ Result:
 
 #### The IN Operator
 
+You can achieve the same result with a single IN condition, instead of the multiple OR conditions:
+
+```sql
+SELECT * FROM customers 
+WHERE City IN ('New York', 'Los Angeles', 'Chicago');
+```
+
+This would also produce the same result:
+
+<p align="center">
+  <img src="./images/1060-11-01-p02-a.png" alt="1060-11-01-p02-a.png" width="50%" height="50%">
+</p>
+
+: warning: Note the use of parentheses in the syntax.
+
 #### The NOT IN Operator
 
 
