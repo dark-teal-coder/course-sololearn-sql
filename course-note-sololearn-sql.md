@@ -771,13 +771,41 @@ WHERE City = 'New York' OR City = 'Chicago';
 
 Result:
 
-1060-10-01-p02-b.png
+<p align="center">
+  <img src="./images/1060-10-01-p02-b.png" alt="1060-10-01-p02-b.png" width="50%" height="50%">
+</p>
 
 > :warning: You can OR two or more conditions.
 
 #### Combining AND & OR
 
+The SQL AND and OR conditions may be combined to test multiple conditions in a query.
 
+These two operators are called conjunctive operators.
+
+When combining these conditions, it is important to use parentheses, so that the order to evaluate each condition is known.
+
+Consider the following table:
+
+<p align="center">
+  <img src="./images/1060-10-01-p03-a.png" alt="1060-10-01-p03-a.png" width="50%" height="50%">
+</p>
+
+The statement below selects all customers from the city "New York" AND with the age equal to "30" OR “35":
+
+```sql
+SELECT * FROM customers
+WHERE City = 'New York'
+AND (Age=30 OR Age=35);
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-10-01-p03-b.png" alt="1060-10-01-p03-b.png" width="50%" height="50%">
+</p>
+
+> :warning: You can nest as many conditions as you need.
 
 ### 10.2 Practice: Superheros
 
