@@ -857,7 +857,22 @@ This would also produce the same result:
 
 #### The NOT IN Operator
 
+The NOT IN operator allows you to exclude a list of specific values from the result set.
 
+If we add the NOT keyword before IN in our previous query, customers living in those cities will be excluded:
+
+```sql
+SELECT * FROM customers 
+WHERE City NOT IN ('New York', 'Los Angeles', 'Chicago');
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-11-01-p03-a.png" alt="1060-11-01-p03-a.png" width="50%" height="50%">
+</p>
+
+: warning: The NOT IN operator allows you to exclude a list of specific values from the result set.
 
 ### 11.2 Practice: Get The Ball Rolling!
 
