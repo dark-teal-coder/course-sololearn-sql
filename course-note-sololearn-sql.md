@@ -1290,6 +1290,17 @@ The returned data shows customer orders and their corresponding amount.
 
 #### Custom Names
 
+Custom names can be used for tables as well. You can shorten the join statements by giving the tables "nicknames":
+
+```sql
+SELECT ct.ID, ct.Name, ord.Name, ord.Amount
+FROM customers AS ct, orders AS ord
+WHERE ct.ID=ord.Customer_ID
+ORDER BY ct.ID;
+```
+
+> :warning: As you can see, we shortened the table names as we used them in our query.
+
 #### Types of Join
 
 #### LEFT JOIN
