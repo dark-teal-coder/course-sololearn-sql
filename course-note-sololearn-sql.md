@@ -807,6 +807,8 @@ Result:
 
 > :warning: You can nest as many conditions as you need.
 
+
+
 ### 10.2 Practice: Superheros
 
 <br />
@@ -920,6 +922,29 @@ And when you run the query, the column name appears to be changed.
 : warning: A concatenation results in a new column.
 
 #### Arithmetic Operators
+
+Arithmetic operators perform arithmetical operations on numeric operands. The Arithmetic operators include addition (+), subtraction (-), multiplication (*) and division (/).
+
+The following employees table shows employee names and salaries:
+
+<p align="center">
+  <img src="./images/1060-12-01-p03-a.png" alt="1060-12-01-p03-a.png" width="50%" height="50%">
+</p>
+
+The example below adds 500 to each employee's salary and selects the result:
+
+```sql 
+SELECT ID, FirstName, LastName, Salary+500 AS Salary
+FROM employees;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-12-01-p03-b.png" alt="1060-12-01-p03-b.png" width="50%" height="50%">
+</p>
+
+: warning: Parentheses can be used to force an operation to take priority over any other operators. They are also used to improve code readability.
 
 
 
