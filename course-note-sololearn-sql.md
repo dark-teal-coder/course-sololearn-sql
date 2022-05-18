@@ -1557,6 +1557,29 @@ Result:
 
 #### Inserting Data
 
+Alternatively, you can specify the table's column names in the INSERT INTO statement:
+
+```
+INSERT INTO table_name (column1, column2, column3, ...,columnN)  
+VALUES (value1, value2, value3,...valueN);
+```
+
+column1, column2, ..., columnN are the names of the columns that you want to insert data into.
+
+```sql
+INSERT INTO Employees (ID, FirstName, LastName, Age)
+VALUES (8, 'Anthony', 'Young', 35);
+SELECT * FROM Employees; 
+```
+
+This will insert the data into the corresponding columns:
+
+<p align="center">
+  <img src="./images/1060-21-01-p02-a.png" alt="1060-21-01-p02-a.png" width="50%" height="50%">
+</p>
+
+> :warning: You can specify your own column order, as long as the values are specified in the same order as the columns.
+
 #### Inserting Data
 
 
