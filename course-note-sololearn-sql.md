@@ -1668,6 +1668,31 @@ Result:
 
 #### Deleting Data
 
+The DELETE statement is used to remove data from your table. DELETE queries work much like UPDATE queries.
+
+```
+DELETE FROM table_name
+WHERE condition; 
+```
+
+For example, you can delete a specific employee from the table:
+
+```sql
+DELETE FROM Employees
+WHERE ID=1;
+SELECT * from Employees;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-22-01-p04-a.png" alt="1060-22-01-p04-a.png" width="50%" height="50%">
+</p>
+
+> :warning: If you omit the WHERE clause, all records in the table will be deleted! The DELETE statement removes the data from the table permanently.
+
+
+
 ### 22.2 Practice: Match The Requirements 
 
 <br />
