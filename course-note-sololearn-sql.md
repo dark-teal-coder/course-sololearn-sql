@@ -1492,7 +1492,23 @@ SELECT FirstName, LastName, NULL FROM otherContacts;
 
 #### UNION ALL
 
+UNION ALL selects all rows from each table and combines them into a single table.
 
+The following SQL statement uses UNION ALL to select data from the First and Second tables:
+
+```sql
+SELECT ID, FirstName, LastName, City FROM First
+UNION ALL
+SELECT ID, FirstName, LastName, City FROM Second;
+```
+
+The resulting table:
+
+<p align="center">
+  <img src="./images/1060-20-01-p03-a.png" alt="1060-20-01-p03-a.png" width="50%" height="50%">
+</p>
+
+> :warning: As you can see, the result set includes the duplicate rows as well.
 
 ### 20.2 Practice: Chess Tournament 
 
