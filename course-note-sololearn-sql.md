@@ -1582,6 +1582,22 @@ This will insert the data into the corresponding columns:
 
 #### Inserting Data
 
+It is also possible to insert data into specific columns only.
+
+```sql
+INSERT INTO Employees (ID, FirstName, LastName) 
+VALUES (9, 'Samuel', 'Clark');
+SELECT * from Employees;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-21-01-p03-a.png" alt="1060-21-01-p03-a.png" width="50%" height="50%">
+</p>
+
+> :warning: The Age column for that row automatically became 0, as that is its default value.
+
 
 
 ### 21.2 Practice: More Cars! 
