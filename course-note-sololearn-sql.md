@@ -1649,6 +1649,23 @@ Result:
 
 #### Updating Multiple Columns
 
+It is also possible to UPDATE multiple columns at the same time by comma-separating them:
+
+```sql
+UPDATE Employees 
+SET Salary=5000, FirstName='Robert'
+WHERE ID=1;
+SELECT * from Employees;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-22-01-p03-a.png" alt="1060-22-01-p03-a.png" width="50%" height="50%">
+</p>
+
+> :warning: You can specify the column order any way you like in the SET clause.
+
 #### Deleting Data
 
 ### 22.2 Practice: Match The Requirements 
