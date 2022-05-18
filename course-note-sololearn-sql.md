@@ -1520,6 +1520,41 @@ The resulting table:
 
 #### Inserting Data
 
+SQL tables store data in rows, one row after another. The INSERT INTO statement is used to add new rows of data to a table in the database.
+
+The SQL INSERT INTO syntax is as follows:
+
+``` 
+INSERT INTO table_name
+VALUES (value1, value2, value3,...);
+```
+
+> :warning: Make sure the order of the values is in the same order as the columns in the table.
+
+Consider the following Employees table:
+
+<p align="center">
+  <img src="./images/1060-21-01-p01-a.png" alt="1060-21-01-p01-a.png" width="50%" height="50%">
+</p>
+
+Use the following SQL statement to insert a new row:
+
+```sql
+INSERT INTO Employees 
+VALUES (8, 'Anthony', 'Young', 35);
+SELECT * from Employees;
+```
+
+The values are comma-separated and their order corresponds to the columns in the table.
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-21-01-p01-b.png" alt="1060-21-01-p01-b.png" width="50%" height="50%">
+</p>
+
+> :warning: When inserting records into a table using the SQL INSERT statement, you must provide a value for every column that does not have a default value, or does not support NULL.
+
 #### Inserting Data
 
 #### Inserting Data
