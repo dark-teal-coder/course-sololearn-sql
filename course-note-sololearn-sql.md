@@ -1776,6 +1776,23 @@ The most common data types:
 
 #### Primary Key
 
+The UserID is the best choice for our Users table's primary key.
+
+Define it as a primary key during table creation, using the PRIMARY KEY keyword.
+
+```sql
+CREATE TABLE Users
+(
+   UserID int,
+   FirstName varchar(100),
+   LastName varchar(100),
+   City varchar(100),
+   PRIMARY KEY(UserID)
+);
+```
+
+> :warning: Specify the column name in the parentheses of the PRIMARY KEY keyword.
+
 #### Creating a Table
 
 
