@@ -2027,6 +2027,37 @@ This would produce the following result:
 
 #### Updating a View
 
+You can update a view by using the following syntax:
+
+```
+CREATE OR REPLACE VIEW view_name AS
+SELECT column_name(s)
+FROM table_name
+WHERE condition;
+```
+
+The example below updates our List view to select also the LastName:
+
+```sql
+CREATE OR REPLACE VIEW List AS
+SELECT FirstName, LastName, Salary
+FROM  Employees;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-26-01-p03-a.png" alt="1060-26-01-p03-a.png" width="50%" height="50%">
+</p>
+
+You can delete a view with the DROP VIEW command.
+
+```sql
+DROP VIEW List;
+```
+
+> :warning: It is sometimes easier to drop a table and recreate it instead of using the ALTER TABLE statement to change the table’s definition.
+
 
 
 ### 26.2 Practice: Social Media App Views 
