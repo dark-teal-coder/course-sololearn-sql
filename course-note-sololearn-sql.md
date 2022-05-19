@@ -1881,6 +1881,31 @@ Here is the result:
 
 #### ALTER TABLE
 
+The ALTER TABLE command is used to add, delete, or modify columns in an existing table.
+
+You would also use the ALTER TABLE command to add and drop various constraints on an existing table.
+
+Consider the following table called People:
+
+<p align="center">
+  <img src="./images/1060-25-01-p01-a.png" alt="1060-25-01-p01-a.png" width="50%" height="50%">
+</p>
+
+The following SQL code adds a new column named DateOfBirth
+
+```sql
+ALTER TABLE People ADD DateOfBirth date;
+SELECT * from People;
+```
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-25-01-p01-b.png" alt="1060-25-01-p01-b.png" width="50%" height="50%">
+</p>
+
+> :warning: All rows will have the default value in the newly added column, which, in this case, is NULL.
+
 #### Dropping
 
 #### Renaming
