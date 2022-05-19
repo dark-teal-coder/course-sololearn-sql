@@ -2068,6 +2068,97 @@ DROP VIEW List;
 
 ### 27.1 Lesson: Module 3 Quiz
 
+Question 01: Rearrange to select all student names and university names (use left join to show all student names).
+- [ ] ```FROM students```
+- [ ] ```SELECT students.names, university.names```
+- [ ] ```ON students.university id=universities.id```
+- [ ] ```LEFT OUTER JOIN universities```
+
+Question 02: Drag and drop from the options below to insert a data item into the "people" table.
+```
+_____ _____ people
+_____ ('John Smith', '1', 22);
+```
+- [ ] ```CREATE```
+- [ ] ```INSERT```
+- [ ] ```UPDATE```
+- [ ] ```INTO```
+- [ ] ```SET```
+
+Question 03: Drag and drop from the options below to update the "people" table.
+```
+_____ people
+_____ name='Jordan' 
+WHERE id=147;
+```
+- [ ] ```UPDATE```
+- [ ] ```CREATE```
+- [ ] ```INSERT```
+- [ ] ```SET```
+- [ ] ```INTO```
+
+Question 04: Fill in the blanks to create a table with two columns: "id" as a primary key integer, and "name" of type varchar.
+```
+CREATE TABLE(
+ id _____,
+ name _____(30),
+ PRIMARY KEY (_____)
+);
+```
+- [ ] ```int```
+- [ ] ```id```
+- [ ] ```varchar```
+
+Question 05: Rearrange to remove the column "age" from the "people" table.
+- [ ] ```age```
+- [ ] ```people```
+- [ ] ```DROP COLUMN```
+- [ ] ```ALTER TABLE```
+
+Question 06: Which choice is the correct command for changing the name of a table?
+- [ ] ```MODIFY```
+- [ ] ```RENAME```
+- [ ] ```SELECT```
+- [ ] ```CHANGE NAME```
+
+Question 07: Drag and drop from the options below to create a view named ''most_abs'' for the students with the greatest number of absences.
+```
+_____ _____ most_abs _____ 
+SELECT id, name, absences
+FROM students 
+ORDER BY absences DESC 
+LIMIT 10;
+```
+- [ ] ```TABLE```
+- [ ] ```CREATE```
+- [ ] ```AS```
+- [ ] ```INTO```
+- [ ] ```VIEW```
+- [ ] ```SELECT```
+
+Question 08: Drag and drop from the options below to delete the table "students" from the database.
+```
+_____ _____ _____ 
+```
+- [ ] ```DELETE```
+- [ ] ```DROP```
+- [ ] ```DATABASE```
+- [ ] ```TABLE```
+- [ ] ```ALTER```
+- [ ] ```students```
+
+Question 09: Drag and drop from the options below to remove the column "temp" from the table "students".
+```
+_____ TABLE students
+_____ _____ temp
+```
+- [ ] ```ALTER```
+- [ ] ```REPLACE```
+- [ ] ```COLUMN```
+- [ ] ```DROP```
+- [ ] ```REMOVE```
+- [ ] ```DELETE```
+
 <br />
 
 
