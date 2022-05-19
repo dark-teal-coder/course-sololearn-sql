@@ -1994,6 +1994,37 @@ WHERE condition;
 
 #### Creating Views
 
+Consider the Employees table, which contains the following records:
+
+<p align="center">
+  <img src="./images/1060-26-01-p02-a.png" alt="1060-26-01-p02-a.png" width="50%" height="50%">
+</p>
+
+Let's create a view that displays each employee's FirstName and Salary.
+
+```sql
+CREATE VIEW List AS
+SELECT FirstName, Salary
+FROM  Employees;
+```
+
+Now, you can query the List view as you would query an actual table.
+
+```sql
+CREATE VIEW List AS
+SELECT FirstName, Salary
+FROM  Employees;
+SELECT * FROM List;
+```
+
+This would produce the following result:
+
+<p align="center">
+  <img src="./images/1060-26-01-p02-b.png" alt="1060-26-01-p02-b.png" width="50%" height="50%">
+</p>
+
+> :warning: A view always shows up-to-date data! The database engine uses the view's SQL statement to recreate the data each time a user queries a view.
+
 #### Updating a View
 
 
