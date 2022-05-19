@@ -1908,6 +1908,30 @@ Result:
 
 #### Dropping
 
+The following SQL code demonstrates how to delete the column named DateOfBirth in the People table.
+
+```sql
+ALTER TABLE People 
+DROP COLUMN DateOfBirth;
+SELECT * from People;
+```
+
+The People table will now look like this:
+
+<p align="center">
+  <img src="./images/1060-25-01-p02-a.png" alt="1060-25-01-p02-a.png" width="50%" height="50%">
+</p>
+
+> :warning: The column, along with all of its data, will be completely removed from the table.
+
+To delete the entire table, use the DROP TABLE command:
+
+```sql
+DROP TABLE People;
+```
+
+> :warning: Be careful when dropping a table. Deleting a table will result in the complete loss of the information stored in the table!
+
 #### Renaming
 
 
