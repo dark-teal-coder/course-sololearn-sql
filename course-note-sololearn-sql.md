@@ -1795,6 +1795,14 @@ CREATE TABLE Users
 
 #### Creating a Table
 
+Now, when we run the query, our table will be created in the database.
+
+<p align="center">
+  <img src="./images/1060-23-01-p06-a.png" alt="1060-23-01-p06-a.png" width="50%" height="50%">
+</p>
+
+> :warning: You can now use INSERT INTO queries to insert data into the table.
+
 
 
 ### 23.2 Practice: Video Game Scores 
