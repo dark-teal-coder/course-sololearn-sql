@@ -2275,4 +2275,87 @@ WHERE animal LIKE '_____'
 
 ### 30.1 Lesson: Challenge 2
 
+Question 01: Drag and drop from the options below to retrieve all students between the ages of 18 and 22.
+```
+SELECT name _____ students 
+WHERE age
+_____ 18 _____ 22;
+```
+- [ ] ```ALL```
+- [ ] ```AND```
+- [ ] ```FROM```
+- [ ] ```OR```
+- [ ] ```TO```
+- [ ] ```BETWEEN```
+
+Question 02: Drag and drop from the options below to update the "students" table to set Jake's university to MIT. His id is 682.
+```
+_____ students 
+SET university='_____'
+WHERE _____=682
+```
+- [ ] ```id```
+- [ ] ```Jake```
+- [ ] ```MIT```
+- [ ] ```name```
+- [ ] ```UPDATE```
+
+Question 03: When you inserted "elephant" as a new animal, you forgot to include the elephant's age. Correct this mistake by updating the "zoo" table.
+```
+_____ zoo 
+_____ age=14
+WHERE animal='elephant'
+```
+- [ ] ```ASSIGN```
+- [ ] ```MODIFY```
+- [ ] ```UPDATE```
+- [ ] ```SET```
+- [ ] ```CHANGE```
+
+Question 04: Drag and drop from the options below to update the food_balance to 23 for animals whose age is greater than the average age of the animals.
+```
+UPDATE zoo
+SET food_balance=23 
+_____ age > 
+(SELECT _____(age)
+FROM _____);
+```
+- [ ] ```AVG```
+- [ ] ```WHERE```
+- [ ] ```age```
+- [ ] ```SUM```
+- [ ] ```INSERT```
+- [ ] ```zoo```
+
+Question 05: You need your customer's names, along with the names of the cities in which they live. The names of the cities are stored in a separate table called "cities".
+- [ ] ```FROM customers```
+- [ ] ```RIGHT```
+- [ ] ```ON cities.id=customers.city_id;```
+- [ ] ```OUTER JOIN cities```
+- [ ] ```SELECT customers.name, cities.name```
+
+Question 06: In the university's table containing student data, the students' last names have been omitted. Correct this by adding a new column to the table.
+```
+_____ TABLE students
+_____ last_name VARCHAR(100);
+```
+- [ ] ```CHANGE```
+- [ ] ```CREATE```
+- [ ] ```ADD```
+- [ ] ```DELETE```
+- [ ] ```ALTER```
+
+Question 07: Drag and drop from the options below to retrieve from MIT, Stanford, and Harvard the names of all students whose first name is Jake.
+```
+SELECT name FROM students
+WHERE university
+_____ ('MIT', 'Stanford', 'Harvard') 
+_____ name='Jake';
+```
+- [ ] ```AND```
+- [ ] ```OR```
+- [ ] ```FROM```
+- [ ] ```IN```
+- [ ] ```BETWEEN```
+
 <br />
