@@ -1934,6 +1934,32 @@ DROP TABLE People;
 
 #### Renaming
 
+The ALTER TABLE command is also used to rename columns:
+
+```sql
+ALTER TABLE People
+RENAME FirstName TO name;
+SELECT * from People;
+```
+
+This query will rename the column called FirstName to name.
+
+Result:
+
+<p align="center">
+  <img src="./images/1060-25-01-p03-a.png" alt="1060-25-01-p03-a.png" width="50%" height="50%">
+</p>
+
+Renaming Tables
+
+You can rename the entire table using the RENAME command:
+
+```sql
+RENAME TABLE People TO Users;
+```
+
+> :warning: This will rename the table People to Users.
+
 
 
 ### 25.2 Practice: The Most Beautiful Locations
