@@ -2196,6 +2196,79 @@ Add him to the Animals table.
 
 ### 29.1 Lesson: Challenge 1
 
+Question 01: In the "users" table of website logins and passwords, select the first 10 records in the table.
+```
+SELECT * _____ users
+_____ 10
+```
+- [ ] ```AT```
+- [ ] ```FROM```
+- [ ] ```RECORDS```
+- [ ] ```LIMIT```
+
+Question 02: Drag and drop from the options below to create the table "users" to store website user logins and passwords.
+```
+_____ TABLE users (
+id INT NOT NULL 
+AUTO_INCREMENT,
+login _____(100),
+password VARCHAR(100))
+```
+- [ ] ```TABLE```
+- [ ] ```CREATE```
+- [ ] ```LOGIN```
+- [ ] ```VARCHAR```
+
+Question 03: Rearrange the query to select all students under age 21. The result should be sorted according to the students' names.
+- [ ] ```FROM students```
+- [ ] ```WHERE age < 21```
+- [ ] ```SELECT *```
+- [ ] ```ORDER BY name```
+
+Question 04: Your boss asks you to print the list of the first one hundred customers who have balances greater than $1000 or who are from NY.
+```
+SELECT * FROM customers
+_____ balance > 1000 
+_____ city = 'NY'
+_____ 100
+```
+- [ ] ```WHERE```
+- [ ] ```AND```
+- [ ] ```OR```
+- [ ] ```ORDER```
+- [ ] ```LIMIT```
+
+Question 05: You need the ages of all bears and lions. The first query shows the ages of bears and birds from zoo1, the other shows the ages of lions and crocodiles from zoo2.
+- [ ] ```SELECT age FROM zoo1```
+- [ ] ```UNION```
+- [ ] ```WHERE animal IN ('bear', 'bird')```
+- [ ] ```SELECT age FROM zoo2```
+- [ ] ```WHERE animal IN ('lion', 'crocodile')```
+
+Question 06: Drag and drop from the options below to create a list of customers in the form "name is from city".
+```
+SELECT
+_____(name, ' is from ', _____)
+FROM customers;
+```
+- [ ] ```AVG```
+- [ ] ```city```
+- [ ] ```CONCAT```
+- [ ] ```form```
+- [ ] ```merge```
+
+Question 07: The zoo administration wants a list of animals whose age is greater than the average age of all of the animals. 
+- [ ] ```WHERE age >```
+- [ ] ```FROM zoo)```
+- [ ] ```(SELECT AVG(age)```
+- [ ] ```SELECT * FROM zoo```
+
+Question 08: There are many wolves in the zoo: black wolf, white wolf, lucky wolf, little wolf. They all have 'wolf' at the end of their names. Print the ages of all of the wolves.
+```
+SELECT age FROM zoo
+WHERE animal LIKE '_____'
+```
+
 <br />
 
 
