@@ -423,10 +423,7 @@ Select the first four participants from the given list.
 
 #### Solution 
 
-```sql
-SELECT firstname, lastname
-FROM Participants LIMIT 4
-```
+See [solution and explanation](./practice-solution-5.3.sql).
 
 <br />
 
