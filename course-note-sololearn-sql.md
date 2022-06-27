@@ -401,7 +401,7 @@ Write a query to show only the unique checks that are given to the customer.
 
 #### Solution
 
-See [solution and explanation](./solution-practice-5.2.sql).
+See [solution and explanation](./practice-solution-5.2.sql).
 
 
 
