@@ -294,7 +294,8 @@ Write a query to select the ProductName, ProductionDate and ExpirationDate.
 > :warning: Use the SELECT statement and separate the required columns by commas.
 
 #### Solution 
-See [solution and explanation](./practice-solution-4.2.sql).
+
+> :key: See [solution and explanation](./practice-solution-4.2.sql).
 
 <br />
 
