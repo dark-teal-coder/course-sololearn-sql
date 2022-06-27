@@ -295,7 +295,7 @@ Write a query to select the ProductName, ProductionDate and ExpirationDate.
 
 #### Solution 
 
-> :key: See [solution and explanation](./practice-solution-4.2.sql).
+> 🔑 See [solution and explanation](./practice-solution-4.2.sql).
 
 <br />
 
@@ -402,7 +402,7 @@ Write a query to show only the unique checks that are given to the customer.
 
 #### Solution
 
-See [solution and explanation](./practice-solution-5.2.sql).
+> 🔑 See [solution and explanation](./practice-solution-5.2.sql).
 
 
 
@@ -424,7 +424,7 @@ Select the first four participants from the given list.
 
 #### Solution 
 
-See [solution and explanation](./practice-solution-5.3.sql).
+> 🔑 See [solution and explanation](./practice-solution-5.3.sql).
 
 <br />
 
@@ -515,7 +515,7 @@ Sort the players by losses to derive the leaderboard.
 
 #### Solution
 
-See [solution and explanation](./practice-solution-6.2.sql).
+> 🔑 See [solution and explanation](./practice-solution-6.2.sql).
 
 <br />
 
@@ -578,6 +578,8 @@ Write a query to sort the cakes by calorie count and select the first 3 cakes fr
 > :warning: Try to combine ORDER BY and LIMIT keywords.
 
 #### Solution
+
+> 🔑 
 
 ```sql
 SELECT * FROM cakes ORDER BY calories LIMIT 3
@@ -691,6 +693,10 @@ WHERE City = 'New York';
 
 
 ### 9.2 Practice: Salary Range 
+
+#### Solution
+
+> 🔑 
 
 <br />
 
