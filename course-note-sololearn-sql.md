@@ -40,7 +40,7 @@ Each table includes its own set of fields, based on the data it will store.
   <img src="./images/1060-01-01-p02-a.png" alt="./images/1060-01-01-p02-a.png" width="50%" height="50%">
 </p>
 
-> ⚠️ A table has a specified number of columns but can have any number of rows.
+> :warning: A table has a specified number of columns but can have any number of rows.
 
 #### Primary Keys
 
@@ -56,7 +56,7 @@ For example, our table contains a record for each name in a phone book. The uniq
   <img src="./images/1060-01-01-p03-a.png" alt="./images/1060-01-01-p03-a.png" width="50%" height="50%">
 </p>
 
-> ⚠️ <br /> - Tables are limited to ONE primary key each. <br /> - The primary key's value must be different for each row.
+> :warning: <br /> - Tables are limited to ONE primary key each. <br /> - The primary key's value must be different for each row.
 
 #### What is SQL?
 
@@ -70,7 +70,7 @@ SQL can:
 - create new databases, tables, stored procedures and views.
 - retrieve data from a database, etc.
 
-> ⚠️ SQL is an ANSI (American National Standards Institute) standard, but there are different versions of the SQL language. <br /> Most SQL database programs have their own proprietary extensions in addition to the SQL standard, but all of them support the major commands.
+> :warning: SQL is an ANSI (American National Standards Institute) standard, but there are different versions of the SQL language. <br /> Most SQL database programs have their own proprietary extensions in addition to the SQL standard, but all of them support the major commands.
 
 <br />
 
@@ -90,7 +90,7 @@ SHOW DATABASES
 
 Throughout the tutorial we will be using the MySQL engine and the PHPMyAdmin tool to run SQL queries.
 
-> ⚠️ The easiest way to get MySQL and PHPMyAdmin is to install free tools like XAMPP or WAMP, which include all necessary installers.
+> :warning: The easiest way to get MySQL and PHPMyAdmin is to install free tools like XAMPP or WAMP, which include all necessary installers.
 
 #### Basic SQL Commands
 
@@ -100,7 +100,7 @@ The ```SHOW TABLES``` command is used to display all of the tables in the curren
   <img src="https://user-images.githubusercontent.com/95575665/159118511-2c027c60-55d6-4e77-b619-0638ffa989db.png" alt="Basic SQL Commands" width="50%" height="50%">
 </p>
 
-> ⚠️ For our example, we have created a database, my_database, with a table called customers.
+> :warning: For our example, we have created a database, my_database, with a table called customers.
 
 #### Basic SQL Commands
 
@@ -334,7 +334,7 @@ This would produce the following result. Duplicate entries have been removed.
   <img src="https://user-images.githubusercontent.com/95575665/159119653-5ad626a8-abc6-49b8-818e-260592606ea2.png" alt="The DISTINCT Keyword 2" width="50%" height="50%">
 </p>
 
-> ⚠️ The DISTINCT keyword only fetches the unique values.
+> :warning: The DISTINCT keyword only fetches the unique values.
 
 #### The LIMIT Keyword
 
@@ -380,7 +380,7 @@ This would produce the following result:
   <img src="https://user-images.githubusercontent.com/95575665/159119758-b1593190-9350-44a0-b149-13b6e3d8fd28.png" alt="The LIMIT Keyword 2" width="50%" height="50%">
 </p>
 
-> ⚠️ The reason that it produces results starting from ID number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
+> :warning: The reason that it produces results starting from ID number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
 
 
 
