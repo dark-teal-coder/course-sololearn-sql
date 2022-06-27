@@ -694,6 +694,8 @@ WHERE City = 'New York';
 
 ### 9.2 Practice: Salary Range 
 
+#### The BETWEEN Operator
+
 #### Solution
 
 > 🔑 
@@ -1027,6 +1029,8 @@ Result:
 
 
 ### 13.2 Practice: Average Grades 
+
+#### AVG
 
 #### Solution 
 
