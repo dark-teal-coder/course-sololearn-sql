@@ -797,6 +797,8 @@ Result:
 
 ### 10.2 Practice: Superheros
 
+#### Solution 
+
 <br />
 
 
@@ -936,6 +938,8 @@ Result:
 
 ### 12.2 Practice: Annual Bonuses
 
+#### Solution 
+
 <br />
 
 
@@ -1016,6 +1020,8 @@ Result:
 
 ### 13.2 Practice: Average Grades 
 
+#### Solution 
+
 <br />
 
 
@@ -1071,6 +1077,8 @@ The same result will be produced.
 
 
 ### 14.2 Practice: Let's Get Fit! 
+
+#### Solution 
 
 <br />
 
@@ -1139,6 +1147,8 @@ Result:
 
 
 ### 15.2 Practice: Chocolate!
+
+#### Solution 
 
 <br />
 
@@ -1267,6 +1277,8 @@ The returned data shows customer orders and their corresponding amount.
 
 
 ### 18.2 Practice: Mentor And Apprentice
+
+#### Solution 
 
 <br />
 
@@ -1407,6 +1419,8 @@ The RIGHT JOIN returns all the rows from the right table (items), even if there 
 
 ### 19.2 Practice: Sorting The Inventory
 
+#### Solution 
+
 <br />
 
 
@@ -1498,6 +1512,8 @@ The resulting table:
 
 ### 20.2 Practice: Chess Tournament 
 
+#### Solution 
+
 <br />
 
 
@@ -1587,6 +1603,8 @@ Result:
 
 
 ### 21.2 Practice: More Cars! 
+
+#### Solution 
 
 <br />
 
@@ -1680,6 +1698,8 @@ Result:
 
 
 ### 22.2 Practice: Match The Requirements 
+
+#### Solution 
 
 <br />
 
@@ -1792,6 +1812,8 @@ Now, when we run the query, our table will be created in the database.
 
 
 ### 23.2 Practice: Video Game Scores 
+
+#### Solution 
 
 <br />
 
@@ -1950,6 +1972,8 @@ RENAME TABLE People TO Users;
 
 ### 25.2 Practice: The Most Beautiful Locations
 
+#### Solution 
+
 <br />
 
 
@@ -2047,6 +2071,8 @@ DROP VIEW List;
 
 
 ### 26.2 Practice: Social Media App Views 
+
+#### Solution 
 
 <br />
 
