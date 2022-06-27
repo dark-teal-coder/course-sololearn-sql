@@ -514,17 +514,7 @@ Sort the players by losses to derive the leaderboard.
 
 #### Solution
 
-```sql
-SELECT * 
-FROM Players 
-ORDER BY losses
-```
-Or: 
-```sql
-SELECT firstname, lastname, losses
-FROM Players 
-ORDER BY losses
-```
+See [solution and explanation](./practice-solution-6.2.sql).
 
 <br />
 
