@@ -401,11 +401,7 @@ Write a query to show only the unique checks that are given to the customer.
 
 #### Solution
 
-```sql
-/* table name: Operation */
-SELECT DISTINCT checks 
-FROM Operation; 
-```
+See [solution and explanation](./solution-practice-5.2.sql).
 
 
 
