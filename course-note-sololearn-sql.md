@@ -1211,6 +1211,8 @@ Write a query to output the apartments whose prices are greater than the average
 
 > :warning: Recall the AVG keyword.
 
+#### Solution
+
 <br />
 
 
@@ -2197,6 +2199,8 @@ Add him to the Animals table.
 2) You want to make a complete list of the animals for the zoo’s visitors. Write a query to output a new table with each animal's name, type and country fields, sorted by countries.
 
 > :warning: Recall INSERT and INNER JOIN keywords.
+
+#### Solution
 
 <br />
 
