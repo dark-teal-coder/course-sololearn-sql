@@ -294,10 +294,7 @@ Write a query to select the ProductName, ProductionDate and ExpirationDate.
 > :warning: Use the SELECT statement and separate the required columns by commas.
 
 #### Solution 
-```sql
-SELECT ProductName, ProductionDate, ExpirationDate 
-FROM Products;
-```
+[See solution and explanation](./solution-practice-4.2.sql)
 
 <br />
 
