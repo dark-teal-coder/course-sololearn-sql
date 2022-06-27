@@ -579,11 +579,11 @@ Write a query to sort the cakes by calorie count and select the first 3 cakes fr
 
 #### Solution
 
-> 🔑 
-
 ```sql
 SELECT * FROM cakes ORDER BY calories LIMIT 3
 ```
+
+> 🔑 
 
 <br />
 
@@ -799,6 +799,8 @@ Result:
 
 #### Solution 
 
+> 🔑 
+
 <br />
 
 
@@ -865,6 +867,10 @@ Result:
 > :warning: The NOT IN operator allows you to exclude a list of specific values from the result set.
 
 ### 11.2 Practice: Get The Ball Rolling!
+
+#### Solution
+
+> 🔑 
 
 <br />
 
@@ -939,6 +945,8 @@ Result:
 ### 12.2 Practice: Annual Bonuses
 
 #### Solution 
+
+> 🔑 
 
 <br />
 
@@ -1022,6 +1030,8 @@ Result:
 
 #### Solution 
 
+> 🔑 
+
 <br />
 
 
@@ -1079,6 +1089,8 @@ The same result will be produced.
 ### 14.2 Practice: Let's Get Fit! 
 
 #### Solution 
+
+> 🔑 
 
 <br />
 
@@ -1150,6 +1162,8 @@ Result:
 
 #### Solution 
 
+> 🔑 
+
 <br />
 
 
@@ -1212,6 +1226,8 @@ Write a query to output the apartments whose prices are greater than the average
 > :warning: Recall the AVG keyword.
 
 #### Solution
+
+> 🔑 
 
 <br />
 
@@ -1281,6 +1297,8 @@ The returned data shows customer orders and their corresponding amount.
 ### 18.2 Practice: Mentor And Apprentice
 
 #### Solution 
+
+> 🔑 
 
 <br />
 
@@ -1423,6 +1441,8 @@ The RIGHT JOIN returns all the rows from the right table (items), even if there 
 
 #### Solution 
 
+> 🔑 
+
 <br />
 
 
@@ -1516,6 +1536,8 @@ The resulting table:
 
 #### Solution 
 
+> 🔑 
+
 <br />
 
 
@@ -1607,6 +1629,8 @@ Result:
 ### 21.2 Practice: More Cars! 
 
 #### Solution 
+
+> 🔑 
 
 <br />
 
@@ -1702,6 +1726,8 @@ Result:
 ### 22.2 Practice: Match The Requirements 
 
 #### Solution 
+
+> 🔑 
 
 <br />
 
@@ -1816,6 +1842,8 @@ Now, when we run the query, our table will be created in the database.
 ### 23.2 Practice: Video Game Scores 
 
 #### Solution 
+
+> 🔑 
 
 <br />
 
@@ -1976,6 +2004,8 @@ RENAME TABLE People TO Users;
 
 #### Solution 
 
+> 🔑 
+
 <br />
 
 
@@ -2075,6 +2105,8 @@ DROP VIEW List;
 ### 26.2 Practice: Social Media App Views 
 
 #### Solution 
+
+> 🔑 
 
 <br />
 
@@ -2201,6 +2233,8 @@ Add him to the Animals table.
 > :warning: Recall INSERT and INNER JOIN keywords.
 
 #### Solution
+
+> 🔑 
 
 <br />
 
