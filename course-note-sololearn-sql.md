@@ -613,7 +613,7 @@ Consider the following table:
 </p>
 
 In the above table, to SELECT a specific record:
-```
+```sql
 SELECT * FROM customers
 WHERE ID = 7;
 ```
@@ -638,7 +638,7 @@ The following comparison operators can be used in the WHERE clause:
 
 For example, we can display all customers names listed in our table, with the exception of the one with ID 5.
 
-```
+```sql
 SELECT * FROM customers
 WHERE ID != 5;
 ```
@@ -657,7 +657,7 @@ The BETWEEN operator selects values within a range. The first value must be lowe
 
 The syntax for the BETWEEN clause is as follows:
 
-```
+```sql
 SELECT column_name(s)
 FROM table_name
 WHERE column_name BETWEEN value1 AND value2;
