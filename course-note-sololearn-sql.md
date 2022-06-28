@@ -657,7 +657,7 @@ The BETWEEN operator selects values within a range. The first value must be lowe
 
 The syntax for the BETWEEN clause is as follows:
 
-```sql
+```
 SELECT column_name(s)
 FROM table_name
 WHERE column_name BETWEEN value1 AND value2;
