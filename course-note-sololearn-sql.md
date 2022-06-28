@@ -309,7 +309,7 @@ In situations in which you have multiple duplicate records in a table, it might 
 
 The SQL ```DISTINCT``` keyword is used in conjunction with SELECT to eliminate all duplicate records and return only unique ones.
 
-```The basic syntax of DISTINCT is as follows:```
+The basic syntax of DISTINCT is as follows:
 
 ```
 SELECT DISTINCT column_name1, column_name2
