@@ -343,7 +343,7 @@ By default, all results that satisfy the conditions specified in the SQL stateme
 The syntax for LIMIT is as follows:
 
 ```sql
-SELECT column list
+SELECT column_list
 FROM table_name
 LIMIT [number of records];
 ```
