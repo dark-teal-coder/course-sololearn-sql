@@ -140,7 +140,7 @@ To create a simple SELECT statement, specify the name(s) of the column(s) you ne
 
 **Syntax of the SQL SELECT Statement**:
 
-```sql
+```
 SELECT column_list
 FROM table_name
 ```
