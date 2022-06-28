@@ -1112,7 +1112,7 @@ The same result will be produced.
 
 The LIKE keyword is useful when specifying a search condition within your WHERE clause.
 
-```sql
+```
 SELECT column_name(s)
 FROM table_name
 WHERE column_name LIKE pattern;
