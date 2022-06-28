@@ -612,6 +612,12 @@ Consider the following table:
   <img src="https://user-images.githubusercontent.com/95575665/160995996-e94a18bd-53d3-4b62-951f-ead57a718507.png" alt="The WHERE Statement" width="50%" height="50%">
 </p>
 
+In the above table, to SELECT a specific record:
+```
+SELECT * FROM customers
+WHERE ID = 7;
+```
+
 Result: 
 
 <p align="center">
