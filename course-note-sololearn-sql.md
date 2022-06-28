@@ -1430,7 +1430,7 @@ ON table1.column_name = table2.column_name;
 
 Consider the same example from our previous lesson, but this time with a RIGHT JOIN:
 
-```
+```sql
 SELECT customers.Name, items.Name FROM customers
 RIGHT JOIN items ON customers.ID=items.Seller_id;
 ```
