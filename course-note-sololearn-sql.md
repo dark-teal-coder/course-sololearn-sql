@@ -311,7 +311,7 @@ The SQL ```DISTINCT``` keyword is used in conjunction with SELECT to eliminate a
 
 ```The basic syntax of DISTINCT is as follows:```
 
-```sql
+```
 SELECT DISTINCT column_name1, column_name2
 FROM table_name;
 ```
