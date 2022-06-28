@@ -600,7 +600,7 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 The WHERE clause is used to extract only those records that fulfill a specified criterion.
 
 The syntax for the WHERE clause:
-```sql
+```
 SELECT column_list 
 FROM table_name
 WHERE condition;
