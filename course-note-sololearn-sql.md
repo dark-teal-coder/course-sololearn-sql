@@ -453,7 +453,7 @@ The term for the above-mentioned syntax is called the "fully qualified name" of 
 
 The following example sorts our customers table by the FirstName column.
 
-```
+```sql
 SELECT * FROM customers
 ORDER BY FirstName;
 ```
