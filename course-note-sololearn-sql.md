@@ -1181,7 +1181,7 @@ Result:
 ### 16.1 Lesson: Module 2 Quiz
 
 Question 01: Fill in the blanks to select all values from the "students" table in which the field "university" equals "MIT". 
-```sql
+```
 SELECT * FROM _____
 WHERE _____ = 'MIT';
 ```
@@ -1204,7 +1204,7 @@ Question 04: What is the name of the aggregate function for calculating the sum?
 - [ ] ```AVG```
 
 Question 05: Drag and drop from the options below to select name and age from ''students'', where age is greater than the average of all ages. Use a subquery to calculate the average value of age.
-```sql
+```
 _____ name, age 
 FROM students 
 _____ age > 
