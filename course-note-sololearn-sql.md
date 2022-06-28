@@ -1902,7 +1902,7 @@ PRIMARY KEY (UserID)
 
 The example below demonstrates how to create a table using constraints.
 
-```
+```sql
 CREATE TABLE Users (
 id int NOT NULL AUTO_INCREMENT,
 username varchar(40) NOT NULL, 
