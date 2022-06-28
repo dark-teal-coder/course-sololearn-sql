@@ -2002,7 +2002,7 @@ Renaming Tables
 
 You can rename the entire table using the RENAME command:
 
-```sql
+```
 RENAME TABLE People TO Users;
 ```
 
