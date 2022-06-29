@@ -2155,11 +2155,12 @@ Question 02: Drag and drop from the options below to insert a data item into the
 _____ _____ people
 _____ ('John Smith', '1', 22);
 ```
-- [ ] ```CREATE```
+- [ ] ```VALUES```
+- [ ] ```ON```
 - [ ] ```INSERT```
-- [ ] ```UPDATE```
+- [ ] ```BY```
 - [ ] ```INTO```
-- [ ] ```SET```
+- [ ] ```TABLE```
 
 Question 03: Drag and drop from the options below to update the "people" table.
 ```
