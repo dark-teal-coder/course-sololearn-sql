@@ -1822,9 +1822,9 @@ If a column called "LastName" is going to hold names, then that particular colum
 
 The most common data types:
 - Numeric
-- INT -A normal-sized integer that can be signed or unsigned.
-- FLOAT(M,D) - A floating-point number that cannot be unsigned. You can optionally define the display length (M) and the number of decimals (D).
-- DOUBLE(M,D) - A double precision floating-point number that cannot be unsigned. You can optionally define the display length (M) and the number of decimals (D).
+  - INT - A normal-sized integer that can be signed or unsigned.
+  - FLOAT(M,D) - A floating-point number that cannot be unsigned. You can optionally define the display length (M) and the number of decimals (D).
+  - DOUBLE(M,D) - A double precision floating-point number that cannot be unsigned. You can optionally define the display length (M) and the number of decimals (D).
 - Date and Time
   - DATE - A date in YYYY-MM-DD format.
   - DATETIME - A date and time combination in YYYY-MM-DD HH:MM:SS format.
