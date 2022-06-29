@@ -1048,6 +1048,16 @@ Result:
 
 #### AVG
 
+You are given the following table sam_grades, which shows Sam’s exam scores.
+
+<p align="center">
+  <img src="./images/1060-13-02-a.png" alt="1060-13-02-a.png" width="50%" height="50%">
+</p>
+
+Write a query to output the average of Sam's exam scores for the first semester.
+
+> :warning: Use the AVG() function!
+
 #### Solution 
 
 > 🔑 
