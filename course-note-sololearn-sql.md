@@ -702,9 +702,19 @@ WHERE City = 'New York';
 
 #### The BETWEEN Operator
 
+You are given the following table named staff:
+
+<p align="center">
+  <img src="./images/1060-09-02-a.png" alt="./images/1060-09-02-a.png" width="50%" height="50%">
+</p>
+
+Write a query to output the names of employees whose salaries are between 1500 and 1900.
+
+> :warning: Combine the WHERE statement with the BETWEEN operator!
+
 #### Solution
 
-> 🔑 
+> 🔑 See [solution and explanation](./practice-solution-9.2.sql). (Incomplete)
 
 <br />
 
