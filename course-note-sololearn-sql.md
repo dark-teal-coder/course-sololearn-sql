@@ -100,6 +100,10 @@ The ```SHOW TABLES``` command is used to display all of the tables in the curren
   <img src="https://user-images.githubusercontent.com/95575665/159118511-2c027c60-55d6-4e77-b619-0638ffa989db.png" alt="Basic SQL Commands" width="50%" height="50%">
 </p>
 
+<p align="center">
+  <img src="./images/1060-02-01-p02-a.png" alt="./images/1060-02-01-p02-a.png" width="50%" height="50%">
+</p>
+
 > :warning: For our example, we have created a database, my_database, with a table called customers.
 
 #### Basic SQL Commands
