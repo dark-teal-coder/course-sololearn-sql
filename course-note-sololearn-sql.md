@@ -188,15 +188,7 @@ SELECT City FROM customers;
 Result:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159118855-d1749cf7-7362-4c66-afd4-5aad1395ce89.png" alt="Multiple Queries" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-03-01-p01-a.png" alt="./images/1060-03-01-p01-a.png" width="50%" height="50%">
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159118860-5379778b-7504-49be-adb3-0a8f20a735b4.png" alt="Multiple Queries 2" width="50%" height="50%">
 </p>
 
 <p align="center">
