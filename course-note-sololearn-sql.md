@@ -608,10 +608,6 @@ WHERE condition;
 Consider the following table:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/160995996-e94a18bd-53d3-4b62-951f-ead57a718507.png" alt="The WHERE Statement" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-09-01-p01-a.png" alt="./images/1060-09-01-p01-a.png" width="50%" height="50%">
 </p>
 
@@ -622,10 +618,6 @@ WHERE ID = 7;
 ```
 
 Result: 
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/160996542-00d5ba66-ed6e-4442-b156-9d1f57314eaa.png" alt="The WHERE Statement 2" width="50%" height="50%">
-</p>
 
 <p align="center">
   <img src="./images/1060-09-01-p01-b.png" alt="./images/1060-09-01-p01-b.png" width="50%" height="50%">
