@@ -115,7 +115,7 @@ SHOW COLUMNS FROM customers
 Result:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159118594-0cbd76ea-de70-4ae1-b592-5e469e682eb7.png" alt="Basic SQL Commands 2" width="50%" height="50%">
+  <img src="./images/1060-02-01-p03-a.png" alt="./images/1060-02-01-p03-a.png" width="50%" height="50%">
 </p>
 
 SHOW COLUMNS displays the following values for each table column:
