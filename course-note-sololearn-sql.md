@@ -166,6 +166,10 @@ Result:
   <img src="https://user-images.githubusercontent.com/95575665/159118779-d251729a-e0d8-4850-aa2d-50df632f398a.png" alt="SELECT Statement 2" width="50%" height="50%">
 </p>
 
+<p align="center">
+  <img src="./images/1060-02-01-p04-b.png" alt="./images/1060-02-01-p04-b.png" width="50%" height="50%">
+</p>
+
 > :warning: A SELECT statement retrieves zero or more rows from one or more database tables.
 
 <br />
