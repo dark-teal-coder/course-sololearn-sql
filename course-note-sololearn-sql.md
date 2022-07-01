@@ -330,7 +330,7 @@ SELECT DISTINCT City FROM customers;
 This would produce the following result. Duplicate entries have been removed.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159119653-5ad626a8-abc6-49b8-818e-260592606ea2.png" alt="The DISTINCT Keyword 2" width="50%" height="50%">
+  <img src="./images/1060-05-01-p01-a.png" alt="./images/1060-05-01-p01-a.png" width="50%" height="50%">
 </p>
 
 > :warning: The DISTINCT keyword only fetches the unique values.
