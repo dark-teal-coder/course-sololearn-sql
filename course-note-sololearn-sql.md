@@ -151,10 +151,6 @@ FROM table_name
 **Below is the data from our customers table:**
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159118714-6193482d-d575-4593-9d1d-c5127ddf8846.png" alt="SELECT Statement" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-02-01-p04-a.png" alt="./images/1060-02-01-p04-a.png" width="50%" height="50%">
 </p>
 
