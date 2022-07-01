@@ -635,6 +635,10 @@ The following comparison operators can be used in the WHERE clause:
   <img src="https://user-images.githubusercontent.com/95575665/160996745-fc687068-5799-460c-8f29-c01fafd51727.png" alt="SQL Operators" width="50%" height="50%">
 </p>
 
+<p align="center">
+  <img src="./images/1060-09-01-p02-a.png" alt="./images/1060-09-01-p02-a.png" width="50%" height="50%">
+</p>
+
 For example, we can display all customers names listed in our table, with the exception of the one with ID 5.
 
 ```sql
@@ -646,6 +650,10 @@ Result:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/95575665/160996972-03d2aeac-3481-4489-8d06-882bc145d6c5.png" alt="SQL Operators 2" width="50%" height="50%">
+</p>
+
+<p align="center">
+  <img src="./images/1060-09-01-p02-b.png" alt="./images/1060-09-01-p02-b.png" width="50%" height="50%">
 </p>
 
 > :warning: As you can see, the record with ID=5 is excluded from the list.
