@@ -321,6 +321,10 @@ See the customers table below:
   <img src="https://user-images.githubusercontent.com/95575665/159119628-45057d8d-29a8-4c36-b1fc-3e442c8440b8.png" alt="The DISTINCT Keyword" width="50%" height="50%">
 </p>
 
+<p align="center">
+  <img src="./images/1060-05-01-p01-a.png" alt="./images/1060-05-01-p01-a.png" width="50%" height="50%">
+</p>
+
 Note that there are duplicate City names. The following SQL statement selects only distinct values from the City column:
 
 ```sql
