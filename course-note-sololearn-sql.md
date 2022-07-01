@@ -379,6 +379,10 @@ This would produce the following result:
   <img src="https://user-images.githubusercontent.com/95575665/159119758-b1593190-9350-44a0-b149-13b6e3d8fd28.png" alt="The LIMIT Keyword 2" width="50%" height="50%">
 </p>
 
+<p align="center">
+  <img src="./images/1060-05-01-p03-a.png" alt="./images/1060-05-01-p03-a.png" width="50%" height="50%">
+</p>
+
 > :warning: The reason that it produces results starting from ID number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
 
 
