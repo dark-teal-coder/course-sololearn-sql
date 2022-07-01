@@ -357,10 +357,6 @@ FROM customers LIMIT 5;
 This would produce the following result:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159119695-d11a2607-27b2-42be-98c7-91fde6bb2267.png" alt="The LIMIT Keyword" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-05-01-p02-a.png" alt="./images/1060-05-01-p02-a.png" width="50%" height="50%">
 </p>
 
