@@ -474,10 +474,6 @@ ORDER BY can sort retrieved data by multiple columns. When using ORDER BY with m
 Here is the customers table, showing the following records:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159120241-6779910a-bf40-41bb-9d4b-90e3f2f3a865.png" alt="Sorting Multiple Columns" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-06-01-p03-a.png" alt="./images/1060-06-01-p03-a.png" width="50%" height="50%">
 </p>
 
@@ -489,10 +485,6 @@ ORDER BY LastName, Age;
 ```
 
 This ORDER BY statement returns the following result:
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159120284-52489a1d-f0e7-465b-a418-781161b5cb26.png" alt="Order By 2" width="50%" height="50%">
-</p>
 
 <p align="center">
   <img src="./images/1060-06-01-p03-b.png" alt="./images/1060-06-01-p03-b.png" width="50%" height="50%">
