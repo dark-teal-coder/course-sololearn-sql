@@ -690,6 +690,10 @@ WHERE City = 'New York';
 ```
 
 <p align="center">
+  <img src="./images/1060-09-01-p04-a.png" alt="./images/1060-09-01-p04-a.png" width="50%" height="50%">
+</p>
+
+<p align="center">
   <img src="https://user-images.githubusercontent.com/95575665/161008686-2a879e1c-dba6-4cc3-8af0-7813b08ae64d.png" alt="Text Values" width="50%" height="50%">
 </p>
 
