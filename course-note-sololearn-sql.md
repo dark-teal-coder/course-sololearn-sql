@@ -285,10 +285,6 @@ When buying food, it is important to make sure it is fresh and not expired.
 You are given the following 'Products' list:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159119537-fab9ac3d-c4d1-4840-a8de-6ac6b1498bfe.jpg" alt="Best Before Selecting Multiple Columns" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-04-02-a.png" alt="./images/1060-04-02-a.png" width="50%" height="50%">
 </p>
 
