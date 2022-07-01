@@ -395,6 +395,10 @@ Here is the list of all the checks named Operation
   <img src="https://user-images.githubusercontent.com/95575665/159119901-c15df489-8d7f-4587-863e-218393619e19.jpg#gh-dark-mode-only" alt="5 2" width="50%" height="50%">
 </p>
 
+<p align="center">
+  <img src="./images/1060-05-02-a.png" alt="./images/1060-05-02-a.png" width="50%" height="50%">
+</p>
+
 Write a query to show only the unique checks that are given to the customer.
 
 > :warning: Use the DISTINCT statement to return the unique values of mentioned column.
