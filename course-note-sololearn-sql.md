@@ -505,10 +505,6 @@ Six players have competed in a chess tournament and their scores have been talli
 Here is the table of Players:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159120409-cd38fbb9-6f3c-4e52-8bda-d3ae22e13590.jpg" alt="6 2" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-06-02-a.png" alt="./images/1060-06-02-a.png" width="50%" height="50%">
 </p>
 
