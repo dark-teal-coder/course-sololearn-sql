@@ -672,7 +672,7 @@ WHERE ID BETWEEN 3 AND 7;
 Result:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/160997266-7ab522fe-d5ff-425e-84fb-94d860bcca1c.png" alt="The BETWEEN Operator" width="50%" height="50%">
+  <img src="./images/1060-09-01-p03-a.png" alt="./images/1060-09-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: As you can see, the lower bound and upper bound are both included in the range.
