@@ -567,10 +567,6 @@ A local bakery creates unique cake sets. Each cake set contains three different 
 Here is the cakes table:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/158824685-330ff471-5424-4bc5-bca0-ed6431399ddb.jpg" alt="Cakes" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-08-a.png" alt="./images/1060-08-a.png" width="50%" height="50%">
 </p>
 
