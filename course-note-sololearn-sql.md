@@ -269,10 +269,6 @@ SELECT * FROM customers;
 Result:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159119280-1eda5930-fd4d-489c-8f0b-6ff56ac61e12.png" alt="Selecting All Columns" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-04-01-p02-a.png" alt="./images/1060-04-01-p02-a.png" width="50%" height="50%">
 </p>
 
