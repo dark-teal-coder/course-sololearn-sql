@@ -192,7 +192,15 @@ Result:
 </p>
 
 <p align="center">
+  <img src="./images/1060-03-01-p01-a.png" alt="./images/1060-03-01-p01-a.png" width="50%" height="50%">
+</p>
+
+<p align="center">
   <img src="https://user-images.githubusercontent.com/95575665/159118860-5379778b-7504-49be-adb3-0a8f20a735b4.png" alt="Multiple Queries 2" width="50%" height="50%">
+</p>
+
+<p align="center">
+  <img src="./images/1060-03-01-p01-b.png" alt="./images/1060-03-01-p01-b.png" width="50%" height="50%">
 </p>
 
 > :warning: Remember to end each SQL statement with a semicolon to indicate that the statement is complete and ready to be interpreted. <br /> In this tutorial, we will use semicolon at the end of each SQL statement.
