@@ -414,10 +414,6 @@ Write a query to show only the unique checks that are given to the customer.
 Here is the Participants table:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159120092-408b4e28-00c7-4d86-a64d-1dde197d22aa.jpg" alt="5 2" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-05-03-a.png" alt="./images/1060-05-03-a.png" width="50%" height="50%">
 </p>
 
