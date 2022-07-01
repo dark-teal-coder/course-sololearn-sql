@@ -460,10 +460,6 @@ ORDER BY FirstName;
 Result:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159120210-8ec818f9-e6d8-4660-bae2-5a0b6bb25d87.png" alt="Order By" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-06-01-p02-a.png" alt="./images/1060-06-01-p02-a.png" width="50%" height="50%">
 </p>
 
