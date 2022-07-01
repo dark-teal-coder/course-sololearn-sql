@@ -251,10 +251,6 @@ FROM customers;
 Result:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/95575665/159119176-9e8b6b65-5f00-44af-a3a1-52b5c77ffb98.png" alt="Selecting Multiple Columns" width="50%" height="50%">
-</p>
-
-<p align="center">
   <img src="./images/1060-04-01-p01-a.png" alt="./images/1060-04-01-p01-a.png" width="50%" height="50%">
 </p>
 
