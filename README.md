@@ -11,4 +11,4 @@ This repository contains the code for the online course *"SQL"* provided by [Sol
 
 <br />
 
-*Last modified date: Jul 03, 2022*
+*Last modified date: Jul 01, 2022*
