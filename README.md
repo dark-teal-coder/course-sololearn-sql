@@ -1,7 +1,7 @@
 <!-- This is a README file for an online course. -->
 
 # Description 
-This repository contains the code for the online course *"SQL"* provided by [SoloLearn](https://www.sololearn.com) and notes in .md format. 
+This repository contains the code for the online course *"SQL"* provided by [SoloLearn](https://www.sololearn.com) and notes in .md and .ipynb format. 
 
 # Course Information
 - <ins>Course Provider</ins>: SoloLearn
@@ -11,4 +11,4 @@ This repository contains the code for the online course *"SQL"* provided by [Sol
 
 <br />
 
-*Last modified date: Jul 01, 2022*
+*Last modified date: Aug 08, 2022*
