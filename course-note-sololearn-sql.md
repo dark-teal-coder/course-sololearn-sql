@@ -1,16 +1,16 @@
 # SQL
 
-This course covers an array of SQL-related topics, such as retrieving, updating and filtering data; functions and subqueries; creating & updating tables; & many more! 
+This course covers an array of SQL-related topics, such as retrieving, updating and filtering data; functions and subqueries; creating & updating tables; & many more!
+
+<br />
+<br />
+<br />
+
+## Basic Concepts
 
 <br />
 
-
-
-## Basic Concepts 
-
-
-
-### 1.1 Lesson: Introduction to Databases 
+### 1.1 Lesson: Introduction to Databases
 
 #### Welcome to SQL
 
@@ -24,7 +24,7 @@ For example, you would use a database, if you were to create a website like YouT
   <img src="./images/1060-01-01-p01-a.png" alt="./images/1060-01-01-p01-a.png" width="50%" height="50%">
 </p>
 
-> :warning: In this course we will learn how to create and query databases using SQL! 
+> :warning: In this course we will learn how to create and query databases using SQL!
 
 #### Database Tables
 
@@ -203,7 +203,7 @@ SQL is case **insensitive**.
 
 The following statements are equivalent and will produce the same result:
 
-```sql 
+```sql
 select City from customers;
 SELECT City FROM customers;
 sElEct City From customers;
@@ -244,7 +244,7 @@ You can select multiple table columns at once.
 Just list the column names, separated by **commas**
 
 ```sql
-SELECT FirstName, LastName, City 
+SELECT FirstName, LastName, City
 FROM customers;
 ```
 
@@ -262,8 +262,8 @@ To retrieve all of the information contained in your table, place an **asterisk 
 
 The following SQL statement selects all of the columns in the customers table:
 
-```sql 
-SELECT * FROM customers; 
+```sql
+SELECT * FROM customers;
 ```
 
 Result:
@@ -276,7 +276,7 @@ Result:
 
 
 
-### 4.2 Practice: Best Before 
+### 4.2 Practice: Best Before
 
 #### Selecting Multiple Columns
 
@@ -292,7 +292,7 @@ Write a query to select the ProductName, ProductionDate and ExpirationDate.
 
 > :warning: Use the SELECT statement and separate the required columns by commas.
 
-#### Solution 
+#### Solution
 
 > 🔑 See [solution and explanation](./practice-solution-4.2.sql).
 
@@ -324,7 +324,7 @@ See the customers table below:
 Note that there are duplicate City names. The following SQL statement selects only distinct values from the City column:
 
 ```sql
-SELECT DISTINCT City FROM customers; 
+SELECT DISTINCT City FROM customers;
 ```
 
 This would produce the following result. Duplicate entries have been removed.
@@ -421,7 +421,7 @@ Select the first four participants from the given list.
 
 > :warning: The LIMIT keyword can help you.
 
-#### Solution 
+#### Solution
 
 > 🔑 See [solution and explanation](./practice-solution-5.3.sql).
 
@@ -480,7 +480,7 @@ Here is the customers table, showing the following records:
 To order by LastName and Age:
 
 ```sql
-SELECT * FROM customers 
+SELECT * FROM customers
 ORDER BY LastName, Age;
 ```
 
@@ -543,7 +543,7 @@ Question 03: Why use primary keys?
 
 Question 04: Drag and drop from the options below to select distinct names from the ''students'' table, ordered by name.
 ```
-SELECT _____ name 
+SELECT _____ name
 _____ students
 _____ name;
 ```
@@ -582,7 +582,7 @@ Write a query to sort the cakes by calorie count and select the first 3 cakes fr
 SELECT * FROM cakes ORDER BY calories LIMIT 3
 ```
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -600,7 +600,7 @@ The WHERE clause is used to extract only those records that fulfill a specified 
 
 The syntax for the WHERE clause:
 ```
-SELECT column_list 
+SELECT column_list
 FROM table_name
 WHERE condition;
 ```
@@ -617,7 +617,7 @@ SELECT * FROM customers
 WHERE ID = 7;
 ```
 
-Result: 
+Result:
 
 <p align="center">
   <img src="./images/1060-09-01-p01-b.png" alt="./images/1060-09-01-p01-b.png" width="50%" height="50%">
@@ -665,7 +665,7 @@ WHERE column_name BETWEEN value1 AND value2;
 The following SQL statement selects all records with IDs that fall between 3 and 7:
 
 ```sql
-SELECT * FROM customers 
+SELECT * FROM customers
 WHERE ID BETWEEN 3 AND 7;
 ```
 
@@ -684,7 +684,7 @@ When working with text columns, surround any text that appears in the statement 
 The following SQL statement selects all records in which the City is equal to 'New York'.
 
 ```sql
-SELECT ID, FirstName, LastName, City 
+SELECT ID, FirstName, LastName, City
 FROM customers
 WHERE City = 'New York';
 ```
@@ -697,7 +697,7 @@ WHERE City = 'New York';
 
 
 
-### 9.2 Practice: Salary Range 
+### 9.2 Practice: Salary Range
 
 #### The BETWEEN Operator
 
@@ -713,7 +713,7 @@ Write a query to output the names of employees whose salaries are between 1500 a
 
 #### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -768,7 +768,7 @@ The following table describes how the logical OR operator functions:
 For example, if you want to find the customers who live either in New York or Chicago, the query would look like this:
 
 ```sql
-SELECT * FROM customers 
+SELECT * FROM customers
 WHERE City = 'New York' OR City = 'Chicago';
 ```
 
@@ -814,9 +814,9 @@ Result:
 
 ### 10.2 Practice: Superheros
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -833,7 +833,7 @@ For example, you might need to select all customers from New York, Los Angeles, 
 With the OR condition, your SQL would look like this:
 
 ```sql
-SELECT * FROM customers 
+SELECT * FROM customers
 WHERE City = 'New York'
 OR City = 'Los Angeles'
 OR City = 'Chicago';
@@ -852,7 +852,7 @@ Result:
 You can achieve the same result with a single IN condition, instead of the multiple OR conditions:
 
 ```sql
-SELECT * FROM customers 
+SELECT * FROM customers
 WHERE City IN ('New York', 'Los Angeles', 'Chicago');
 ```
 
@@ -871,7 +871,7 @@ The NOT IN operator allows you to exclude a list of specific values from the res
 If we add the NOT keyword before IN in our previous query, customers living in those cities will be excluded:
 
 ```sql
-SELECT * FROM customers 
+SELECT * FROM customers
 WHERE City NOT IN ('New York', 'Los Angeles', 'Chicago');
 ```
 
@@ -887,7 +887,7 @@ Result:
 
 #### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -920,7 +920,7 @@ A concatenation results in a new column. The default column name will be the CON
 You can assign a custom name to the resulting column using the AS keyword:
 
 ```sql
-SELECT CONCAT(FirstName,', ', City) AS new_column 
+SELECT CONCAT(FirstName,', ', City) AS new_column
 FROM customers;
 ```
 
@@ -944,7 +944,7 @@ The following employees table shows employee names and salaries:
 
 The example below adds 500 to each employee's salary and selects the result:
 
-```sql 
+```sql
 SELECT ID, FirstName, LastName, Salary+500 AS Salary
 FROM employees;
 ```
@@ -961,9 +961,9 @@ Result:
 
 ### 12.2 Practice: Annual Bonuses
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -980,7 +980,7 @@ The LOWER function converts the string to lowercase.
 The following SQL query selects all LastNames as uppercase:
 
 ```sql
-SELECT FirstName, UPPER(LastName) AS LastName 
+SELECT FirstName, UPPER(LastName) AS LastName
 FROM employees;
 ```
 
@@ -999,7 +999,7 @@ The SQRT function returns the square root of given value in the argument.
 Let's calculate the square root of each Salary:
 
 ```sql
-SELECT Salary, SQRT(Salary) 
+SELECT Salary, SQRT(Salary)
 FROM employees;
 ```
 
@@ -1043,7 +1043,7 @@ Result:
 
 
 
-### 13.2 Practice: Average Grades 
+### 13.2 Practice: Average Grades
 
 #### AVG
 
@@ -1057,9 +1057,9 @@ Write a query to output the average of Sam's exam scores for the first semester.
 
 > :warning: Use the AVG() function!
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -1082,7 +1082,7 @@ SELECT AVG(Salary) FROM employees;
 As we already know the average, we can use a simple WHERE to list the salaries that are greater than that number.
 
 ```sql
-SELECT FirstName, Salary FROM employees 
+SELECT FirstName, Salary FROM employees
 WHERE  Salary > 3100
 ORDER BY Salary DESC;
 ```
@@ -1100,8 +1100,8 @@ Result:
 A single subquery will return the same result more easily.
 
 ```sql
-SELECT FirstName, Salary FROM employees 
-WHERE  Salary > (SELECT AVG(Salary) FROM employees) 
+SELECT FirstName, Salary FROM employees
+WHERE  Salary > (SELECT AVG(Salary) FROM employees)
 ORDER BY Salary DESC;
 ```
 
@@ -1115,11 +1115,11 @@ The same result will be produced.
 
 
 
-### 14.2 Practice: Let's Get Fit! 
+### 14.2 Practice: Let's Get Fit!
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -1142,7 +1142,7 @@ SQL pattern matching enables you to use `_` to match any single character and "%
 For example, to select employees whose FirstNames begin with the letter A, you would use the following query:
 
 ```sql
-SELECT * FROM employees 
+SELECT * FROM employees
 WHERE FirstName LIKE 'A%';
 ```
 
@@ -1155,7 +1155,7 @@ Result:
 As another example, the following SQL query selects all employees with a LastName ending with the letter "s":
 
 ```sql
-SELECT * FROM employees 
+SELECT * FROM employees
 WHERE LastName LIKE '%s';
 ```
 
@@ -1177,7 +1177,7 @@ For example, you might wish to know the minimum salary among the employees.
 SELECT MIN(Salary) AS Salary FROM employees;
 ```
 
-Result: 
+Result:
 
 <p align="center">
   <img src="./images/1060-15-01-p02-a.png" alt="1060-15-01-p02-a.png" width="50%" height="50%">
@@ -1189,9 +1189,9 @@ Result:
 
 ### 15.2 Practice: Chocolate!
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -1199,7 +1199,7 @@ Result:
 
 ### 16.1 Lesson: Module 2 Quiz
 
-Question 01: Fill in the blanks to select all values from the "students" table in which the field "university" equals "MIT". 
+Question 01: Fill in the blanks to select all values from the "students" table in which the field "university" equals "MIT".
 ```
 SELECT * FROM _____
 WHERE _____ = 'MIT';
@@ -1224,10 +1224,10 @@ Question 04: What is the name of the aggregate function for calculating the sum?
 
 Question 05: Drag and drop from the options below to select name and age from ''students'', where age is greater than the average of all ages. Use a subquery to calculate the average value of age.
 ```
-_____ name, age 
-FROM students 
-_____ age > 
-(SELECT _____(age) 
+_____ name, age
+FROM students
+_____ age >
+(SELECT _____(age)
 FROM students)
 ```
 - [ ] ```SELECT```
@@ -1240,7 +1240,7 @@ FROM students)
 
 
 
-### 17 Code Project: Apartments 
+### 17 Code Project: Apartments
 
 #### Apartments
 
@@ -1256,7 +1256,7 @@ Write a query to output the apartments whose prices are greater than the average
 
 #### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -1325,9 +1325,9 @@ The returned data shows customer orders and their corresponding amount.
 
 ### 18.2 Practice: Mentor And Apprentice
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -1361,7 +1361,7 @@ Syntax:
 
 ```
 SELECT column_name(s)
-FROM table1 INNER JOIN table2 
+FROM table1 INNER JOIN table2
 ON table1.column_name=table2.column_name;
 ```
 
@@ -1414,8 +1414,8 @@ items:
 The following SQL statement will return all customers, and the items they might have:
 
 ```sql
-SELECT customers.Name, items.Name 
-FROM customers LEFT OUTER JOIN items 
+SELECT customers.Name, items.Name
+FROM customers LEFT OUTER JOIN items
 ON customers.ID=items.Seller_id;
 ```
 
@@ -1468,9 +1468,9 @@ The RIGHT JOIN returns all the rows from the right table (items), even if there 
 
 ### 19.2 Practice: Sorting The Inventory
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -1561,11 +1561,11 @@ The resulting table:
 
 > :warning: As you can see, the result set includes the duplicate rows as well.
 
-### 20.2 Practice: Chess Tournament 
+### 20.2 Practice: Chess Tournament
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -1579,7 +1579,7 @@ SQL tables store data in rows, one row after another. The INSERT INTO statement 
 
 The SQL INSERT INTO syntax is as follows:
 
-``` 
+```
 INSERT INTO table_name
 VALUES (value1, value2, value3,...);
 ```
@@ -1595,7 +1595,7 @@ Consider the following Employees table:
 Use the following SQL statement to insert a new row:
 
 ```sql
-INSERT INTO Employees 
+INSERT INTO Employees
 VALUES (8, 'Anthony', 'Young', 35);
 SELECT * from Employees;
 ```
@@ -1615,7 +1615,7 @@ Result:
 Alternatively, you can specify the table's column names in the INSERT INTO statement:
 
 ```
-INSERT INTO table_name (column1, column2, column3, ...,columnN)  
+INSERT INTO table_name (column1, column2, column3, ...,columnN)
 VALUES (value1, value2, value3,...valueN);
 ```
 
@@ -1624,7 +1624,7 @@ column1, column2, ..., columnN are the names of the columns that you want to ins
 ```sql
 INSERT INTO Employees (ID, FirstName, LastName, Age)
 VALUES (8, 'Anthony', 'Young', 35);
-SELECT * FROM Employees; 
+SELECT * FROM Employees;
 ```
 
 This will insert the data into the corresponding columns:
@@ -1640,7 +1640,7 @@ This will insert the data into the corresponding columns:
 It is also possible to insert data into specific columns only.
 
 ```sql
-INSERT INTO Employees (ID, FirstName, LastName) 
+INSERT INTO Employees (ID, FirstName, LastName)
 VALUES (9, 'Samuel', 'Clark');
 SELECT * from Employees;
 ```
@@ -1655,11 +1655,11 @@ Result:
 
 
 
-### 21.2 Practice: More Cars! 
+### 21.2 Practice: More Cars!
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -1694,7 +1694,7 @@ Consider the following table called "Employees":
 To update John's salary, we can use the following query:
 
 ```sql
-UPDATE Employees 
+UPDATE Employees
 SET Salary=5000
 WHERE ID=1;
 SELECT * from Employees;
@@ -1711,7 +1711,7 @@ Result:
 It is also possible to UPDATE multiple columns at the same time by comma-separating them:
 
 ```sql
-UPDATE Employees 
+UPDATE Employees
 SET Salary=5000, FirstName='Robert'
 WHERE ID=1;
 SELECT * from Employees;
@@ -1731,7 +1731,7 @@ The DELETE statement is used to remove data from your table. DELETE queries work
 
 ```
 DELETE FROM table_name
-WHERE condition; 
+WHERE condition;
 ```
 
 For example, you can delete a specific employee from the table:
@@ -1752,11 +1752,11 @@ Result:
 
 
 
-### 22.2 Practice: Match The Requirements 
+### 22.2 Practice: Match The Requirements
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -1805,10 +1805,10 @@ Use the following CREATE TABLE statement:
 CREATE TABLE Users
 (
    UserID int,
-   FirstName varchar(100), 
+   FirstName varchar(100),
    LastName varchar(100),
    City varchar(100)
-); 
+);
 ```
 
 > :warning: varchar is the datatype that stores characters. You specify the number of characters in the parentheses after the type. So in the example above, our fields can hold max 100 characters long text.
@@ -1868,11 +1868,11 @@ Now, when we run the query, our table will be created in the database.
 
 
 
-### 23.2 Practice: Video Game Scores 
+### 23.2 Practice: Video Game Scores
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -1924,7 +1924,7 @@ The example below demonstrates how to create a table using constraints.
 ```sql
 CREATE TABLE Users (
 id int NOT NULL AUTO_INCREMENT,
-username varchar(40) NOT NULL, 
+username varchar(40) NOT NULL,
 password varchar(10) NOT NULL,
 PRIMARY KEY(id)
 );
@@ -1978,7 +1978,7 @@ Result:
 The following SQL code demonstrates how to delete the column named DateOfBirth in the People table.
 
 ```sql
-ALTER TABLE People 
+ALTER TABLE People
 DROP COLUMN DateOfBirth;
 SELECT * from People;
 ```
@@ -2031,9 +2031,9 @@ RENAME TABLE People TO Users;
 
 ### 25.2 Practice: The Most Beautiful Locations
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -2131,11 +2131,11 @@ DROP VIEW List;
 
 
 
-### 26.2 Practice: Social Media App Views 
+### 26.2 Practice: Social Media App Views
 
-#### Solution 
+#### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -2164,7 +2164,7 @@ _____ ('John Smith', '1', 22);
 Question 03: Drag and drop from the options below to update the "people" table.
 ```
 _____ people
-_____ name='Jordan' 
+_____ name='Jordan'
 WHERE id=147;
 ```
 - [ ] ```UPDATE```
@@ -2199,10 +2199,10 @@ Question 06: Which choice is the correct command for changing the name of a tabl
 
 Question 07: Drag and drop from the options below to create a view named ''most_abs'' for the students with the greatest number of absences.
 ```
-_____ _____ most_abs _____ 
+_____ _____ most_abs _____
 SELECT id, name, absences
-FROM students 
-ORDER BY absences DESC 
+FROM students
+ORDER BY absences DESC
 LIMIT 10;
 ```
 - [ ] ```TABLE```
@@ -2214,7 +2214,7 @@ LIMIT 10;
 
 Question 08: Drag and drop from the options below to delete the table "students" from the database.
 ```
-_____ _____ _____ 
+_____ _____ _____
 ```
 - [ ] ```DELETE```
 - [ ] ```DROP```
@@ -2264,7 +2264,7 @@ Add him to the Animals table.
 
 #### Solution
 
-> 🔑 
+> 🔑
 
 <br />
 
@@ -2289,7 +2289,7 @@ _____ 10
 Question 02: Drag and drop from the options below to create the table "users" to store website user logins and passwords.
 ```
 _____ TABLE users (
-id INT NOT NULL 
+id INT NOT NULL
 AUTO_INCREMENT,
 login _____(100),
 password VARCHAR(100))
@@ -2308,7 +2308,7 @@ Question 03: Rearrange the query to select all students under age 21. The result
 Question 04: Your boss asks you to print the list of the first one hundred customers who have balances greater than $1000 or who are from NY.
 ```
 SELECT * FROM customers
-_____ balance > 1000 
+_____ balance > 1000
 _____ city = 'NY'
 _____ 100
 ```
@@ -2337,7 +2337,7 @@ FROM customers;
 - [ ] ```form```
 - [ ] ```merge```
 
-Question 07: The zoo administration wants a list of animals whose age is greater than the average age of all of the animals. 
+Question 07: The zoo administration wants a list of animals whose age is greater than the average age of all of the animals.
 - [ ] ```WHERE age >```
 - [ ] ```FROM zoo)```
 - [ ] ```(SELECT AVG(age)```
@@ -2357,7 +2357,7 @@ WHERE animal LIKE '_____'
 
 Question 01: Drag and drop from the options below to retrieve all students between the ages of 18 and 22.
 ```
-SELECT name _____ students 
+SELECT name _____ students
 WHERE age
 _____ 18 _____ 22;
 ```
@@ -2370,7 +2370,7 @@ _____ 18 _____ 22;
 
 Question 02: Drag and drop from the options below to update the "students" table to set Jake's university to MIT. His id is 682.
 ```
-_____ students 
+_____ students
 SET university='_____'
 WHERE _____=682
 ```
@@ -2382,7 +2382,7 @@ WHERE _____=682
 
 Question 03: When you inserted "elephant" as a new animal, you forgot to include the elephant's age. Correct this mistake by updating the "zoo" table.
 ```
-_____ zoo 
+_____ zoo
 _____ age=14
 WHERE animal='elephant'
 ```
@@ -2395,8 +2395,8 @@ WHERE animal='elephant'
 Question 04: Drag and drop from the options below to update the food_balance to 23 for animals whose age is greater than the average age of the animals.
 ```
 UPDATE zoo
-SET food_balance=23 
-_____ age > 
+SET food_balance=23
+_____ age >
 (SELECT _____(age)
 FROM _____);
 ```
@@ -2429,7 +2429,7 @@ Question 07: Drag and drop from the options below to retrieve from MIT, Stanford
 ```
 SELECT name FROM students
 WHERE university
-_____ ('MIT', 'Stanford', 'Harvard') 
+_____ ('MIT', 'Stanford', 'Harvard')
 _____ name='Jake';
 ```
 - [ ] ```AND```
