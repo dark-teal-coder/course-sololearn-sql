@@ -59,7 +59,10 @@ For example, our table contains a record for each name in a phone book. The uniq
     <img src="./images/1060-01-01-p03-a.png" alt="./images/1060-01-01-p03-a.png" width="50%" height="50%">
 </p>
 
-> :warning: <br /> - Tables are limited to ONE primary key each. <br /> - The primary key's value must be different for each row.
+> :warning:
+>
+> - Tables are limited to ONE primary key each.
+> - The primary key's value must be different for each row.
 
 #### What is SQL?
 
