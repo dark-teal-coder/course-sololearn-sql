@@ -206,7 +206,11 @@ Result:
     <img src="./images/1060-03-01-p01-b.png" alt="./images/1060-03-01-p01-b.png" width="50%" height="50%">
 </p>
 
-> :warning: Remember to end each SQL statement with a semicolon to indicate that the statement is complete and ready to be interpreted. <br /> In this tutorial, we will use semicolon at the end of each SQL statement.
+> :warning:
+>
+> Remember to end each SQL statement with a semicolon to indicate that the statement is complete and ready to be interpreted.
+>
+> In this tutorial, we will use semicolon at the end of each SQL statement.
 
 #### Case Sensitivity
 
