@@ -241,8 +241,6 @@ However, it is recommended to avoid unnecessary white spaces and lines.
 > :warning: Combined with proper spacing and indenting, breaking up the commands into logical lines will make your SQL statements much easier to read and maintain.
 
 &nbsp;
-&nbsp;
-&nbsp;
 
 ### 4.1 Lesson: Selecting Multiple Columns
 
