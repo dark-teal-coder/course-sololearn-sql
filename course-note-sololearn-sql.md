@@ -588,7 +588,11 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 
 > 🔑
 
+&nbsp;
+
 ---
+
+&nbsp;
 
 ## Filtering, Functions, Subqueries
 
@@ -1260,7 +1264,11 @@ Write a query to output the apartments whose prices are greater than the average
 
 > 🔑
 
+&nbsp;
+
 ---
+
+&nbsp;
 
 ## JOIN, Table Operations
 
@@ -2277,7 +2285,11 @@ Add him to the Animals table.
 
 > 🔑
 
+&nbsp;
+
 ---
+
+&nbsp;
 
 ## Challenges
 
