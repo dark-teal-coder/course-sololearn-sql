@@ -42,9 +42,7 @@ Each table includes its own set of fields, based on the data it will store.
     <img src="./images/1060-01-01-p02-a.png" alt="./images/1060-01-01-p02-a.png" width="50%" height="50%">
 </p>
 
-> :warning: 
->
-> A table has a specified number of columns but can have any number of rows.
+> :warning: A table has a specified number of columns but can have any number of rows.
 
 #### Primary Keys
 
