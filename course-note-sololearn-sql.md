@@ -4,7 +4,7 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 
 1
 
-
+&nbsp;
 
 2
 
