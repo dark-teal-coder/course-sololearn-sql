@@ -283,7 +283,7 @@ Result:
 
 > :warning: In SQL, the asterisk means all.
 
-
+&nbsp;
 
 ### 4.2 Practice: Best Before
 
@@ -305,9 +305,7 @@ Write a query to select the ProductName, ProductionDate and ExpirationDate.
 
 > 🔑 See [solution and explanation](./practice-solution-4.2.sql).
 
-<br />
-
-
+&nbsp;
 
 ### 5.1 Lesson: DISTINCT and LIMIT
 
@@ -390,7 +388,7 @@ This would produce the following result:
 
 > :warning: The reason that it produces results starting from ID number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
 
-
+&nbsp;
 
 ### 5.2 Practice: Customer Copies
 
@@ -412,7 +410,7 @@ Write a query to show only the unique checks that are given to the customer.
 
 > 🔑 See [solution and explanation](./practice-solution-5.2.sql).
 
-
+&nbsp;
 
 ### 5.3 Practice: The Lucky Four
 
@@ -434,9 +432,7 @@ Select the first four participants from the given list.
 
 > 🔑 See [solution and explanation](./practice-solution-5.3.sql).
 
-<br />
-
-
+&nbsp;
 
 ### 6.1 Lesson: Sorting Results
 
@@ -503,7 +499,7 @@ As we have two Smiths, they will be ordered by the Age column in ascending order
 
 > :warning: The ORDER BY command starts ordering in the same sequence as the columns. It will order by the first column listed, then by the second, and so on.
 
-
+&nbsp;
 
 ### 6.2 Practice: Leaderboarding
 
@@ -525,9 +521,7 @@ Sort the players by losses to derive the leaderboard.
 
 > 🔑 See [solution and explanation](./practice-solution-6.2.sql).
 
-<br />
-
-
+&nbsp;
 
 ### 7.1 Lesson: Module 1 Quiz
 
@@ -569,9 +563,7 @@ _____ name;
 - [ ] ```IN```
 - [ ] ```ORDER BY```
 
-<br />
-
-
+&nbsp;
 
 ### 8 Code Project: Cakes
 
@@ -714,7 +706,7 @@ WHERE City = 'New York';
 
 > :warning: If your text contains an apostrophe (single quote), you should use two single quote characters to escape the apostrophe. For example: 'Can''t'.
 
-
+&nbsp;
 
 ### 9.2 Practice: Salary Range
 
@@ -734,9 +726,7 @@ Write a query to output the names of employees whose salaries are between 1500 a
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 10.1 Lesson: Filtering with AND, OR
 
@@ -829,7 +819,7 @@ Result:
 
 > :warning: You can nest as many conditions as you need.
 
-
+&nbsp;
 
 ### 10.2 Practice: Superheros
 
@@ -837,9 +827,7 @@ Result:
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 11.1 Lesson: IN, NOT IN Statements
 
@@ -902,15 +890,15 @@ Result:
 
 > :warning: The NOT IN operator allows you to exclude a list of specific values from the result set.
 
+&nbsp;
+
 ### 11.2 Practice: Get The Ball Rolling!
 
 #### Solution
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 12.1 Lesson: Custom Columns
 
@@ -976,7 +964,7 @@ Result:
 
 > :warning: Parentheses can be used to force an operation to take priority over any other operators. They are also used to improve code readability.
 
-
+&nbsp;
 
 ### 12.2 Practice: Annual Bonuses
 
@@ -984,9 +972,7 @@ Result:
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 13.1 Lesson: Functions
 
@@ -1060,7 +1046,7 @@ Result:
 
 > :warning: The sum of all of the employees' salaries is 31000.
 
-
+&nbsp;
 
 ### 13.2 Practice: Average Grades
 
@@ -1080,9 +1066,7 @@ Write a query to output the average of Sam's exam scores for the first semester.
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 14.1 Lesson: Subqueries
 
@@ -1132,7 +1116,7 @@ The same result will be produced.
 
 > :warning: Enclose the subquery in parentheses. Also, note that there is no semicolon at the end of the subquery, as it is part of our single query.
 
-
+&nbsp;
 
 ### 14.2 Practice: Let's Get Fit!
 
@@ -1140,9 +1124,7 @@ The same result will be produced.
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 15.1 Lesson: LIKE and MIN
 
@@ -1204,7 +1186,7 @@ Result:
 
 > :warning: All of the SQL functions can be combined together to create a single expression.
 
-<br />
+&nbsp;
 
 ### 15.2 Practice: Chocolate!
 
@@ -1212,7 +1194,7 @@ Result:
 
 > 🔑
 
-<br />
+&nbsp;
 
 ### 16.1 Lesson: Module 2 Quiz
 
@@ -1259,9 +1241,7 @@ FROM students)
 - [ ] ```VALUE```
 - [ ] ```AVG```
 
-<br />
-
-
+&nbsp;
 
 ### 17 Code Project: Apartments
 
@@ -1346,7 +1326,7 @@ The returned data shows customer orders and their corresponding amount.
 
 > :warning: Specify multiple table names in the FROM by comma-separating them.
 
-
+&nbsp;
 
 ### 18.2 Practice: Mentor And Apprentice
 
@@ -1354,9 +1334,7 @@ The returned data shows customer orders and their corresponding amount.
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 19.1 Lesson: Types of Join
 
@@ -1490,7 +1468,7 @@ The RIGHT JOIN returns all the rows from the right table (items), even if there 
 
 > :warning: There are other types of joins in the SQL language, but they are not supported by MySQL.
 
-
+&nbsp;
 
 ### 19.2 Practice: Sorting The Inventory
 
@@ -1498,9 +1476,7 @@ The RIGHT JOIN returns all the rows from the right table (items), even if there 
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 20.1 Lesson: UNION
 
@@ -1587,15 +1563,15 @@ The resulting table:
 
 > :warning: As you can see, the result set includes the duplicate rows as well.
 
+&nbsp;
+
 ### 20.2 Practice: Chess Tournament
 
 #### Solution
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 21.1 Lesson: The INSERT Statement
 
@@ -1679,7 +1655,7 @@ Result:
 
 > :warning: The Age column for that row automatically became 0, as that is its default value.
 
-
+&nbsp;
 
 ### 21.2 Practice: More Cars!
 
@@ -1687,9 +1663,7 @@ Result:
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 22.1 Lesson: UPDATE and DELETE Statements
 
@@ -1776,7 +1750,7 @@ Result:
 
 > :warning: If you omit the WHERE clause, all records in the table will be deleted! The DELETE statement removes the data from the table permanently.
 
-
+&nbsp;
 
 ### 22.2 Practice: Match The Requirements
 
@@ -1784,9 +1758,7 @@ Result:
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 23.1 Lesson: Creating a Table
 
@@ -1893,7 +1865,7 @@ Now, when we run the query, our table will be created in the database.
 
 > :warning: You can now use INSERT INTO queries to insert data into the table.
 
-
+&nbsp;
 
 ### 23.2 Practice: Video Game Scores
 
@@ -1901,9 +1873,7 @@ Now, when we run the query, our table will be created in the database.
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 24.1 Lesson: NOT NULL and AUTO_INCREMENT
 
@@ -1967,9 +1937,7 @@ Here is the result:
 
 > :warning: When inserting a new record into the Users table, it's not necessary to specify a value for the id column; a unique new value will be added automatically.
 
-<br />
-
-
+&nbsp;
 
 ### 25.1 Lesson: Alter, Drop, Rename a Table
 
@@ -2054,7 +2022,7 @@ RENAME TABLE People TO Users;
 
 > :warning: This will rename the table People to Users.
 
-
+&nbsp;
 
 ### 25.2 Practice: The Most Beautiful Locations
 
@@ -2062,9 +2030,7 @@ RENAME TABLE People TO Users;
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 26.1 Lesson: Views
 
@@ -2157,7 +2123,7 @@ DROP VIEW List;
 
 > :warning: It is sometimes easier to drop a table and recreate it instead of using the ALTER TABLE statement to change the table’s definition.
 
-
+&nbsp;
 
 ### 26.2 Practice: Social Media App Views
 
@@ -2165,9 +2131,7 @@ DROP VIEW List;
 
 > 🔑
 
-<br />
-
-
+&nbsp;
 
 ### 27.1 Lesson: Module 3 Quiz
 
@@ -2278,9 +2242,7 @@ _____ _____ temp
 - [ ] ```REMOVE```
 - [ ] ```DELETE```
 
-<br />
-
-
+&nbsp;
 
 ### 28 Code Project: Zoo
 
