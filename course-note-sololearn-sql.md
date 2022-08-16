@@ -144,7 +144,7 @@ To create a simple SELECT statement, specify the name(s) of the column(s) you ne
 
 **Syntax of the SQL SELECT Statement**:
 
-```
+```sql
 SELECT column_list
 FROM table_name
 ```
@@ -314,7 +314,7 @@ The SQL ```DISTINCT``` keyword is used in conjunction with SELECT to eliminate a
 
 The basic syntax of DISTINCT is as follows:
 
-```
+```sql
 SELECT DISTINCT column_name1, column_name2
 FROM table_name;
 ```
@@ -532,7 +532,7 @@ Question 01: A database consists of:
 - [ ] Columns
 
 Question 02: Drag and drop from the options below to list the table names.
-```
+```sql
 _____ TABLES;
 ```
 - [ ] ```SHOW```
@@ -546,7 +546,7 @@ Question 03: Why use primary keys?
 - [ ] Just for fun
 
 Question 04: Drag and drop from the options below to select distinct names from the ''students'' table, ordered by name.
-```
+```sql
 SELECT _____ name
 _____ students
 _____ name;
@@ -605,7 +605,7 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 The WHERE clause is used to extract only those records that fulfill a specified criterion.
 
 The syntax for the WHERE clause:
-```
+```sql
 SELECT column_list
 FROM table_name
 WHERE condition;
@@ -662,7 +662,7 @@ The BETWEEN operator selects values within a range. The first value must be lowe
 
 The syntax for the BETWEEN clause is as follows:
 
-```
+```sql
 SELECT column_name(s)
 FROM table_name
 WHERE column_name BETWEEN value1 AND value2;
@@ -1137,7 +1137,7 @@ The same result will be produced.
 
 The LIKE keyword is useful when specifying a search condition within your WHERE clause.
 
-```
+```sql
 SELECT column_name(s)
 FROM table_name
 WHERE column_name LIKE pattern;
@@ -1206,7 +1206,7 @@ Result:
 ### 16.1 Lesson: Module 2 Quiz
 
 Question 01: Fill in the blanks to select all values from the "students" table in which the field "university" equals "MIT".
-```
+```sql
 SELECT * FROM _____
 WHERE _____ = 'MIT';
 ```
@@ -1229,13 +1229,14 @@ Question 04: What is the name of the aggregate function for calculating the sum?
 - [ ] ```AVG```
 
 Question 05: Drag and drop from the options below to select name and age from ''students'', where age is greater than the average of all ages. Use a subquery to calculate the average value of age.
-```
+```sql
 _____ name, age
 FROM students
 _____ age >
 (SELECT _____(age)
 FROM students)
 ```
+
 - [ ] ```SELECT```
 - [ ] ```ORDER BY```
 - [ ] ```WHERE```
@@ -1368,7 +1369,7 @@ INNER JOIN is equivalent to JOIN. It returns rows when there is a match between 
 
 Syntax:
 
-```
+```sql
 SELECT column_name(s)
 FROM table1 INNER JOIN table2
 ON table1.column_name=table2.column_name;
@@ -1392,7 +1393,7 @@ This means that if there are no matches for the ON clause in the table on the ri
 
 The basic syntax of LEFT JOIN is as follows:
 
-```
+```sql
 SELECT table1.column1, table2.column2...
 FROM table1 LEFT OUTER JOIN table2
 ON table1.column_name = table2.column_name;
@@ -1448,7 +1449,7 @@ The RIGHT JOIN returns all rows from the right table, even if there are no match
 
 The basic syntax of RIGHT JOIN is as follows:
 
-```
+```sql
 SELECT table1.column1, table2.column2...
 FROM table1 RIGHT OUTER JOIN table2
 ON table1.column_name = table2.column_name;
@@ -1588,7 +1589,7 @@ SQL tables store data in rows, one row after another. The INSERT INTO statement 
 
 The SQL INSERT INTO syntax is as follows:
 
-```
+```sql
 INSERT INTO table_name
 VALUES (value1, value2, value3,...);
 ```
@@ -1623,7 +1624,7 @@ Result:
 
 Alternatively, you can specify the table's column names in the INSERT INTO statement:
 
-```
+```sql
 INSERT INTO table_name (column1, column2, column3, ...,columnN)
 VALUES (value1, value2, value3,...valueN);
 ```
@@ -1682,7 +1683,7 @@ The UPDATE statement allows us to alter data in the table.
 
 The basic syntax of an UPDATE query with a WHERE clause is as follows:
 
-```
+```sql
 UPDATE table_name
 SET column1=value1, column2=value2, ...
 WHERE condition;
@@ -1738,7 +1739,7 @@ Result:
 
 The DELETE statement is used to remove data from your table. DELETE queries work much like UPDATE queries.
 
-```
+```sql
 DELETE FROM table_name
 WHERE condition;
 ```
@@ -1787,7 +1788,7 @@ The CREATE TABLE statement is used to create a new table.
 
 The basic syntax for the CREATE TABLE statement is as follows:
 
-```
+```sql
 CREATE TABLE table_name
 (
 column_name1 data_type(size),
@@ -2064,7 +2065,7 @@ Views allow us to:
 
 To create a view:
 
-```
+```sql
 CREATE VIEW view_name AS
 SELECT column_name(s)
 FROM table_name
@@ -2110,7 +2111,7 @@ This would produce the following result:
 
 You can update a view by using the following syntax:
 
-```
+```sql
 CREATE OR REPLACE VIEW view_name AS
 SELECT column_name(s)
 FROM table_name
@@ -2161,7 +2162,7 @@ Question 01: Rearrange to select all student names and university names (use lef
 - [ ] ```LEFT OUTER JOIN universities```
 
 Question 02: Drag and drop from the options below to insert a data item into the "people" table.
-```
+```sql
 _____ _____ people
 _____ ('John Smith', '1', 22);
 ```
@@ -2174,7 +2175,7 @@ _____ ('John Smith', '1', 22);
 - [ ] ```TABLE```
 
 Question 03: Drag and drop from the options below to update the "people" table.
-```
+```sql
 _____ people
 _____ name='Jordan'
 WHERE id=147;
@@ -2187,7 +2188,7 @@ WHERE id=147;
 - [ ] ```INTO```
 
 Question 04: Fill in the blanks to create a table with two columns: "id" as a primary key integer, and "name" of type varchar.
-```
+```sql
 CREATE TABLE(
  id _____,
  name _____(30),
@@ -2214,7 +2215,7 @@ Question 06: Which choice is the correct command for changing the name of a tabl
 - [ ] ```CHANGE NAME```
 
 Question 07: Drag and drop from the options below to create a view named ''most_abs'' for the students with the greatest number of absences.
-```
+```sql
 _____ _____ most_abs _____
 SELECT id, name, absences
 FROM students
@@ -2230,7 +2231,7 @@ LIMIT 10;
 - [ ] ```SELECT```
 
 Question 08: Drag and drop from the options below to delete the table "students" from the database.
-```
+```sql
 _____ _____ _____
 ```
 
@@ -2242,7 +2243,7 @@ _____ _____ _____
 - [ ] ```students```
 
 Question 09: Drag and drop from the options below to remove the column "temp" from the table "students".
-```
+```sql
 _____ TABLE students
 _____ _____ temp
 ```
@@ -2298,7 +2299,7 @@ Add him to the Animals table.
 ### 29.1 Lesson: Challenge 1
 
 Question 01: In the "users" table of website logins and passwords, select the first 10 records in the table.
-```
+```sql
 SELECT * _____ users
 _____ 10
 ```
@@ -2309,7 +2310,7 @@ _____ 10
 - [ ] ```LIMIT```
 
 Question 02: Drag and drop from the options below to create the table "users" to store website user logins and passwords.
-```
+```sql
 _____ TABLE users (
 id INT NOT NULL
 AUTO_INCREMENT,
@@ -2330,7 +2331,7 @@ Question 03: Rearrange the query to select all students under age 21. The result
 - [ ] ```ORDER BY name```
 
 Question 04: Your boss asks you to print the list of the first one hundred customers who have balances greater than $1000 or who are from NY.
-```
+```sql
 SELECT * FROM customers
 _____ balance > 1000
 _____ city = 'NY'
@@ -2352,7 +2353,7 @@ Question 05: You need the ages of all bears and lions. The first query shows the
 - [ ] ```WHERE animal IN ('lion', 'crocodile')```
 
 Question 06: Drag and drop from the options below to create a list of customers in the form "name is from city".
-```
+```sql
 SELECT
 _____(name, ' is from ', _____)
 FROM customers;
@@ -2372,7 +2373,7 @@ Question 07: The zoo administration wants a list of animals whose age is greater
 - [ ] ```SELECT * FROM zoo```
 
 Question 08: There are many wolves in the zoo: black wolf, white wolf, lucky wolf, little wolf. They all have 'wolf' at the end of their names. Print the ages of all of the wolves.
-```
+```sql
 SELECT age FROM zoo
 WHERE animal LIKE '_____'
 ```
@@ -2384,7 +2385,7 @@ WHERE animal LIKE '_____'
 ### 30.1 Lesson: Challenge 2
 
 Question 01: Drag and drop from the options below to retrieve all students between the ages of 18 and 22.
-```
+```sql
 SELECT name _____ students
 WHERE age
 _____ 18 _____ 22;
@@ -2398,7 +2399,7 @@ _____ 18 _____ 22;
 - [ ] ```BETWEEN```
 
 Question 02: Drag and drop from the options below to update the "students" table to set Jake's university to MIT. His id is 682.
-```
+```sql
 _____ students
 SET university='_____'
 WHERE _____=682
@@ -2411,7 +2412,7 @@ WHERE _____=682
 - [ ] ```UPDATE```
 
 Question 03: When you inserted "elephant" as a new animal, you forgot to include the elephant's age. Correct this mistake by updating the "zoo" table.
-```
+```sql
 _____ zoo
 _____ age=14
 WHERE animal='elephant'
@@ -2424,7 +2425,7 @@ WHERE animal='elephant'
 - [ ] ```CHANGE```
 
 Question 04: Drag and drop from the options below to update the food_balance to 23 for animals whose age is greater than the average age of the animals.
-```
+```sql
 UPDATE zoo
 SET food_balance=23
 _____ age >
@@ -2448,7 +2449,7 @@ Question 05: You need your customer's names, along with the names of the cities 
 - [ ] ```SELECT customers.name, cities.name```
 
 Question 06: In the university's table containing student data, the students' last names have been omitted. Correct this by adding a new column to the table.
-```
+```sql
 _____ TABLE students
 _____ last_name VARCHAR(100);
 ```
@@ -2460,7 +2461,7 @@ _____ last_name VARCHAR(100);
 - [ ] ```ALTER```
 
 Question 07: Drag and drop from the options below to retrieve from MIT, Stanford, and Harvard the names of all students whose first name is Jake.
-```
+```sql
 SELECT name FROM students
 WHERE university
 _____ ('MIT', 'Stanford', 'Harvard')
@@ -2472,5 +2473,3 @@ _____ name='Jake';
 - [ ] ```FROM```
 - [ ] ```IN```
 - [ ] ```BETWEEN```
-
-<br />
