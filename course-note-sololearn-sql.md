@@ -527,6 +527,7 @@ Sort the players by losses to derive the leaderboard.
 ### 7.1 Lesson: Module 1 Quiz
 
 Question 01: A database consists of:
+
 - [ ] Tables
 - [ ] Rows
 - [ ] Columns
@@ -535,12 +536,14 @@ Question 02: Drag and drop from the options below to list the table names.
 ```sql
 _____ TABLES;
 ```
+
 - [ ] ```SHOW```
 - [ ] ```LIMIT```
 - [ ] ```VIEW```
 - [ ] ```SELECT```
 
 Question 03: Why use primary keys?
+
 - [ ] It's an SQL standard
 - [ ] To guarantee the uniqueness of a row
 - [ ] Just for fun
@@ -551,6 +554,7 @@ SELECT _____ name
 _____ students
 _____ name;
 ```
+
 - [ ] ```BY```
 - [ ] ```LIMIT```
 - [ ] ```FROM```
@@ -1212,17 +1216,20 @@ WHERE _____ = 'MIT';
 ```
 
 Question 02: Rearrange the code to select students from MIT and Stanford, and order the results by the "university" column.
+
 - [ ] ```FROM students WHERE university```
 - [ ] ```SELECT name, university```
 - [ ] ```ORDER BY university;```
 - [ ] ```IN('Stanford', 'MIT')```
 
 Question 03: Which keyword is the correct one for custom columns?
+
 - [ ] ```SIMILAR```
 - [ ] ```LIKE```
 - [ ] ```AS```
 
 Question 04: What is the name of the aggregate function for calculating the sum?
+
 - [ ] ```AGGR```
 - [ ] ```SUM```
 - [ ] ```SQRT```
@@ -1830,6 +1837,7 @@ Data types specify the type of data for a particular column.
 If a column called "LastName" is going to hold names, then that particular column should have a "varchar" (variable-length character) data type.
 
 The most common data types:
+
 - Numeric
   - INT - A normal-sized integer that can be signed or unsigned.
   - FLOAT(M,D) - A floating-point number that cannot be unsigned. You can optionally define the display length (M) and the number of decimals (D).
