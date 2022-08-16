@@ -82,7 +82,7 @@ SQL can:
 
 ### 2.1 Lesson: SQL Statements: SELECT
 
-#### Basic SQL Commands
+#### Basic SQL Commands 1
 
 The SQL ```SHOW``` statement displays information contained in the database and its tables. This helpful tool lets you keep track of your database contents and remind yourself about the structure of your tables.
 
@@ -96,7 +96,7 @@ Throughout the tutorial we will be using the MySQL engine and the PHPMyAdmin too
 
 > :warning: The easiest way to get MySQL and PHPMyAdmin is to install free tools like XAMPP or WAMP, which include all necessary installers.
 
-#### Basic SQL Commands
+#### Basic SQL Commands 2
 
 The ```SHOW TABLES``` command is used to display all of the tables in the currently selected MySQL database.
 
@@ -106,7 +106,7 @@ The ```SHOW TABLES``` command is used to display all of the tables in the curren
 
 > :warning: For our example, we have created a database, my_database, with a table called customers.
 
-#### Basic SQL Commands
+#### Basic SQL Commands 3
 
 ```SHOW COLUMNS``` displays information about the columns in a given table.
 
@@ -339,7 +339,7 @@ This would produce the following result. Duplicate entries have been removed.
 
 > :warning: The DISTINCT keyword only fetches the unique values.
 
-#### The LIMIT Keyword
+#### The LIMIT Keyword 1
 
 By default, all results that satisfy the conditions specified in the SQL statement are returned. However, sometimes we need to retrieve just a subset of records. In MySQL, this is accomplished by using the LIMIT keyword.
 
@@ -366,7 +366,7 @@ This would produce the following result:
 
 > :warning: By default, all results that satisfy the conditions specified in the SQL statement are returned.
 
-#### The LIMIT Keyword
+#### The LIMIT Keyword 2
 
 You can also pick up a set of records from a particular offset.
 
@@ -838,7 +838,7 @@ Result:
 
 ### 11.1 Lesson: IN, NOT IN Statements
 
-#### The IN Operator
+#### The IN Operator 1
 
 The IN operator is used when you want to compare a column with more than one value.
 
@@ -861,7 +861,7 @@ Result:
 
 > :warning: The IN operator is used when you want to compare a column with more than one value.
 
-#### The IN Operator
+#### The IN Operator 2
 
 You can achieve the same result with a single IN condition, instead of the multiple OR conditions:
 
@@ -1081,7 +1081,7 @@ Write a query to output the average of Sam's exam scores for the first semester.
 
 ### 14.1 Lesson: Subqueries
 
-#### Subqueries
+#### Subqueries 1
 
 A subquery is a query within another query.
 
@@ -1109,7 +1109,7 @@ Result:
 
 > :warning: The DESC keyword sorts results in descending order. Similarly, ASC sorts the results in ascending order.
 
-#### Subqueries
+#### Subqueries 2
 
 A single subquery will return the same result more easily.
 
@@ -1290,7 +1290,7 @@ Write a query to output the apartments whose prices are greater than the average
 
 ### 18.1 Lesson: Joining Tables
 
-#### Joining Tables
+#### Joining Tables 1
 
 All of the queries shown up until now have selected from just one table at a time.
 
@@ -1310,7 +1310,7 @@ The orders table stores information about individual orders with their correspon
 
 > :warning: In SQL, "joining tables" means combining data from two or more tables. A table join creates a temporary table showing the data from the joined tables.
 
-#### Joining Tables
+#### Joining Tables 2
 
 Rather than storing the customer name in both tables, the orders table contains a reference to the customer ID that appears in the customers table. This approach is more efficient, as opposed to storing the same text values in both tables.
 
@@ -1318,7 +1318,7 @@ In order to be able to select the corresponding data from both tables, we will n
 
 > :warning: Tap continue to see how!
 
-#### Joining Tables
+#### Joining Tables 3
 
 To join the two tables, specify them as a comma-separated list in the FROM clause:
 
@@ -1596,7 +1596,7 @@ The resulting table:
 
 ### 21.1 Lesson: The INSERT Statement
 
-#### Inserting Data
+#### Inserting Data 1
 
 SQL tables store data in rows, one row after another. The INSERT INTO statement is used to add new rows of data to a table in the database.
 
@@ -1633,7 +1633,7 @@ Result:
 
 > :warning: When inserting records into a table using the SQL INSERT statement, you must provide a value for every column that does not have a default value, or does not support NULL.
 
-#### Inserting Data
+#### Inserting Data 2
 
 Alternatively, you can specify the table's column names in the INSERT INTO statement:
 
@@ -1658,7 +1658,7 @@ This will insert the data into the corresponding columns:
 
 > :warning: You can specify your own column order, as long as the values are specified in the same order as the columns.
 
-#### Inserting Data
+#### Inserting Data 3
 
 It is also possible to insert data into specific columns only.
 
@@ -1690,7 +1690,7 @@ Result:
 
 ### 22.1 Lesson: UPDATE and DELETE Statements
 
-#### Updating Data
+#### Updating Data 1
 
 The UPDATE statement allows us to alter data in the table.
 
@@ -1706,7 +1706,7 @@ You specify the column and its new value in a comma-separated list after the SET
 
 > :warning: If you omit the WHERE clause, all records in the table will be updated!
 
-#### Updating Data
+#### Updating Data 2
 
 Consider the following table called "Employees":
 
@@ -1797,7 +1797,7 @@ The CREATE TABLE statement is used to create a new table.
 
 > :warning: Creating a basic table involves naming the table and defining its columns and each column's data type.
 
-#### Creating a Table
+#### Creating a Table 1
 
 The basic syntax for the CREATE TABLE statement is as follows:
 
@@ -1818,7 +1818,7 @@ columnN data_type(size)
 
 > :warning: Note the parentheses in the syntax.
 
-#### Creating a Table
+#### Creating a Table 2
 
 Assume that you want to create a table called "Users" that consists of four columns: UserID, LastName, FirstName, and City.
 
