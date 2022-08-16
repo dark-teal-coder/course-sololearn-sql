@@ -83,9 +83,7 @@ SQL can:
 >
 > Most SQL database programs have their own proprietary extensions in addition to the SQL standard, but all of them support the major commands.
 
-<br />
-
-
+&nbsp;
 
 ### 2.1 Lesson: SQL Statements: SELECT
 
@@ -1210,7 +1208,7 @@ Result:
 
 > :warning: All of the SQL functions can be combined together to create a single expression.
 
-
+<br />
 
 ### 15.2 Practice: Chocolate!
 
@@ -1219,8 +1217,6 @@ Result:
 > 🔑
 
 <br />
-
-
 
 ### 16.1 Lesson: Module 2 Quiz
 
