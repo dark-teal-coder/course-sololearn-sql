@@ -65,6 +65,7 @@ Once you understand what a database is, understanding SQL is easy. **SQL** stand
 **MySQL** is a **program** that understands **SQL**.
 
 SQL can:
+
 - insert, update, or delete records in a database.
 - create new databases, tables, stored procedures and views.
 - retrieve data from a database, etc.
@@ -1350,6 +1351,7 @@ ORDER BY ct.ID;
 #### Types of Join
 
 The following are the types of JOIN that can be used in MySQL:
+
 - INNER JOIN
 - LEFT JOIN
 - RIGHT JOIN
@@ -2047,6 +2049,7 @@ In SQL, a VIEW is a virtual table that is based on the result-set of an SQL stat
 A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
 
 Views allow us to:
+
 - Structure data in a way that users or classes of users find natural or intuitive.
 - Restrict access to the data in such a way that a user can see and (sometimes) modify exactly what they need and no more.
 - Summarize data from various tables and use it to generate reports.
@@ -2143,6 +2146,7 @@ DROP VIEW List;
 ### 27.1 Lesson: Module 3 Quiz
 
 Question 01: Rearrange to select all student names and university names (use left join to show all student names).
+
 - [ ] ```FROM students```
 - [ ] ```SELECT students.names, university.names```
 - [ ] ```ON students.university id=universities.id```
@@ -2153,6 +2157,7 @@ Question 02: Drag and drop from the options below to insert a data item into the
 _____ _____ people
 _____ ('John Smith', '1', 22);
 ```
+
 - [ ] ```VALUES```
 - [ ] ```ON```
 - [ ] ```INSERT```
@@ -2166,6 +2171,7 @@ _____ people
 _____ name='Jordan'
 WHERE id=147;
 ```
+
 - [ ] ```UPDATE```
 - [ ] ```CREATE```
 - [ ] ```INSERT```
@@ -2180,17 +2186,20 @@ CREATE TABLE(
  PRIMARY KEY (_____)
 );
 ```
+
 - [ ] ```int```
 - [ ] ```id```
 - [ ] ```varchar```
 
 Question 05: Rearrange to remove the column "age" from the "people" table.
+
 - [ ] ```age```
 - [ ] ```people```
 - [ ] ```DROP COLUMN```
 - [ ] ```ALTER TABLE```
 
 Question 06: Which choice is the correct command for changing the name of a table?
+
 - [ ] ```MODIFY```
 - [ ] ```RENAME```
 - [ ] ```SELECT```
@@ -2204,6 +2213,7 @@ FROM students
 ORDER BY absences DESC
 LIMIT 10;
 ```
+
 - [ ] ```TABLE```
 - [ ] ```CREATE```
 - [ ] ```AS```
@@ -2215,6 +2225,7 @@ Question 08: Drag and drop from the options below to delete the table "students"
 ```
 _____ _____ _____
 ```
+
 - [ ] ```DELETE```
 - [ ] ```DROP```
 - [ ] ```DATABASE```
@@ -2227,6 +2238,7 @@ Question 09: Drag and drop from the options below to remove the column "temp" fr
 _____ TABLE students
 _____ _____ temp
 ```
+
 - [ ] ```ALTER```
 - [ ] ```REPLACE```
 - [ ] ```COLUMN```
@@ -2280,6 +2292,7 @@ Question 01: In the "users" table of website logins and passwords, select the fi
 SELECT * _____ users
 _____ 10
 ```
+
 - [ ] ```AT```
 - [ ] ```FROM```
 - [ ] ```RECORDS```
@@ -2293,12 +2306,14 @@ AUTO_INCREMENT,
 login _____(100),
 password VARCHAR(100))
 ```
+
 - [ ] ```TABLE```
 - [ ] ```CREATE```
 - [ ] ```LOGIN```
 - [ ] ```VARCHAR```
 
 Question 03: Rearrange the query to select all students under age 21. The result should be sorted according to the students' names.
+
 - [ ] ```FROM students```
 - [ ] ```WHERE age < 21```
 - [ ] ```SELECT *```
@@ -2311,6 +2326,7 @@ _____ balance > 1000
 _____ city = 'NY'
 _____ 100
 ```
+
 - [ ] ```WHERE```
 - [ ] ```AND```
 - [ ] ```OR```
@@ -2318,6 +2334,7 @@ _____ 100
 - [ ] ```LIMIT```
 
 Question 05: You need the ages of all bears and lions. The first query shows the ages of bears and birds from zoo1, the other shows the ages of lions and crocodiles from zoo2.
+
 - [ ] ```SELECT age FROM zoo1```
 - [ ] ```UNION```
 - [ ] ```WHERE animal IN ('bear', 'bird')```
@@ -2330,6 +2347,7 @@ SELECT
 _____(name, ' is from ', _____)
 FROM customers;
 ```
+
 - [ ] ```AVG```
 - [ ] ```city```
 - [ ] ```CONCAT```
@@ -2337,6 +2355,7 @@ FROM customers;
 - [ ] ```merge```
 
 Question 07: The zoo administration wants a list of animals whose age is greater than the average age of all of the animals.
+
 - [ ] ```WHERE age >```
 - [ ] ```FROM zoo)```
 - [ ] ```(SELECT AVG(age)```
@@ -2360,6 +2379,7 @@ SELECT name _____ students
 WHERE age
 _____ 18 _____ 22;
 ```
+
 - [ ] ```ALL```
 - [ ] ```AND```
 - [ ] ```FROM```
@@ -2373,6 +2393,7 @@ _____ students
 SET university='_____'
 WHERE _____=682
 ```
+
 - [ ] ```id```
 - [ ] ```Jake```
 - [ ] ```MIT```
@@ -2385,6 +2406,7 @@ _____ zoo
 _____ age=14
 WHERE animal='elephant'
 ```
+
 - [ ] ```ASSIGN```
 - [ ] ```MODIFY```
 - [ ] ```UPDATE```
@@ -2399,6 +2421,7 @@ _____ age >
 (SELECT _____(age)
 FROM _____);
 ```
+
 - [ ] ```AVG```
 - [ ] ```WHERE```
 - [ ] ```age```
@@ -2407,6 +2430,7 @@ FROM _____);
 - [ ] ```zoo```
 
 Question 05: You need your customer's names, along with the names of the cities in which they live. The names of the cities are stored in a separate table called "cities".
+
 - [ ] ```FROM customers```
 - [ ] ```RIGHT```
 - [ ] ```ON cities.id=customers.city_id;```
@@ -2418,6 +2442,7 @@ Question 06: In the university's table containing student data, the students' la
 _____ TABLE students
 _____ last_name VARCHAR(100);
 ```
+
 - [ ] ```CHANGE```
 - [ ] ```CREATE```
 - [ ] ```ADD```
@@ -2431,6 +2456,7 @@ WHERE university
 _____ ('MIT', 'Stanford', 'Harvard')
 _____ name='Jake';
 ```
+
 - [ ] ```AND```
 - [ ] ```OR```
 - [ ] ```FROM```
