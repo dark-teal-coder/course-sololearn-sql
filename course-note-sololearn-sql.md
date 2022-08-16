@@ -588,7 +588,7 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 
 ## Filtering, Functions, Subqueries
 
-
+&nbsp;
 
 ### 9.1 Lesson: The WHERE Statement
 
@@ -1260,7 +1260,7 @@ Write a query to output the apartments whose prices are greater than the average
 
 ## JOIN, Table Operations
 
-
+&nbsp;
 
 ### 18.1 Lesson: Joining Tables
 
@@ -2277,7 +2277,7 @@ Add him to the Animals table.
 
 ## Challenges
 
-
+&nbsp;
 
 ### 29.1 Lesson: Challenge 1
 
