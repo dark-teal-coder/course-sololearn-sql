@@ -1,12 +1,9 @@
 # SQL
 
 This course covers an array of SQL-related topics, such as retrieving, updating and filtering data; functions and subqueries; creating & updating tables; & many more!
-
-<br />
+1
 &nbsp;
-<br />
-<br />
-
+2
 ## Basic Concepts
 
 <br />
