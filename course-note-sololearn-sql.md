@@ -76,6 +76,7 @@ SQL can:
 
 > :warning: 
 > SQL is an ANSI (American National Standards Institute) standard, but there are different versions of the SQL language. 
+>
 > Most SQL database programs have their own proprietary extensions in addition to the SQL standard, but all of them support the major commands.
 
 <br />
