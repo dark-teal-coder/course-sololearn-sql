@@ -177,9 +177,7 @@ Result:
 
 > :warning: A SELECT statement retrieves zero or more rows from one or more database tables.
 
-<br />
-
-
+&nbsp;
 
 ### 3.1 Lesson: SQL Syntax Rules
 
@@ -242,9 +240,9 @@ However, it is recommended to avoid unnecessary white spaces and lines.
 
 > :warning: Combined with proper spacing and indenting, breaking up the commands into logical lines will make your SQL statements much easier to read and maintain.
 
-<br />
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 ### 4.1 Lesson: Selecting Multiple Columns
 
