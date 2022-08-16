@@ -84,6 +84,8 @@ SQL can:
 > Most SQL database programs have their own proprietary extensions in addition to the SQL standard, but all of them support the major commands.
 
 &nbsp;
+&nbsp;
+&nbsp;
 
 ### 2.1 Lesson: SQL Statements: SELECT
 
