@@ -19,7 +19,7 @@ A database is made up of tables that store relevant information.
 For example, you would use a database, if you were to create a website like YouTube, which contains a lot of information like videos, usernames, passwords, comments.
 
 <p align="center">
-        <img src="./images/1060-01-01-p01-a.png" alt="./images/1060-01-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-01-01-p01-a.png" alt="./images/1060-01-01-p01-a.png" width="50%" height="50%">
 </p>
 
 > :warning: In this course we will learn how to create and query databases using SQL!
@@ -35,7 +35,7 @@ First, we would set up columns with the titles *FirstName*, *LastName* and *Tele
 Each table includes its own set of fields, based on the data it will store.
 
 <p align="center">
-        <img src="./images/1060-01-01-p02-a.png" alt="./images/1060-01-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-01-01-p02-a.png" alt="./images/1060-01-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: A table has a specified number of columns but can have any number of rows.
@@ -52,7 +52,7 @@ The primary key's main features:
 For example, our table contains a record for each name in a phone book. The unique **ID** number would be a good choice for a primary key in the table, as there is always the chance for more than one person to have the same name.
 
 <p align="center">
-        <img src="./images/1060-01-01-p03-a.png" alt="./images/1060-01-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-01-01-p03-a.png" alt="./images/1060-01-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: <br /> - Tables are limited to ONE primary key each. <br /> - The primary key's value must be different for each row.
@@ -96,7 +96,7 @@ Throughout the tutorial we will be using the MySQL engine and the PHPMyAdmin too
 The ```SHOW TABLES``` command is used to display all of the tables in the currently selected MySQL database.
 
 <p align="center">
-  <img src="./images/1060-02-01-p02-a.png" alt="./images/1060-02-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-02-01-p02-a.png" alt="./images/1060-02-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: For our example, we have created a database, my_database, with a table called customers.
@@ -114,7 +114,7 @@ SHOW COLUMNS FROM customers
 Result:
 
 <p align="center">
-  <img src="./images/1060-02-01-p03-a.png" alt="./images/1060-02-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-02-01-p03-a.png" alt="./images/1060-02-01-p03-a.png" width="50%" height="50%">
 </p>
 
 SHOW COLUMNS displays the following values for each table column:
@@ -150,7 +150,7 @@ FROM table_name
 **Below is the data from our customers table:**
 
 <p align="center">
-  <img src="./images/1060-02-01-p04-a.png" alt="./images/1060-02-01-p04-a.png" width="50%" height="50%">
+    <img src="./images/1060-02-01-p04-a.png" alt="./images/1060-02-01-p04-a.png" width="50%" height="50%">
 </p>
 
 The following SQL statement selects the FirstName from the customers table:
@@ -162,7 +162,7 @@ SELECT FirstName FROM customers
 Result:
 
 <p align="center">
-  <img src="./images/1060-02-01-p04-b.png" alt="./images/1060-02-01-p04-b.png" width="50%" height="50%">
+    <img src="./images/1060-02-01-p04-b.png" alt="./images/1060-02-01-p04-b.png" width="50%" height="50%">
 </p>
 
 > :warning: A SELECT statement retrieves zero or more rows from one or more database tables.
@@ -187,11 +187,11 @@ SELECT City FROM customers;
 Result:
 
 <p align="center">
-  <img src="./images/1060-03-01-p01-a.png" alt="./images/1060-03-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-03-01-p01-a.png" alt="./images/1060-03-01-p01-a.png" width="50%" height="50%">
 </p>
 
 <p align="center">
-  <img src="./images/1060-03-01-p01-b.png" alt="./images/1060-03-01-p01-b.png" width="50%" height="50%">
+    <img src="./images/1060-03-01-p01-b.png" alt="./images/1060-03-01-p01-b.png" width="50%" height="50%">
 </p>
 
 > :warning: Remember to end each SQL statement with a semicolon to indicate that the statement is complete and ready to be interpreted. <br /> In this tutorial, we will use semicolon at the end of each SQL statement.
@@ -250,7 +250,7 @@ FROM customers;
 Result:
 
 <p align="center">
-  <img src="./images/1060-04-01-p01-a.png" alt="./images/1060-04-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-04-01-p01-a.png" alt="./images/1060-04-01-p01-a.png" width="50%" height="50%">
 </p>
 
 > :warning: Do not put a comma after the last column name.
@@ -268,7 +268,7 @@ SELECT * FROM customers;
 Result:
 
 <p align="center">
-  <img src="./images/1060-04-01-p02-a.png" alt="./images/1060-04-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-04-01-p02-a.png" alt="./images/1060-04-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: In SQL, the asterisk means all.
@@ -284,7 +284,7 @@ When buying food, it is important to make sure it is fresh and not expired.
 You are given the following 'Products' list:
 
 <p align="center">
-  <img src="./images/1060-04-02-a.png" alt="./images/1060-04-02-a.png" width="50%" height="50%">
+    <img src="./images/1060-04-02-a.png" alt="./images/1060-04-02-a.png" width="50%" height="50%">
 </p>
 
 Write a query to select the ProductName, ProductionDate and ExpirationDate.
@@ -317,7 +317,7 @@ FROM table_name;
 See the customers table below:
 
 <p align="center">
-  <img src="./images/1060-05-01-p01-a.png" alt="./images/1060-05-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-05-01-p01-a.png" alt="./images/1060-05-01-p01-a.png" width="50%" height="50%">
 </p>
 
 Note that there are duplicate City names. The following SQL statement selects only distinct values from the City column:
@@ -329,7 +329,7 @@ SELECT DISTINCT City FROM customers;
 This would produce the following result. Duplicate entries have been removed.
 
 <p align="center">
-  <img src="./images/1060-05-01-p01-a.png" alt="./images/1060-05-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-05-01-p01-a.png" alt="./images/1060-05-01-p01-a.png" width="50%" height="50%">
 </p>
 
 > :warning: The DISTINCT keyword only fetches the unique values.
@@ -356,7 +356,7 @@ FROM customers LIMIT 5;
 This would produce the following result:
 
 <p align="center">
-  <img src="./images/1060-05-01-p02-a.png" alt="./images/1060-05-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-05-01-p02-a.png" alt="./images/1060-05-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: By default, all results that satisfy the conditions specified in the SQL statement are returned.
@@ -375,7 +375,7 @@ FROM customers OFFSET 3 LIMIT 4;
 This would produce the following result:
 
 <p align="center">
-  <img src="./images/1060-05-01-p03-a.png" alt="./images/1060-05-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-05-01-p03-a.png" alt="./images/1060-05-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: The reason that it produces results starting from ID number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
@@ -391,7 +391,7 @@ At the conclusion of a bank transaction, 6 checks are printed -- 3 originals for
 Here is the list of all the checks named Operation
 
 <p align="center">
-  <img src="./images/1060-05-02-a.png" alt="./images/1060-05-02-a.png" width="50%" height="50%">
+    <img src="./images/1060-05-02-a.png" alt="./images/1060-05-02-a.png" width="50%" height="50%">
 </p>
 
 Write a query to show only the unique checks that are given to the customer.
@@ -413,7 +413,7 @@ Write a query to show only the unique checks that are given to the customer.
 Here is the Participants table:
 
 <p align="center">
-  <img src="./images/1060-05-03-a.png" alt="./images/1060-05-03-a.png" width="50%" height="50%">
+    <img src="./images/1060-05-03-a.png" alt="./images/1060-05-03-a.png" width="50%" height="50%">
 </p>
 
 Select the first four participants from the given list.
@@ -459,7 +459,7 @@ ORDER BY FirstName;
 Result:
 
 <p align="center">
-  <img src="./images/1060-06-01-p02-a.png" alt="./images/1060-06-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-06-01-p02-a.png" alt="./images/1060-06-01-p02-a.png" width="50%" height="50%">
 </p>
 
 As you can see, the rows are ordered alphabetically by the FirstName column.
@@ -473,7 +473,7 @@ ORDER BY can sort retrieved data by multiple columns. When using ORDER BY with m
 Here is the customers table, showing the following records:
 
 <p align="center">
-  <img src="./images/1060-06-01-p03-a.png" alt="./images/1060-06-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-06-01-p03-a.png" alt="./images/1060-06-01-p03-a.png" width="50%" height="50%">
 </p>
 
 To order by LastName and Age:
@@ -486,7 +486,7 @@ ORDER BY LastName, Age;
 This ORDER BY statement returns the following result:
 
 <p align="center">
-  <img src="./images/1060-06-01-p03-b.png" alt="./images/1060-06-01-p03-b.png" width="50%" height="50%">
+    <img src="./images/1060-06-01-p03-b.png" alt="./images/1060-06-01-p03-b.png" width="50%" height="50%">
 </p>
 
 As we have two Smiths, they will be ordered by the Age column in ascending order.
@@ -504,7 +504,7 @@ Six players have competed in a chess tournament and their scores have been talli
 Here is the table of Players:
 
 <p align="center">
-  <img src="./images/1060-06-02-a.png" alt="./images/1060-06-02-a.png" width="50%" height="50%">
+    <img src="./images/1060-06-02-a.png" alt="./images/1060-06-02-a.png" width="50%" height="50%">
 </p>
 
 Sort the players by losses to derive the leaderboard.
@@ -566,7 +566,7 @@ A local bakery creates unique cake sets. Each cake set contains three different 
 Here is the cakes table:
 
 <p align="center">
-  <img src="./images/1060-08-a.png" alt="./images/1060-08-a.png" width="50%" height="50%">
+    <img src="./images/1060-08-a.png" alt="./images/1060-08-a.png" width="50%" height="50%">
 </p>
 
 Тoday a customer want a cake set that has minimal calories.
@@ -607,7 +607,7 @@ WHERE condition;
 Consider the following table:
 
 <p align="center">
-  <img src="./images/1060-09-01-p01-a.png" alt="./images/1060-09-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-09-01-p01-a.png" alt="./images/1060-09-01-p01-a.png" width="50%" height="50%">
 </p>
 
 In the above table, to SELECT a specific record:
@@ -619,7 +619,7 @@ WHERE ID = 7;
 Result:
 
 <p align="center">
-  <img src="./images/1060-09-01-p01-b.png" alt="./images/1060-09-01-p01-b.png" width="50%" height="50%">
+    <img src="./images/1060-09-01-p01-b.png" alt="./images/1060-09-01-p01-b.png" width="50%" height="50%">
 </p>
 
 > :warning: The WHERE clause is used to extract only those records that fulfill a specified criterion.
@@ -631,7 +631,7 @@ Comparison Operators and Logical Operators are used in the WHERE clause to filte
 The following comparison operators can be used in the WHERE clause:
 
 <p align="center">
-  <img src="./images/1060-09-01-p02-a.png" alt="./images/1060-09-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-09-01-p02-a.png" alt="./images/1060-09-01-p02-a.png" width="50%" height="50%">
 </p>
 
 For example, we can display all customers names listed in our table, with the exception of the one with ID 5.
@@ -644,7 +644,7 @@ WHERE ID != 5;
 Result:
 
 <p align="center">
-  <img src="./images/1060-09-01-p02-b.png" alt="./images/1060-09-01-p02-b.png" width="50%" height="50%">
+    <img src="./images/1060-09-01-p02-b.png" alt="./images/1060-09-01-p02-b.png" width="50%" height="50%">
 </p>
 
 > :warning: As you can see, the record with ID=5 is excluded from the list.
@@ -671,7 +671,7 @@ WHERE ID BETWEEN 3 AND 7;
 Result:
 
 <p align="center">
-  <img src="./images/1060-09-01-p03-a.png" alt="./images/1060-09-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-09-01-p03-a.png" alt="./images/1060-09-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: As you can see, the lower bound and upper bound are both included in the range.
@@ -689,7 +689,7 @@ WHERE City = 'New York';
 ```
 
 <p align="center">
-  <img src="./images/1060-09-01-p04-a.png" alt="./images/1060-09-01-p04-a.png" width="50%" height="50%">
+    <img src="./images/1060-09-01-p04-a.png" alt="./images/1060-09-01-p04-a.png" width="50%" height="50%">
 </p>
 
 > :warning: If your text contains an apostrophe (single quote), you should use two single quote characters to escape the apostrophe. For example: 'Can''t'.
@@ -703,7 +703,7 @@ WHERE City = 'New York';
 You are given the following table named staff:
 
 <p align="center">
-  <img src="./images/1060-09-02-a.png" alt="./images/1060-09-02-a.png" width="50%" height="50%">
+    <img src="./images/1060-09-02-a.png" alt="./images/1060-09-02-a.png" width="50%" height="50%">
 </p>
 
 Write a query to output the names of employees whose salaries are between 1500 and 1900.
@@ -727,7 +727,7 @@ Logical operators can be used to combine two Boolean values and return a result 
 The following operators can be used:
 
 <p align="center">
-  <img src="./images/1060-10-01-p01-a.png" alt="./images/1060-10-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-10-01-p01-a.png" alt="./images/1060-10-01-p01-a.png" width="50%" height="50%">
 </p>
 
 When retrieving data using a SELECT statement, use logical operators in the WHERE clause to combine multiple conditions.
@@ -735,7 +735,7 @@ When retrieving data using a SELECT statement, use logical operators in the WHER
 If you want to select rows that satisfy all of the given conditions, use the logical operator, AND.
 
 <p align="center">
-  <img src="./images/1060-10-01-p01-b.png" alt="./images/1060-10-01-p01-b.png" width="50%" height="50%">
+    <img src="./images/1060-10-01-p01-b.png" alt="./images/1060-10-01-p01-b.png" width="50%" height="50%">
 </p>
 
 To find the names of the customers between 30 to 40 years of age, set up the query as seen here:
@@ -749,7 +749,7 @@ WHERE Age >= 30 AND Age <= 40;
 This results in the following output:
 
 <p align="center">
-  <img src="./images/1060-10-01-p01-c.png" alt="./images/1060-10-01-p01-c.png" width="50%" height="50%">
+    <img src="./images/1060-10-01-p01-c.png" alt="./images/1060-10-01-p01-c.png" width="50%" height="50%">
 </p>
 
 > :warning: You can combine as many conditions as needed to return the desired results.
@@ -761,7 +761,7 @@ If you want to select rows that satisfy at least one of the given conditions, yo
 The following table describes how the logical OR operator functions:
 
 <p align="center">
-  <img src="./images/1060-10-01-p02-a.png" alt="1060-10-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-10-01-p02-a.png" alt="1060-10-01-p02-a.png" width="50%" height="50%">
 </p>
 
 For example, if you want to find the customers who live either in New York or Chicago, the query would look like this:
@@ -774,7 +774,7 @@ WHERE City = 'New York' OR City = 'Chicago';
 Result:
 
 <p align="center">
-  <img src="./images/1060-10-01-p02-b.png" alt="1060-10-01-p02-b.png" width="50%" height="50%">
+    <img src="./images/1060-10-01-p02-b.png" alt="1060-10-01-p02-b.png" width="50%" height="50%">
 </p>
 
 > :warning: You can OR two or more conditions.
@@ -790,7 +790,7 @@ When combining these conditions, it is important to use parentheses, so that the
 Consider the following table:
 
 <p align="center">
-  <img src="./images/1060-10-01-p03-a.png" alt="1060-10-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-10-01-p03-a.png" alt="1060-10-01-p03-a.png" width="50%" height="50%">
 </p>
 
 The statement below selects all customers from the city "New York" AND with the age equal to "30" OR “35":
@@ -804,7 +804,7 @@ AND (Age=30 OR Age=35);
 Result:
 
 <p align="center">
-  <img src="./images/1060-10-01-p03-b.png" alt="1060-10-01-p03-b.png" width="50%" height="50%">
+    <img src="./images/1060-10-01-p03-b.png" alt="1060-10-01-p03-b.png" width="50%" height="50%">
 </p>
 
 > :warning: You can nest as many conditions as you need.
@@ -841,7 +841,7 @@ OR City = 'Chicago';
 Result:
 
 <p align="center">
-  <img src="./images/1060-11-01-p01-a.png" alt="1060-11-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-11-01-p01-a.png" alt="1060-11-01-p01-a.png" width="50%" height="50%">
 </p>
 
 > :warning: The IN operator is used when you want to compare a column with more than one value.
@@ -858,7 +858,7 @@ WHERE City IN ('New York', 'Los Angeles', 'Chicago');
 This would also produce the same result:
 
 <p align="center">
-  <img src="./images/1060-11-01-p02-a.png" alt="1060-11-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-11-01-p02-a.png" alt="1060-11-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: Note the use of parentheses in the syntax.
@@ -877,7 +877,7 @@ WHERE City NOT IN ('New York', 'Los Angeles', 'Chicago');
 Result:
 
 <p align="center">
-  <img src="./images/1060-11-01-p03-a.png" alt="1060-11-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-11-01-p03-a.png" alt="1060-11-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: The NOT IN operator allows you to exclude a list of specific values from the result set.
@@ -907,7 +907,7 @@ SELECT CONCAT(FirstName, ', ' , City) FROM customers;
 Result:
 
 <p align="center">
-  <img src="./images/1060-12-01-p01-a.png" alt="1060-12-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-12-01-p01-a.png" alt="1060-12-01-p01-a.png" width="50%" height="50%">
 </p>
 
 > :warning: The CONCAT() function takes two or more parameters.
@@ -926,7 +926,7 @@ FROM customers;
 And when you run the query, the column name appears to be changed.
 
 <p align="center">
-  <img src="./images/1060-12-01-p02-a.png" alt="1060-12-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-12-01-p02-a.png" alt="1060-12-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: A concatenation results in a new column.
@@ -938,7 +938,7 @@ Arithmetic operators perform arithmetical operations on numeric operands. The Ar
 The following employees table shows employee names and salaries:
 
 <p align="center">
-  <img src="./images/1060-12-01-p03-a.png" alt="1060-12-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-12-01-p03-a.png" alt="1060-12-01-p03-a.png" width="50%" height="50%">
 </p>
 
 The example below adds 500 to each employee's salary and selects the result:
@@ -951,7 +951,7 @@ FROM employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-12-01-p03-b.png" alt="1060-12-01-p03-b.png" width="50%" height="50%">
+    <img src="./images/1060-12-01-p03-b.png" alt="1060-12-01-p03-b.png" width="50%" height="50%">
 </p>
 
 > :warning: Parentheses can be used to force an operation to take priority over any other operators. They are also used to improve code readability.
@@ -986,7 +986,7 @@ FROM employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-13-01-p01-a.png" alt="1060-13-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-13-01-p01-a.png" alt="1060-13-01-p01-a.png" width="50%" height="50%">
 </p>
 
 > :warning: If there are characters in the string that are not letters, this function will have no effect on them.
@@ -1005,7 +1005,7 @@ FROM employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-13-01-p02-a.png" alt="1060-13-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-13-01-p02-a.png" alt="1060-13-01-p02-a.png" width="50%" height="50%">
 </p>
 
 Similarly, the AVG function returns the average value of a numeric column:
@@ -1017,7 +1017,7 @@ SELECT AVG(Salary) FROM employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-13-01-p02-b.png" alt="1060-13-01-p02-b.png" width="50%" height="50%">
+    <img src="./images/1060-13-01-p02-b.png" alt="1060-13-01-p02-b.png" width="50%" height="50%">
 </p>
 
 > :warning: Another way to do the SQRT is to use POWER with the 1/2 exponent. However, SQRT seems to work faster than POWER in this case.
@@ -1035,7 +1035,7 @@ SELECT SUM(Salary) FROM employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-13-01-p03-a.png" alt="1060-13-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-13-01-p03-a.png" alt="1060-13-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: The sum of all of the employees' salaries is 31000.
@@ -1049,7 +1049,7 @@ Result:
 You are given the following table sam_grades, which shows Sam’s exam scores.
 
 <p align="center">
-  <img src="./images/1060-13-02-a.png" alt="1060-13-02-a.png" width="50%" height="50%">
+    <img src="./images/1060-13-02-a.png" alt="1060-13-02-a.png" width="50%" height="50%">
 </p>
 
 Write a query to output the average of Sam's exam scores for the first semester.
@@ -1089,7 +1089,7 @@ ORDER BY Salary DESC;
 Result:
 
 <p align="center">
-  <img src="./images/1060-14-01-p01-a.png" alt="1060-14-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-14-01-p01-a.png" alt="1060-14-01-p01-a.png" width="50%" height="50%">
 </p>
 
 > :warning: The DESC keyword sorts results in descending order. Similarly, ASC sorts the results in ascending order.
@@ -1107,7 +1107,7 @@ ORDER BY Salary DESC;
 The same result will be produced.
 
 <p align="center">
-  <img src="./images/1060-14-01-p02-a.png" alt="1060-14-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-14-01-p02-a.png" alt="1060-14-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: Enclose the subquery in parentheses. Also, note that there is no semicolon at the end of the subquery, as it is part of our single query.
@@ -1148,7 +1148,7 @@ WHERE FirstName LIKE 'A%';
 Result:
 
 <p align="center">
-  <img src="./images/1060-15-01-p01-a.png" alt="1060-15-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-15-01-p01-a.png" alt="1060-15-01-p01-a.png" width="50%" height="50%">
 </p>
 
 As another example, the following SQL query selects all employees with a LastName ending with the letter "s":
@@ -1179,7 +1179,7 @@ SELECT MIN(Salary) AS Salary FROM employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-15-01-p02-a.png" alt="1060-15-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-15-01-p02-a.png" alt="1060-15-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: All of the SQL functions can be combined together to create a single expression.
@@ -1246,7 +1246,7 @@ FROM students)
 You want to rent an apartment and have the following table named Apartments:
 
 <p align="center">
-  <img src="./images/1060-17-a.png" alt="1060-17-a.png" width="50%" height="50%">
+    <img src="./images/1060-17-a.png" alt="1060-17-a.png" width="50%" height="50%">
 </p>
 
 Write a query to output the apartments whose prices are greater than the average and are also not rented, sorted by the 'Price' column.
@@ -1276,13 +1276,13 @@ One of the most beneficial features of SQL is the ability to combine data from t
 In the two tables that follow, the table named customers stores information about customers:
 
 <p align="center">
-  <img src="./images/1060-18-01-p01-a.png" alt="1060-18-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-18-01-p01-a.png" alt="1060-18-01-p01-a.png" width="50%" height="50%">
 </p>
 
 The orders table stores information about individual orders with their corresponding amount:
 
 <p align="center">
-  <img src="./images/1060-18-01-p01-b.png" alt="1060-18-01-p01-b.png" width="50%" height="50%">
+    <img src="./images/1060-18-01-p01-b.png" alt="1060-18-01-p01-b.png" width="50%" height="50%">
 </p>
 
 > :warning: In SQL, "joining tables" means combining data from two or more tables. A table join creates a temporary table showing the data from the joined tables.
@@ -1313,7 +1313,7 @@ Note that the WHERE clause "joins" the tables on the condition that the ID from 
 Result:
 
 <p align="center">
-  <img src="./images/1060-18-01-p03-a.png" alt="1060-18-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-18-01-p03-a.png" alt="1060-18-01-p03-a.png" width="50%" height="50%">
 </p>
 
 The returned data shows customer orders and their corresponding amount.
@@ -1369,7 +1369,7 @@ ON table1.column_name=table2.column_name;
 The image below demonstrates how INNER JOIN works:
 
 <p align="center">
-  <img src="./images/1060-19-01-p02-a.png" alt="1060-19-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-19-01-p02-a.png" alt="1060-19-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: Only the records matching the join condition are returned.
@@ -1393,7 +1393,7 @@ ON table1.column_name = table2.column_name;
 The image below demonstrates how LEFT JOIN works:
 
 <p align="center">
-  <img src="./images/1060-19-01-p03-a.png" alt="1060-19-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-19-01-p03-a.png" alt="1060-19-01-p03-a.png" width="50%" height="50%">
 </p>
 
 Consider the following tables.
@@ -1401,13 +1401,13 @@ Consider the following tables.
 customers:
 
 <p align="center">
-  <img src="./images/1060-19-01-p03-b.png" alt="1060-19-01-p03-b.png" width="50%" height="50%">
+    <img src="./images/1060-19-01-p03-b.png" alt="1060-19-01-p03-b.png" width="50%" height="50%">
 </p>
 
 items:
 
 <p align="center">
-  <img src="./images/1060-19-01-p03-c.png" alt="1060-19-01-p03-c.png" width="50%" height="50%">
+    <img src="./images/1060-19-01-p03-c.png" alt="1060-19-01-p03-c.png" width="50%" height="50%">
 </p>
 
 The following SQL statement will return all customers, and the items they might have:
@@ -1421,7 +1421,7 @@ ON customers.ID=items.Seller_id;
 Result:
 
 <p align="center">
-  <img src="./images/1060-19-01-p03-d.png" alt="1060-19-01-p03-d.png" width="50%" height="50%">
+    <img src="./images/1060-19-01-p03-d.png" alt="1060-19-01-p03-d.png" width="50%" height="50%">
 </p>
 
 The result set contains all the rows from the left table and matching data from the right table.
@@ -1433,7 +1433,7 @@ The result set contains all the rows from the left table and matching data from 
 The RIGHT JOIN returns all rows from the right table, even if there are no matches in the left table.
 
 <p align="center">
-  <img src="./images/1060-19-01-p04-a.png" alt="1060-19-01-p04-a.png" width="50%" height="50%">
+    <img src="./images/1060-19-01-p04-a.png" alt="1060-19-01-p04-a.png" width="50%" height="50%">
 </p>
 
 The basic syntax of RIGHT JOIN is as follows:
@@ -1456,7 +1456,7 @@ RIGHT JOIN items ON customers.ID=items.Seller_id;
 Result:
 
 <p align="center">
-  <img src="./images/1060-19-01-p04-b.png" alt="1060-19-01-p04-b.png" width="50%" height="50%">
+    <img src="./images/1060-19-01-p04-b.png" alt="1060-19-01-p04-b.png" width="50%" height="50%">
 </p>
 
 The RIGHT JOIN returns all the rows from the right table (items), even if there are no matches in the left table (customers).
@@ -1506,13 +1506,13 @@ SELECT column_name(s) FROM table2;
 Here is the First of two tables:
 
 <p align="center">
-  <img src="./images/1060-20-01-p02-a.png" alt="1060-20-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-20-01-p02-a.png" alt="1060-20-01-p02-a.png" width="50%" height="50%">
 </p>
 
 And here is the Second:
 
 <p align="center">
-  <img src="./images/1060-20-01-p02-b.png" alt="1060-20-01-p02-b.png" width="50%" height="50%">
+    <img src="./images/1060-20-01-p02-b.png" alt="1060-20-01-p02-b.png" width="50%" height="50%">
 </p>
 
 ```sql
@@ -1524,7 +1524,7 @@ SELECT ID, FirstName, LastName, City FROM Second;
 The resulting table will look like this one:
 
 <p align="center">
-  <img src="./images/1060-20-01-p02-c.png" alt="1060-20-01-p02-c.png" width="50%" height="50%">
+    <img src="./images/1060-20-01-p02-c.png" alt="1060-20-01-p02-c.png" width="50%" height="50%">
 </p>
 
 > :warning: As you can see, the duplicates have been removed.
@@ -1555,7 +1555,7 @@ SELECT ID, FirstName, LastName, City FROM Second;
 The resulting table:
 
 <p align="center">
-  <img src="./images/1060-20-01-p03-a.png" alt="1060-20-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-20-01-p03-a.png" alt="1060-20-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: As you can see, the result set includes the duplicate rows as well.
@@ -1588,7 +1588,7 @@ VALUES (value1, value2, value3,...);
 Consider the following Employees table:
 
 <p align="center">
-  <img src="./images/1060-21-01-p01-a.png" alt="1060-21-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-21-01-p01-a.png" alt="1060-21-01-p01-a.png" width="50%" height="50%">
 </p>
 
 Use the following SQL statement to insert a new row:
@@ -1604,7 +1604,7 @@ The values are comma-separated and their order corresponds to the columns in the
 Result:
 
 <p align="center">
-  <img src="./images/1060-21-01-p01-b.png" alt="1060-21-01-p01-b.png" width="50%" height="50%">
+    <img src="./images/1060-21-01-p01-b.png" alt="1060-21-01-p01-b.png" width="50%" height="50%">
 </p>
 
 > :warning: When inserting records into a table using the SQL INSERT statement, you must provide a value for every column that does not have a default value, or does not support NULL.
@@ -1629,7 +1629,7 @@ SELECT * FROM Employees;
 This will insert the data into the corresponding columns:
 
 <p align="center">
-  <img src="./images/1060-21-01-p02-a.png" alt="1060-21-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-21-01-p02-a.png" alt="1060-21-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: You can specify your own column order, as long as the values are specified in the same order as the columns.
@@ -1647,7 +1647,7 @@ SELECT * from Employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-21-01-p03-a.png" alt="1060-21-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-21-01-p03-a.png" alt="1060-21-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: The Age column for that row automatically became 0, as that is its default value.
@@ -1687,7 +1687,7 @@ You specify the column and its new value in a comma-separated list after the SET
 Consider the following table called "Employees":
 
 <p align="center">
-  <img src="./images/1060-22-01-p02-a.png" alt="1060-22-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-22-01-p02-a.png" alt="1060-22-01-p02-a.png" width="50%" height="50%">
 </p>
 
 To update John's salary, we can use the following query:
@@ -1702,7 +1702,7 @@ SELECT * from Employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-22-01-p02-b.png" alt="1060-22-01-p02-b.png" width="50%" height="50%">
+    <img src="./images/1060-22-01-p02-b.png" alt="1060-22-01-p02-b.png" width="50%" height="50%">
 </p>
 
 #### Updating Multiple Columns
@@ -1719,7 +1719,7 @@ SELECT * from Employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-22-01-p03-a.png" alt="1060-22-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-22-01-p03-a.png" alt="1060-22-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: You can specify the column order any way you like in the SET clause.
@@ -1744,7 +1744,7 @@ SELECT * from Employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-22-01-p04-a.png" alt="1060-22-01-p04-a.png" width="50%" height="50%">
+    <img src="./images/1060-22-01-p04-a.png" alt="1060-22-01-p04-a.png" width="50%" height="50%">
 </p>
 
 > :warning: If you omit the WHERE clause, all records in the table will be deleted! The DELETE statement removes the data from the table permanently.
@@ -1860,7 +1860,7 @@ CREATE TABLE Users
 Now, when we run the query, our table will be created in the database.
 
 <p align="center">
-  <img src="./images/1060-23-01-p06-a.png" alt="1060-23-01-p06-a.png" width="50%" height="50%">
+    <img src="./images/1060-23-01-p06-a.png" alt="1060-23-01-p06-a.png" width="50%" height="50%">
 </p>
 
 > :warning: You can now use INSERT INTO queries to insert data into the table.
@@ -1934,7 +1934,7 @@ The following SQL enforces that the "id", "username", and "password" columns do 
 Here is the result:
 
 <p align="center">
-  <img src="./images/1060-24-01-p03-a.png" alt="1060-24-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-24-01-p03-a.png" alt="1060-24-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: When inserting a new record into the Users table, it's not necessary to specify a value for the id column; a unique new value will be added automatically.
@@ -1954,7 +1954,7 @@ You would also use the ALTER TABLE command to add and drop various constraints o
 Consider the following table called People:
 
 <p align="center">
-  <img src="./images/1060-25-01-p01-a.png" alt="1060-25-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-25-01-p01-a.png" alt="1060-25-01-p01-a.png" width="50%" height="50%">
 </p>
 
 The following SQL code adds a new column named DateOfBirth
@@ -1967,7 +1967,7 @@ SELECT * from People;
 Result:
 
 <p align="center">
-  <img src="./images/1060-25-01-p01-b.png" alt="1060-25-01-p01-b.png" width="50%" height="50%">
+    <img src="./images/1060-25-01-p01-b.png" alt="1060-25-01-p01-b.png" width="50%" height="50%">
 </p>
 
 > :warning: All rows will have the default value in the newly added column, which, in this case, is NULL.
@@ -1985,7 +1985,7 @@ SELECT * from People;
 The People table will now look like this:
 
 <p align="center">
-  <img src="./images/1060-25-01-p02-a.png" alt="1060-25-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-25-01-p02-a.png" alt="1060-25-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: The column, along with all of its data, will be completely removed from the table.
@@ -2013,7 +2013,7 @@ This query will rename the column called FirstName to name.
 Result:
 
 <p align="center">
-  <img src="./images/1060-25-01-p03-a.png" alt="1060-25-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-25-01-p03-a.png" alt="1060-25-01-p03-a.png" width="50%" height="50%">
 </p>
 
 Renaming Tables
@@ -2067,7 +2067,7 @@ WHERE condition;
 Consider the Employees table, which contains the following records:
 
 <p align="center">
-  <img src="./images/1060-26-01-p02-a.png" alt="1060-26-01-p02-a.png" width="50%" height="50%">
+    <img src="./images/1060-26-01-p02-a.png" alt="1060-26-01-p02-a.png" width="50%" height="50%">
 </p>
 
 Let's create a view that displays each employee's FirstName and Salary.
@@ -2090,7 +2090,7 @@ SELECT * FROM List;
 This would produce the following result:
 
 <p align="center">
-  <img src="./images/1060-26-01-p02-b.png" alt="1060-26-01-p02-b.png" width="50%" height="50%">
+    <img src="./images/1060-26-01-p02-b.png" alt="1060-26-01-p02-b.png" width="50%" height="50%">
 </p>
 
 > :warning: A view always shows up-to-date data! The database engine uses the view's SQL statement to recreate the data each time a user queries a view.
@@ -2117,7 +2117,7 @@ FROM  Employees;
 Result:
 
 <p align="center">
-  <img src="./images/1060-26-01-p03-a.png" alt="1060-26-01-p03-a.png" width="50%" height="50%">
+    <img src="./images/1060-26-01-p03-a.png" alt="1060-26-01-p03-a.png" width="50%" height="50%">
 </p>
 
 You can delete a view with the DROP VIEW command.
@@ -2246,12 +2246,12 @@ You manage a zoo. Each animal in the zoo comes from a different country. Here ar
 
 `Animals`
 <p align="center">
-  <img src="./images/1060-28-a.png" alt="1060-28-a.png" width="50%" height="50%">
+    <img src="./images/1060-28-a.png" alt="1060-28-a.png" width="50%" height="50%">
 </p>
 
 `Countries`
 <p align="center">
-  <img src="./images/1060-28-b.png" alt="1060-28-b.png" width="50%" height="50%">
+    <img src="./images/1060-28-b.png" alt="1060-28-b.png" width="50%" height="50%">
 </p>
 
 1) A new animal has come in, with the following details:
