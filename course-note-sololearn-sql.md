@@ -533,6 +533,7 @@ Question 01: A database consists of:
 - [ ] Columns
 
 Question 02: Drag and drop from the options below to list the table names.
+
 ```sql
 _____ TABLES;
 ```
@@ -549,6 +550,7 @@ Question 03: Why use primary keys?
 - [ ] Just for fun
 
 Question 04: Drag and drop from the options below to select distinct names from the ''students'' table, ordered by name.
+
 ```sql
 SELECT _____ name
 _____ students
@@ -609,6 +611,7 @@ SELECT * FROM cakes ORDER BY calories LIMIT 3
 The WHERE clause is used to extract only those records that fulfill a specified criterion.
 
 The syntax for the WHERE clause:
+
 ```sql
 SELECT column_list
 FROM table_name
@@ -622,6 +625,7 @@ Consider the following table:
 </p>
 
 In the above table, to SELECT a specific record:
+
 ```sql
 SELECT * FROM customers
 WHERE ID = 7;
@@ -1210,6 +1214,7 @@ Result:
 ### 16.1 Lesson: Module 2 Quiz
 
 Question 01: Fill in the blanks to select all values from the "students" table in which the field "university" equals "MIT".
+
 ```sql
 SELECT * FROM _____
 WHERE _____ = 'MIT';
@@ -1236,6 +1241,7 @@ Question 04: What is the name of the aggregate function for calculating the sum?
 - [ ] ```AVG```
 
 Question 05: Drag and drop from the options below to select name and age from ''students'', where age is greater than the average of all ages. Use a subquery to calculate the average value of age.
+
 ```sql
 _____ name, age
 FROM students
@@ -1515,7 +1521,7 @@ All SELECT statements within the UNION must have the same number of columns. The
 
 The syntax of UNION is as follows:
 
-```
+```sql
 SELECT column_name(s) FROM table1
 UNION
 SELECT column_name(s) FROM table2;
@@ -2170,6 +2176,7 @@ Question 01: Rearrange to select all student names and university names (use lef
 - [ ] ```LEFT OUTER JOIN universities```
 
 Question 02: Drag and drop from the options below to insert a data item into the "people" table.
+
 ```sql
 _____ _____ people
 _____ ('John Smith', '1', 22);
@@ -2183,6 +2190,7 @@ _____ ('John Smith', '1', 22);
 - [ ] ```TABLE```
 
 Question 03: Drag and drop from the options below to update the "people" table.
+
 ```sql
 _____ people
 _____ name='Jordan'
@@ -2196,6 +2204,7 @@ WHERE id=147;
 - [ ] ```INTO```
 
 Question 04: Fill in the blanks to create a table with two columns: "id" as a primary key integer, and "name" of type varchar.
+
 ```sql
 CREATE TABLE(
  id _____,
@@ -2223,6 +2232,7 @@ Question 06: Which choice is the correct command for changing the name of a tabl
 - [ ] ```CHANGE NAME```
 
 Question 07: Drag and drop from the options below to create a view named ''most_abs'' for the students with the greatest number of absences.
+
 ```sql
 _____ _____ most_abs _____
 SELECT id, name, absences
@@ -2239,6 +2249,7 @@ LIMIT 10;
 - [ ] ```SELECT```
 
 Question 08: Drag and drop from the options below to delete the table "students" from the database.
+
 ```sql
 _____ _____ _____
 ```
@@ -2251,6 +2262,7 @@ _____ _____ _____
 - [ ] ```students```
 
 Question 09: Drag and drop from the options below to remove the column "temp" from the table "students".
+
 ```sql
 _____ TABLE students
 _____ _____ temp
@@ -2307,6 +2319,7 @@ Add him to the Animals table.
 ### 29.1 Lesson: Challenge 1
 
 Question 01: In the "users" table of website logins and passwords, select the first 10 records in the table.
+
 ```sql
 SELECT * _____ users
 _____ 10
@@ -2318,6 +2331,7 @@ _____ 10
 - [ ] ```LIMIT```
 
 Question 02: Drag and drop from the options below to create the table "users" to store website user logins and passwords.
+
 ```sql
 _____ TABLE users (
 id INT NOT NULL
@@ -2339,6 +2353,7 @@ Question 03: Rearrange the query to select all students under age 21. The result
 - [ ] ```ORDER BY name```
 
 Question 04: Your boss asks you to print the list of the first one hundred customers who have balances greater than $1000 or who are from NY.
+
 ```sql
 SELECT * FROM customers
 _____ balance > 1000
@@ -2361,6 +2376,7 @@ Question 05: You need the ages of all bears and lions. The first query shows the
 - [ ] ```WHERE animal IN ('lion', 'crocodile')```
 
 Question 06: Drag and drop from the options below to create a list of customers in the form "name is from city".
+
 ```sql
 SELECT
 _____(name, ' is from ', _____)
@@ -2381,6 +2397,7 @@ Question 07: The zoo administration wants a list of animals whose age is greater
 - [ ] ```SELECT * FROM zoo```
 
 Question 08: There are many wolves in the zoo: black wolf, white wolf, lucky wolf, little wolf. They all have 'wolf' at the end of their names. Print the ages of all of the wolves.
+
 ```sql
 SELECT age FROM zoo
 WHERE animal LIKE '_____'
@@ -2393,6 +2410,7 @@ WHERE animal LIKE '_____'
 ### 30.1 Lesson: Challenge 2
 
 Question 01: Drag and drop from the options below to retrieve all students between the ages of 18 and 22.
+
 ```sql
 SELECT name _____ students
 WHERE age
@@ -2407,6 +2425,7 @@ _____ 18 _____ 22;
 - [ ] ```BETWEEN```
 
 Question 02: Drag and drop from the options below to update the "students" table to set Jake's university to MIT. His id is 682.
+
 ```sql
 _____ students
 SET university='_____'
@@ -2420,6 +2439,7 @@ WHERE _____=682
 - [ ] ```UPDATE```
 
 Question 03: When you inserted "elephant" as a new animal, you forgot to include the elephant's age. Correct this mistake by updating the "zoo" table.
+
 ```sql
 _____ zoo
 _____ age=14
@@ -2433,6 +2453,7 @@ WHERE animal='elephant'
 - [ ] ```CHANGE```
 
 Question 04: Drag and drop from the options below to update the food_balance to 23 for animals whose age is greater than the average age of the animals.
+
 ```sql
 UPDATE zoo
 SET food_balance=23
@@ -2457,6 +2478,7 @@ Question 05: You need your customer's names, along with the names of the cities 
 - [ ] ```SELECT customers.name, cities.name```
 
 Question 06: In the university's table containing student data, the students' last names have been omitted. Correct this by adding a new column to the table.
+
 ```sql
 _____ TABLE students
 _____ last_name VARCHAR(100);
@@ -2469,6 +2491,7 @@ _____ last_name VARCHAR(100);
 - [ ] ```ALTER```
 
 Question 07: Drag and drop from the options below to retrieve from MIT, Stanford, and Harvard the names of all students whose first name is Jake.
+
 ```sql
 SELECT name FROM students
 WHERE university
