@@ -2,15 +2,11 @@
 
 This course covers an array of SQL-related topics, such as retrieving, updating and filtering data; functions and subqueries; creating & updating tables; & many more!
 
-1
-
-&nbsp;
-&ensp;
-2
+---
 
 ## Basic Concepts
 
-<br />
+&nbsp;
 
 ### 1.1 Lesson: Introduction to Databases
 
@@ -23,7 +19,7 @@ A database is made up of tables that store relevant information.
 For example, you would use a database, if you were to create a website like YouTube, which contains a lot of information like videos, usernames, passwords, comments.
 
 <p align="center">
-  <img src="./images/1060-01-01-p01-a.png" alt="./images/1060-01-01-p01-a.png" width="50%" height="50%">
+        <img src="./images/1060-01-01-p01-a.png" alt="./images/1060-01-01-p01-a.png" width="50%" height="50%">
 </p>
 
 > :warning: In this course we will learn how to create and query databases using SQL!
@@ -39,7 +35,7 @@ First, we would set up columns with the titles *FirstName*, *LastName* and *Tele
 Each table includes its own set of fields, based on the data it will store.
 
 <p align="center">
-  <img src="./images/1060-01-01-p02-a.png" alt="./images/1060-01-01-p02-a.png" width="50%" height="50%">
+        <img src="./images/1060-01-01-p02-a.png" alt="./images/1060-01-01-p02-a.png" width="50%" height="50%">
 </p>
 
 > :warning: A table has a specified number of columns but can have any number of rows.
@@ -49,13 +45,14 @@ Each table includes its own set of fields, based on the data it will store.
 A primary key is a field in the table that uniquely identifies the table records.
 
 The primary key's main features:
+
 - It must contain a **unique value** for each row.
 - It cannot contain **NULL** values.
 
 For example, our table contains a record for each name in a phone book. The unique **ID** number would be a good choice for a primary key in the table, as there is always the chance for more than one person to have the same name.
 
 <p align="center">
-  <img src="./images/1060-01-01-p03-a.png" alt="./images/1060-01-01-p03-a.png" width="50%" height="50%">
+        <img src="./images/1060-01-01-p03-a.png" alt="./images/1060-01-01-p03-a.png" width="50%" height="50%">
 </p>
 
 > :warning: <br /> - Tables are limited to ONE primary key each. <br /> - The primary key's value must be different for each row.
@@ -1164,7 +1161,7 @@ WHERE LastName LIKE '%s';
 Result:
 
 <p align="center">
-  <img src="./images/1060-15-01-p01-b.png" alt="1060-15-01-p01-b.png" width="50%" height="50%">
+    <img src="./images/1060-15-01-p01-b.png" alt="1060-15-01-p01-b.png" width="50%" height="50%">
 </p>
 
 > :warning: The % wildcard can be used multiple times within the same pattern.
