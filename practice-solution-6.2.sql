@@ -1,11 +1,11 @@
 SELECT *
 FROM Players 
-ORDER BY losses
+ORDER BY Losses
 
 -- Alternative:
-SELECT firstname, lastname, losses
+SELECT Firstname, Lastname, Losses
 FROM Players 
-ORDER BY losses
+ORDER BY Losses
 
 /* 
 EXPLANATION: 
