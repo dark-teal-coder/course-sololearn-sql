@@ -6,5 +6,5 @@ EXPLANATION:
 
 We only have to select 3 columns from the table with 4 columns so we cannot use * in this case. 
 
-SQL is case-insensitive by default so we can write table and column names in PascalCase, all uppercase or lowercase, or mixed case as long as there is no special character in between. 
+SQL is case-insensitive by default so we can write table and column names in PascalCase, all UPPERCASE or lowercase, or mixed case as long as there is no special character in between. 
 */
