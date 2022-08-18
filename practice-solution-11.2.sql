@@ -1,5 +1,6 @@
-SELECT teamname, country FROM teams 
-WHERE country IN ('Spain', 'England', 'Germany')
+SELECT TeamName, Country 
+FROM Teams 
+WHERE Country IN ('Spain', 'England', 'Germany')
 
 /* 
 EXPLANATION:
