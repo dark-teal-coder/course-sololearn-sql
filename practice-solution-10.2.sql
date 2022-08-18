@@ -1,7 +1,8 @@
-SELECT name from films 
-WHERE production = 'Marvel Studios' 
-    AND year >= 2010 
-ORDER BY name 
+SELECT Name 
+FROM Films
+WHERE Production = 'Marvel Studios' 
+    AND Year >= 2010 
+ORDER BY Name 
 
 /* 
 EXPLANATION:
