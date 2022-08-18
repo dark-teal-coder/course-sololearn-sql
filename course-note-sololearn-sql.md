@@ -841,7 +841,7 @@ Result:
 
 #### Solution
 
-> 🔑
+> 🔑 See [solution and explanation](./practice-solution-10.2.sql).
 
 &nbsp;
 
