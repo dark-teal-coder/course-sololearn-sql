@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/dark-teal-coder/dark-teal-coder/main/images/coder-no-background-000-128-128.png" 
+<img src="https://raw.githubusercontent.com/dark-teal-coder/dark-teal-coder/main/images/coder-no-background-000-128-128.png"
     alt="coder-black-background-000-128-128.png" width="100" height="100" align="right" style="margin:0px 5%; padding: 5px;">
 <p>
     GitHub: <a href="https://github.com/dark-teal-coder">@dark-teal-coder</a>
@@ -922,9 +922,21 @@ Result:
 
 ### 11.2 Practice: Get The Ball Rolling!
 
+#### The IN Operator
+
+You are sorting football teams by leagues and given the following table named teams.
+
+<p align="center">
+    <img src="./images/1060-11-02-a.png" alt="./images/1060-11-02-a.png" width="50%" height="50%">
+</p>
+
+Write a query to output the team names and the countries of all teams that have played in La Liga (Spain), Premier League (England) and Bundesliga (Germany)․
+
+> :warning: Use the IN operator.
+
 #### Solution
 
-> 🔑
+> 🔑 See [solution and explanation](./practice-solution-11.2.sql).
 
 &nbsp;
 
