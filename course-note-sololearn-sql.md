@@ -839,6 +839,18 @@ Result:
 
 ### 10.2 Practice: Superheros
 
+#### Logical Operators
+
+You are given the following films table with details about superhero movies:
+
+<p align="center">
+    <img src="./images/1060-10-02-a.png" alt="./images/1060-10-02-a.png" width="50%" height="50%">
+</p>
+
+Write a query to output the names of all of the films which were produced by Marvel Studios in 2010 or later, sorted by the 'name' column.
+
+> :warning: Use the AND operator to combine two or more conditions.
+
 #### Solution
 
 > 🔑 See [solution and explanation](./practice-solution-10.2.sql).
