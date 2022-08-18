@@ -1190,7 +1190,7 @@ Help Monica lose weight by writing a query to choose the foods, whose fat percen
 
 #### Solution
 
-> 🔑
+> 🔑 See [solution and explanation](./practice-solution-14.2.sql).
 
 &nbsp;
 
@@ -1257,6 +1257,20 @@ Result:
 &nbsp;
 
 ### 15.2 Practice: Chocolate!
+
+#### LIKE
+
+You are having dinner at a restaurant and decide to order a chocolate dessert.
+
+Here is the desserts menu:
+
+<p align="center">
+    <img src="./images/1060-15-02-a.png" alt="1060-15-02-a.png" width="50%" height="50%">
+</p>
+
+Write a query to output only chocolate desserts.
+
+> :warning: Use the LIKE operator, and don't forget about "%".
 
 #### Solution
 
