@@ -1008,7 +1008,20 @@ Result:
 
 ### 12.2 Practice: Annual Bonuses
 
+#### The AS Keyword
 
+You are given the following staff table:
+
+<p align="center">
+    <img src="./images/1060-12-02-a.png" alt="./images/1060-12-02-a.png" width="50%" height="50%">
+</p>
+
+The salary shown in the table is monthly.
+Each employee receives a bonus once a year. The bonus for each employee is equal to their years of experience multiplied by 500.
+
+Write a query to output the firstname and lastname columns into one column named fullname separated by space, and the total annual salary for each employee keeping in mind bonuses named 'total'. Sort by the 'total' column.
+
+> :warning: Use the AS keyword and the CONCAT function!
 
 #### Solution
 
