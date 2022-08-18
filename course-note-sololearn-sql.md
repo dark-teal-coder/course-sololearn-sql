@@ -1175,6 +1175,19 @@ The same result will be produced.
 
 ### 14.2 Practice: Let's Get Fit!
 
+#### Subqueries
+
+Monica has just returned from nutritionist and was advised to only eat low-fat foods.
+Here is the Foods table:
+
+<p align="center">
+    <img src="./images/1060-14-02-a.png" alt="1060-14-02-a.png" width="50%" height="50%">
+</p>
+
+Help Monica lose weight by writing a query to choose the foods, whose fat percentages are lower than the average from the "Foods" table. Then show the resulting table.
+
+> :warning: Use the AVG() function.
+
 #### Solution
 
 > 🔑
