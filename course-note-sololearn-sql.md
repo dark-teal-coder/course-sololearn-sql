@@ -1008,9 +1008,11 @@ Result:
 
 ### 12.2 Practice: Annual Bonuses
 
+
+
 #### Solution
 
-> 🔑
+> 🔑 See [solution and explanation](./practice-solution-12.2.sql).
 
 &nbsp;
 
