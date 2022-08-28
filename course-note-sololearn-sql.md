@@ -1412,9 +1412,29 @@ The returned data shows customer orders and their corresponding amount.
 
 ### 18.2 Practice: Mentor And Apprentice
 
+#### Joining Tables
+
+You are given the following students and teachers tables:
+
+- `students` (with their teachers ID's):
+
+<p align="center">
+    <img src="./images/1060-18-02-a.png" alt="1060-18-02-a.png" width="50%" height="50%">
+</p>
+
+- `teachers`:
+
+<p align="center">
+    <img src="./images/1060-18-02-b.png" alt="1060-18-02-b.png" width="50%" height="50%">
+</p>
+
+Write a query to output all of the students with their teachers' last names in one table, sorted by students ID.
+
+> :warning: The column with teachers' last names should be named "teacher" -- recall the AS keyword.
+
 #### Solution
 
-> 🔑
+> 🔑 See [solution and explanation](./practice-solution-18.2.sql).
 
 &nbsp;
 
