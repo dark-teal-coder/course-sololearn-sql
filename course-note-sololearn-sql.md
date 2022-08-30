@@ -317,7 +317,7 @@ Write a query to select the ProductName, ProductionDate and ExpirationDate.
 
 > :warning: Use the SELECT statement and separate the required columns by commas.
 
-#### Solution
+#### Solution 4.2
 
 > 🔑 See [solution and explanation](./practice-solution-4.2.sql).
 
@@ -422,7 +422,7 @@ Write a query to show only the unique checks that are given to the customer.
 
 > :warning: Use the DISTINCT statement to return the unique values of mentioned column.
 
-#### Solution
+#### Solution 5.2
 
 > 🔑 See [solution and explanation](./practice-solution-5.2.sql).
 
@@ -533,7 +533,7 @@ Sort the players by losses to derive the leaderboard.
 
 > :warning: Recall the ORDER BY keyword.
 
-#### Solution
+#### Solution 6.2
 
 > 🔑 See [solution and explanation](./practice-solution-6.2.sql).
 
@@ -738,7 +738,7 @@ Write a query to output the names of employees whose salaries are between 1500 a
 
 > :warning: Combine the WHERE statement with the BETWEEN operator!
 
-#### Solution
+#### Solution 9.2
 
 > 🔑 See [solution and explanation](./practice-solution-9.2.sql).
 
@@ -851,7 +851,7 @@ Write a query to output the names of all of the films which were produced by Mar
 
 > :warning: Use the AND operator to combine two or more conditions.
 
-#### Solution
+#### Solution 10.2
 
 > 🔑 See [solution and explanation](./practice-solution-10.2.sql).
 
@@ -934,7 +934,7 @@ Write a query to output the team names and the countries of all teams that have 
 
 > :warning: Use the IN operator.
 
-#### Solution
+#### Solution 11.2
 
 > 🔑 See [solution and explanation](./practice-solution-11.2.sql).
 
@@ -1023,7 +1023,7 @@ Write a query to output the firstname and lastname columns into one column named
 
 > :warning: Use the AS keyword and the CONCAT function!
 
-#### Solution
+#### Solution 12.2
 
 > 🔑 See [solution and explanation](./practice-solution-12.2.sql).
 
@@ -1117,7 +1117,7 @@ Write a query to output the average of Sam's exam scores for the first semester.
 
 > :warning: Use the AVG() function!
 
-#### Solution
+#### Solution 13.2
 
 > 🔑 See [solution and explanation](./practice-solution-13.2.sql).
 
@@ -1188,7 +1188,7 @@ Help Monica lose weight by writing a query to choose the foods, whose fat percen
 
 > :warning: Use the AVG() function.
 
-#### Solution
+#### Solution 14.2
 
 > 🔑 See [solution and explanation](./practice-solution-14.2.sql).
 
@@ -1272,7 +1272,7 @@ Write a query to output only chocolate desserts.
 
 > :warning: Use the LIKE operator, and don't forget about "%".
 
-#### Solution
+#### Solution 15.2
 
 > 🔑 See [solution and explanation](./practice-solution-15.2.sql).
 
