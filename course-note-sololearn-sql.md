@@ -1574,9 +1574,31 @@ The RIGHT JOIN returns all the rows from the right table (items), even if there 
 
 ### 19.2 Practice: Sorting The Inventory
 
+#### INNER JOIN
+
+You are working at a supermarket and you need to arrange products by categories. You are given the following tables:
+
+- `products`:
+
+<p align="center">
+    <img src="./images/1060-19-02-a.png" alt="1060-19-02-a.png" width="50%" height="50%">
+</p>
+
+- `categories`:
+
+<p align="center">
+    <img src="./images/1060-19-02-b.png" alt="1060-19-02-b.png" width="50%" height="50%">
+</p>
+
+Each product has a category. 
+
+Write a query to output all products with their categories (productname-price-categoryname) in one table.
+
+> :warning: Don't forget about the ON keyword while using INNER JOIN.
+
 #### Solution
 
-> 🔑
+> 🔑 See [solution and explanation](./practice-solution-19.2.sql).
 
 &nbsp;
 
