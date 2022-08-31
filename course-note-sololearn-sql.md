@@ -1432,7 +1432,7 @@ Write a query to output all of the students with their teachers' last names in o
 
 > :warning: The column with teachers' last names should be named "teacher" -- recall the AS keyword.
 
-#### Solution
+#### Solution 18.2
 
 > 🔑 See [solution and explanation](./practice-solution-18.2.sql).
 
@@ -1596,7 +1596,7 @@ Write a query to output all products with their categories (productname-price-ca
 
 > :warning: Don't forget about the ON keyword while using INNER JOIN.
 
-#### Solution
+#### Solution 19.2
 
 > 🔑 See [solution and explanation](./practice-solution-19.2.sql).
 
@@ -1711,7 +1711,7 @@ Write a query to merge 'NorwayChess' and 'TataSteel' tables. Then order the merg
 
 > :warning: Remember, you need to get a table without duplicates.
 
-#### Solution
+#### Solution 20.2
 
 > 🔑 See [solution and explanation](./practice-solution-20.2.sql).
 
@@ -1803,7 +1803,7 @@ Result:
 
 ### 21.2 Practice: More Cars!
 
-#### Solution
+#### Solution 21.2
 
 > 🔑
 
@@ -1898,7 +1898,7 @@ Result:
 
 ### 22.2 Practice: Match The Requirements
 
-#### Solution
+#### Solution 20.2
 
 > 🔑
 
@@ -2013,7 +2013,7 @@ Now, when we run the query, our table will be created in the database.
 
 ### 23.2 Practice: Video Game Scores
 
-#### Solution
+#### Solution 23.2
 
 > 🔑
 
@@ -2170,7 +2170,7 @@ RENAME TABLE People TO Users;
 
 ### 25.2 Practice: The Most Beautiful Locations
 
-#### Solution
+#### Solution 25.2
 
 > 🔑
 
@@ -2271,7 +2271,7 @@ DROP VIEW List;
 
 ### 26.2 Practice: Social Media App Views
 
-#### Solution
+#### Solution 26.2
 
 > 🔑
 
