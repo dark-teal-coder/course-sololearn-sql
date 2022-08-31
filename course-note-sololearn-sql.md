@@ -1691,9 +1691,29 @@ The resulting table:
 
 ### 20.2 Practice: Chess Tournament
 
+#### UNION
+
+FIDE wants to hold a major chess tournament and has decided to include players from the Norway Chess and Tata Steel tournaments.
+
+- Table `NorwayChess`:
+
+<p align="center">
+    <img src="./images/1060-20-02-a.png" alt="1060-20-02-a.png" width="50%" height="50%">
+</p>
+
+- Table `TataSteel`:
+
+<p align="center">
+    <img src="./images/1060-20-02-b.png" alt="1060-20-02-b.png" width="50%" height="50%">
+</p>
+
+Write a query to merge 'NorwayChess' and 'TataSteel' tables. Then order the merged table by 'Rating' in descending order and show the final table of participants.
+
+> :warning: Remember, you need to get a table without duplicates.
+
 #### Solution
 
-> 🔑
+> 🔑 See [solution and explanation](./practice-solution-20.2.sql).
 
 &nbsp;
 
