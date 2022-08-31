@@ -2045,9 +2045,28 @@ Now, when we run the query, our table will be created in the database.
 
 ### 23.2 Practice: Video Game Scores
 
+#### Creating a Table
+
+You need to make a leaderboard for a video game.
+
+It should have the following columns:
+
+- place (INT)
+- nickname (VARCHAR)
+- rating (INT)
+
+Write a query to create this table and insert the following top 3 players:
+1, Predator, 9500
+2, JohnWar, 9300
+3, NightWarrior, 8900
+
+Finally, show the resulting table.
+
+> :warning: Recall the INSERT statement to add the required data to the table.
+
 #### Solution 23.2
 
-> 🔑
+> 🔑 See [solution and explanation](./practice-solution-23.2.sql).
 
 &nbsp;
 
