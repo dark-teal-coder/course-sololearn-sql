@@ -16,14 +16,18 @@ SELECT * FROM LeaderBoard
 /* 
 EXPLANATION:
 
-Use the following syntax to delete some values in a table: 
+From the instruction, we know we will need CREATE, INSERT and SELECT statements. 
 
-DELETE FROM TableName 
-WHERE ColumnName=Value;
+Use the following syntax to create a table with column names: 
 
-The condition should be when the expiry date is 0. 
+CREATE TABLE TableName
+(
+   ColumnName DataType,
+   ColumnName DataType,
+   ColumnName DataType,
+); 
 
-Remember to display the table using the SELECT statement.
+Remember to display the table using the SELECT statement. 
 
 SQL is case-insensitive by default so we can write table and column names in PascalCase, all UPPERCASE or lowercase, or mixed case as long as there is no special character in between. 
 */
