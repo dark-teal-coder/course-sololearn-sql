@@ -1590,7 +1590,7 @@ You are working at a supermarket and you need to arrange products by categories.
     <img src="./images/1060-19-02-b.png" alt="1060-19-02-b.png" width="50%" height="50%">
 </p>
 
-Each product has a category. 
+Each product has a category.
 
 Write a query to output all products with their categories (productname-price-categoryname) in one table.
 
@@ -1803,9 +1803,27 @@ Result:
 
 ### 21.2 Practice: More Cars!
 
+#### The INSERT Statement
+
+You have started a car rental service and have the following cars:
+
+- Table `Garage`:
+
+<p align="center">
+    <img src="./images/1060-21-02-a.png" alt="1060-21-02-a.png" width="50%" height="50%">
+</p>
+
+You plan to add two more vehicles to your garage:
+6, 'Mercedes-Benz', 'G 63', 2020
+7, 'Porsche', 'Panamera', 2020
+
+Write a query to insert the new cars into your table named 'Garage'. Then show the table with the added records.
+
+> :warning: Use the INSERT statement to perform the operation.
+
 #### Solution 21.2
 
-> 🔑
+> 🔑 See [solution and explanation](./practice-solution-21.2.sql).
 
 &nbsp;
 
