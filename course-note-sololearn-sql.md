@@ -1916,9 +1916,23 @@ Result:
 
 ### 22.2 Practice: Match The Requirements
 
-#### Solution 20.2
+#### Deleting Data
 
-> 🔑
+You are manager in the supermarket. Here is the `products` table showing a field for each item, along with the ExpireDate with the count of days remaining before item expiration.
+
+<p align="center">
+    <img src="./images/1060-22-02-a.png" alt="1060-22-02-a.png" width="50%" height="50%">
+</p>
+
+You need to get rid of all the expired products.
+
+Delete from the ‘products’ table all of the items whose 'ExpireDate' is less than 1 and show the table without any expired items.
+
+> :warning: The DELETE statement removes the data from the table permanently.
+
+#### Solution 22.2
+
+> 🔑 See [solution and explanation](./practice-solution-22.2.sql).
 
 &nbsp;
 
