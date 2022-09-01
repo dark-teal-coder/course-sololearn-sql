@@ -2221,9 +2221,31 @@ RENAME TABLE People TO Users;
 
 ### 25.2 Practice: The Most Beautiful Locations
 
+#### ALTER TABLE
+
+Jessica has a list of the cities she has visited:
+
+- `cities`:
+
+<p align="center">
+    <img src="./images/1060-25-02-a.png" alt="1060-25-02-a.png" width="50%" height="50%">
+</p>
+
+She is going to add the most attractive places she visited in each of the cities.
+
+Add a new column 'AttractivePlace' and update the values:
+
+- 'Belem Tower' for Lisbon
+- 'Plaza Mayor' for Madrid
+- 'Eiffel Tower' for Paris
+
+Then show the resulting table.
+
+> :warning: Use the ALTER TABLE command to add a new column and the UPDATE command to update the values of the newly generated fields.
+
 #### Solution 25.2
 
-> 🔑
+> 🔑 See [solution and explanation](./practice-solution-25.2.sql).
 
 &nbsp;
 
