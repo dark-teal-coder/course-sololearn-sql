@@ -5,7 +5,7 @@ This repository contains the code for the online course *"SQL"* provided by [Sol
 
 # Course Information
 - <ins>Course Provider</ins>: SoloLearn
-- <ins>Course Producer</ins>: SoloLearn
+- <ins>Course Platform</ins>: SoloLearn
 - <ins>Course Title</ins>: SQL
 - <ins>Course URL</ins>: https://www.sololearn.com/learning/1060
 
