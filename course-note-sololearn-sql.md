@@ -95,15 +95,15 @@ For example, our table contains a record for each name in a phone book. The uniq
 
 #### What is SQL?
 
-Once you understand what a database is, understanding SQL is easy. **SQL** stands for **S**tructured **Q**uery **L**anguage.
+Once you understand what a database is, understanding SQL is easy. SQL stands for Structured Query Language.
 
-**SQL** is used to access and manipulate a **database**.
-**MySQL** is a **program** that understands **SQL**.
+SQL is used to access and manipulate a database.
+MySQL is a program that understands SQL.
 
 SQL can:
 
-- insert, update, or delete records in a database.
-- create new databases, tables, stored procedures and views.
+- insert, update, or delete records in a database
+- create new databases, tables, stored procedures and views
 - retrieve data from a database, etc.
 
 > :warning:
