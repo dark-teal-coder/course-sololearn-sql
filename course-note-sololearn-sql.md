@@ -144,7 +144,7 @@ The ```SHOW TABLES``` command is used to display all of the tables in the curren
 
 ```SHOW COLUMNS``` displays information about the columns in a given table.
 
-The following example displays the columns in our customers table:
+The following example displays the columns in our `customers` table:
 
 ```sql
 SHOW COLUMNS FROM customers
