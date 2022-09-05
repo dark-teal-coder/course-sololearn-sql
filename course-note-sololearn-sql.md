@@ -156,7 +156,7 @@ Result:
     <img src="./images/1060-02-01-p03-a.png" alt="./images/1060-02-01-p03-a.png" width="50%" height="50%">
 </p>
 
-SHOW COLUMNS displays the following values for each table column:
+`SHOW COLUMNS` displays the following values for each table column:
 
 - **Field**: column name
 - **Type**: column data type
@@ -164,7 +164,7 @@ SHOW COLUMNS displays the following values for each table column:
 - **Default**: default value assigned to the column
 - **Extra**: may contain any additional information that is available about a given column
 
-> :warning: The columns for the customers table have also been created using the PHPMyAdmin tool.
+> :warning: The columns for the `customers` table have also been created using the PHPMyAdmin tool.
 
 #### SELECT Statement
 
