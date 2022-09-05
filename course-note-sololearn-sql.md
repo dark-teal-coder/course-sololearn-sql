@@ -138,7 +138,7 @@ The ```SHOW TABLES``` command is used to display all of the tables in the curren
     <img src="./images/1060-02-01-p02-a.png" alt="./images/1060-02-01-p02-a.png" width="50%" height="50%">
 </p>
 
-> :warning: For our example, we have created a database, my_database, with a table called customers.
+> :warning: For our example, we have created a database, `my_database`, with a table called `customers`.
 
 #### Basic SQL Commands 3
 
