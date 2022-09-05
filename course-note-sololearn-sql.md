@@ -612,13 +612,9 @@ Write a query to sort the cakes by calorie count and select the first 3 cakes fr
 
 > :warning: Try to combine ORDER BY and LIMIT keywords.
 
-#### Solution
+#### Solution 8
 
-```sql
-SELECT * FROM cakes ORDER BY calories LIMIT 3
-```
-
-> 🔑
+> 🔑 See [solution and explanation](./code-project-solutions/code-project-solution-8.sql)
 
 &nbsp;
 
