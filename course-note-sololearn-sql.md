@@ -2396,11 +2396,10 @@ _____ ('John Smith', '1', 22);
 ```
 
 - [ ] ```VALUES```
-- [ ] ```ON```
+- [ ] ```UPDATE```
 - [ ] ```INSERT```
-- [ ] ```BY```
+- [ ] ```SET```
 - [ ] ```INTO```
-- [ ] ```TABLE```
 
 Question 03: Drag and drop from the options below to update the "people" table.
 
