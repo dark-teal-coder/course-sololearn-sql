@@ -29,7 +29,7 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 - [Basic Concepts](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#basic-concepts)
 - [Filtering, Functions, Subqueries](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#filtering-functions-subqueries)
 - [JOIN, Table Operations](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#join-table-operations)
-- [Challenges]()
+- [Challenges](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#challenges)
 
 &nbsp;
 
