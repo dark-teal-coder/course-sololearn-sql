@@ -366,7 +366,7 @@ SELECT DISTINCT City FROM customers;
 This would produce the following result. Duplicate entries have been removed.
 
 <p align="center">
-    <img src="./images/1060-05-01-p01-a.png" alt="./images/1060-05-01-p01-a.png" width="50%" height="50%">
+    <img src="./images/1060-05-01-p01-b.png" alt="./images/1060-05-01-p01-b.png" width="50%" height="50%">
 </p>
 
 > :warning: The DISTINCT keyword only fetches the unique values.
