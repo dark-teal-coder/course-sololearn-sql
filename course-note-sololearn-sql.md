@@ -437,7 +437,7 @@ Write a query to show only the unique checks that are given to the customer.
 
 #### Solution 5.2
 
-> 🔑 See [solution and explanation](./practice-solution-5.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-5.2.sql).
 
 &nbsp;
 
@@ -459,7 +459,7 @@ Select the first four participants from the given list.
 
 #### Solution
 
-> 🔑 See [solution and explanation](./practice-solution-5.3.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-5.3.sql).
 
 &nbsp;
 
@@ -548,7 +548,7 @@ Sort the players by losses to derive the leaderboard.
 
 #### Solution 6.2
 
-> 🔑 See [solution and explanation](./practice-solution-6.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-6.2.sql).
 
 &nbsp;
 
@@ -753,7 +753,7 @@ Write a query to output the names of employees whose salaries are between 1500 a
 
 #### Solution 9.2
 
-> 🔑 See [solution and explanation](./practice-solution-9.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-9.2.sql).
 
 &nbsp;
 
@@ -866,7 +866,7 @@ Write a query to output the names of all of the films which were produced by Mar
 
 #### Solution 10.2
 
-> 🔑 See [solution and explanation](./practice-solution-10.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-10.2.sql).
 
 &nbsp;
 
@@ -949,7 +949,7 @@ Write a query to output the team names and the countries of all teams that have 
 
 #### Solution 11.2
 
-> 🔑 See [solution and explanation](./practice-solution-11.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-11.2.sql).
 
 &nbsp;
 
@@ -1038,7 +1038,7 @@ Write a query to output the firstname and lastname columns into one column named
 
 #### Solution 12.2
 
-> 🔑 See [solution and explanation](./practice-solution-12.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-12.2.sql).
 
 &nbsp;
 
@@ -1132,7 +1132,7 @@ Write a query to output the average of Sam's exam scores for the first semester.
 
 #### Solution 13.2
 
-> 🔑 See [solution and explanation](./practice-solution-13.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-13.2.sql).
 
 &nbsp;
 
@@ -1203,7 +1203,7 @@ Help Monica lose weight by writing a query to choose the foods, whose fat percen
 
 #### Solution 14.2
 
-> 🔑 See [solution and explanation](./practice-solution-14.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-14.2.sql).
 
 &nbsp;
 
@@ -1287,7 +1287,7 @@ Write a query to output only chocolate desserts.
 
 #### Solution 15.2
 
-> 🔑 See [solution and explanation](./practice-solution-15.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-15.2.sql).
 
 &nbsp;
 
@@ -1447,7 +1447,7 @@ Write a query to output all of the students with their teachers' last names in o
 
 #### Solution 18.2
 
-> 🔑 See [solution and explanation](./practice-solution-18.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-18.2.sql).
 
 &nbsp;
 
@@ -1611,7 +1611,7 @@ Write a query to output all products with their categories (productname-price-ca
 
 #### Solution 19.2
 
-> 🔑 See [solution and explanation](./practice-solution-19.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-19.2.sql).
 
 &nbsp;
 
@@ -1726,7 +1726,7 @@ Write a query to merge 'NorwayChess' and 'TataSteel' tables. Then order the merg
 
 #### Solution 20.2
 
-> 🔑 See [solution and explanation](./practice-solution-20.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-20.2.sql).
 
 &nbsp;
 
@@ -1836,7 +1836,7 @@ Write a query to insert the new cars into your table named 'Garage'. Then show t
 
 #### Solution 21.2
 
-> 🔑 See [solution and explanation](./practice-solution-21.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-21.2.sql).
 
 &nbsp;
 
@@ -1945,7 +1945,7 @@ Delete from the ‘products’ table all of the items whose 'ExpireDate' is less
 
 #### Solution 22.2
 
-> 🔑 See [solution and explanation](./practice-solution-22.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-22.2.sql).
 
 &nbsp;
 
@@ -2079,7 +2079,7 @@ Finally, show the resulting table.
 
 #### Solution 23.2
 
-> 🔑 See [solution and explanation](./practice-solution-23.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-23.2.sql).
 
 &nbsp;
 
@@ -2258,7 +2258,7 @@ Then show the resulting table.
 
 #### Solution 25.2
 
-> 🔑 See [solution and explanation](./practice-solution-25.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-25.2.sql).
 
 &nbsp;
 
@@ -2373,7 +2373,7 @@ Write a query to create a view to show only 'acc_id' and 'status' columns and th
 
 #### Solution 26.2
 
-> 🔑 See [solution and explanation](./practice-solution-26.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-26.2.sql).
 
 &nbsp;
 
