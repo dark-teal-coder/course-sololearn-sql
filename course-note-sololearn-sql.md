@@ -1824,7 +1824,7 @@ You have started a car rental service and have the following cars:
 
 You plan to add two more vehicles to your garage:
 
-```
+```text
 6, 'Mercedes-Benz', 'G 63', 2020
 7, 'Porsche', 'Panamera', 2020
 ```
@@ -2069,7 +2069,7 @@ It should have the following columns:
 
 Write a query to create this table and insert the following top 3 players:
 
-```
+```text
 1, Predator, 9500
 2, JohnWar, 9300
 3, NightWarrior, 8900
