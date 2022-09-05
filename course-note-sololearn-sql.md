@@ -27,9 +27,9 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 ## Table of Contents
 
 - [Basic Concepts](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#basic-concepts)
-- [Filtering, Functions, Subqueries]
-- [JOIN, Table Operations]
-- [Challenges]
+- [Filtering, Functions, Subqueries](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#filtering-functions-subqueries)
+- [JOIN, Table Operations]()
+- [Challenges]()
 
 &nbsp;
 
