@@ -2410,7 +2410,7 @@ WHERE id=147;
 ```
 
 - [ ] ```UPDATE```
-- [ ] ```CREATE```
+- [ ] ```VALUES```
 - [ ] ```INSERT```
 - [ ] ```SET```
 - [ ] ```INTO```
