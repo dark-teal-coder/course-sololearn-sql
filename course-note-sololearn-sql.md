@@ -2512,9 +2512,9 @@ Add him to the Animals table.
 
 > :warning: Recall INSERT and INNER JOIN keywords.
 
-#### Solution
+#### Solution 28
 
-> 🔑
+> 🔑 See [solution and explanation](./code-project-solutions/code-project-solution-28.sql)
 
 &nbsp;
 
