@@ -1,7 +1,7 @@
-SELECT students.ID, students.FirstName, students.LastName, teachers.LastName AS teacher
-FROM students, teachers
-WHERE students.teacherid=teachers.ID
-ORDER BY students.ID
+SELECT Students.ID, Students.FirstName, Students.LastName, Teachers.LastName AS Teacher
+FROM Students, Teachers
+WHERE Students.TeacherID=Teachers.ID
+ORDER BY Students.ID
 
 /* 
 EXPLANATION:
