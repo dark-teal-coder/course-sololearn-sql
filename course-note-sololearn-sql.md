@@ -2466,11 +2466,11 @@ Question 08: Drag and drop from the options below to delete the table "students"
 _____ _____ _____
 ```
 
-- [ ] ```DELETE```
+- [ ] ```CREATE```
 - [ ] ```DROP```
-- [ ] ```DATABASE```
+- [ ] ```VIEW```
 - [ ] ```TABLE```
-- [ ] ```ALTER```
+- [ ] ```AS```
 - [ ] ```students```
 
 Question 09: Drag and drop from the options below to remove the column "temp" from the table "students".
