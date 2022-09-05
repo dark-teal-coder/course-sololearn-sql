@@ -1348,6 +1348,9 @@ Write a query to output the apartments whose prices are greater than the average
 
 > :warning: Recall the AVG keyword.
 
+#### Solution 17
+
+> 🔑 See [solution and explanation](./code-project-solutions/code-project-solution-17.sql)
 
 &nbsp;
 
