@@ -184,7 +184,7 @@ FROM table_name
 ```
 
 - **column_list** includes one or more columns from which data is retrieved
-- **table-name** is the name of the table from which the information is retrieved
+- **table_name** is the name of the table from which the information is retrieved
 
 **Below is the data from our customers table:**
 
