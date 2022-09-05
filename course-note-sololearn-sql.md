@@ -2550,10 +2550,12 @@ login _____(100),
 password VARCHAR(100))
 ```
 
-- [ ] ```TABLE```
+- [ ] ```FROM```
 - [ ] ```CREATE```
-- [ ] ```LOGIN```
+- [ ] ```AT```
 - [ ] ```VARCHAR```
+- [ ] ```RECORDS```
+- [ ] ```LIMIT```
 
 Question 03: Rearrange the query to select all students under age 21. The result should be sorted according to the students' names.
 
