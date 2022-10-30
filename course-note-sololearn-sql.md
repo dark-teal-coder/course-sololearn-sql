@@ -98,6 +98,7 @@ For example, our table contains a record for each name in a phone book. The uniq
 Once you understand what a database is, understanding SQL is easy. SQL stands for Structured Query Language.
 
 SQL is used to access and manipulate a database.
+
 MySQL is a program that understands SQL.
 
 SQL can:
