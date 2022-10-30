@@ -1188,7 +1188,8 @@ The same result will be produced.
 #### Subqueries
 
 Monica has just returned from nutritionist and was advised to only eat low-fat foods.
-Here is the Foods table:
+
+Here is the `Foods` table:
 
 <p align="center">
     <img src="./images/1060-14-02-a.png" alt="1060-14-02-a.png" width="50%" height="50%">
