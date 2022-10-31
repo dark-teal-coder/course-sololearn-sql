@@ -438,7 +438,7 @@ Write a query to show only the unique checks that are given to the customer.
 
 #### Solution 5.2
 
-> 🔑 See [solution and explanation](./practice-solutions/practice-solution-5.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-05.2.sql).
 
 &nbsp;
 
