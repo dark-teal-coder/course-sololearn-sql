@@ -333,7 +333,7 @@ Write a query to select the ProductName, ProductionDate and ExpirationDate.
 
 #### Solution 4.2
 
-> 🔑 See [solution and explanation](./practice-solutions/practice-solution-4.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-04.2.sql).
 
 &nbsp;
 
