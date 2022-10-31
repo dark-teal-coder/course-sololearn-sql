@@ -13,4 +13,4 @@ This repository contains the code for the online course *"SQL"* provided by [Sol
 - <ins>Course Title</ins>: SQL
 - <ins>Course URL</ins>: https://www.sololearn.com/learning/1060
 
-1st Completion Date: Sep 04, 2022
+*1st Completion Date: Sep 04, 2022*
