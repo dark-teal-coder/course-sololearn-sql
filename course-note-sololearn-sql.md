@@ -549,7 +549,7 @@ Sort the players by losses to derive the leaderboard.
 
 #### Solution 6.2
 
-> 🔑 See [solution and explanation](./practice-solutions/practice-solution-6.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-06.2.sql).
 
 &nbsp;
 
