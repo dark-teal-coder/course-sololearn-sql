@@ -460,7 +460,7 @@ Select the first four participants from the given list.
 
 #### Solution
 
-> 🔑 See [solution and explanation](./practice-solutions/practice-solution-5.3.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-05.3.sql).
 
 &nbsp;
 
