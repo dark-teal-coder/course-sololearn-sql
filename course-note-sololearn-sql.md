@@ -458,7 +458,7 @@ Select the first four participants from the given list.
 
 > :warning: The LIMIT keyword can help you.
 
-#### Solution
+#### Solution 5.3
 
 > 🔑 See [solution and explanation](./practice-solutions/practice-solution-05.3.sql).
 
