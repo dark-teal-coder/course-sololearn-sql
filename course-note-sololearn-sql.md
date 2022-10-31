@@ -615,7 +615,7 @@ Write a query to sort the cakes by calorie count and select the first 3 cakes fr
 
 #### Solution 8
 
-> 🔑 See [solution and explanation](./code-project-solutions/code-project-solution-8.sql)
+> 🔑 See [solution and explanation](./code-project-solutions/code-project-solution-08.sql)
 
 &nbsp;
 
