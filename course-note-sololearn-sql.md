@@ -750,7 +750,7 @@ Write a query to output the names of employees whose salaries are between 1500 a
 
 #### Solution 9.2
 
-> 🔑 See [solution and explanation](./practice-solutions/practice-solution-9.2.sql).
+> 🔑 See [solution and explanation](./practice-solutions/practice-solution-09.2.sql).
 
 &nbsp;
 
