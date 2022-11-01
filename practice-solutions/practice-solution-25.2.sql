@@ -2,15 +2,15 @@ ALTER TABLE Cities ADD AttractivePlace varchar(100);
 
 UPDATE Cities
 SET AttractivePlace='Belem Tower'
-WHERE name='Lisbon';
+WHERE Name='Lisbon';
 
 UPDATE Cities
 SET AttractivePlace='Plaza Mayor'
-WHERE name='Madrid';
+WHERE Name='Madrid';
 
 UPDATE Cities
 SET AttractivePlace='Eiffel Tower'
-WHERE name='Paris';
+WHERE Name='Paris';
 
 SELECT * from Cities;
 
