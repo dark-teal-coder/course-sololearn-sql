@@ -1,4 +1,4 @@
-SELECT AVG(Score) FROM Sam_grades
+SELECT AVG(Score) FROM Sam_Grades
 WHERE Semester = 1
 
 /* 
