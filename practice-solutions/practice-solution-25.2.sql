@@ -12,7 +12,7 @@ UPDATE Cities
 SET AttractivePlace='Eiffel Tower'
 WHERE Name='Paris';
 
-SELECT * from Cities;
+SELECT * FROM Cities;
 
 /* 
 EXPLANATION:
