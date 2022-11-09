@@ -324,7 +324,7 @@ When buying food, it is important to make sure it is fresh and not expired.
 You are given the following 'Products' list:
 
 <p align="center">
-    <img src="./images/1060-04-02-a.png" alt="./images/1060-04-02-a.png" width="50%" height="50%">
+    <img src="./images/1060-04-02-a.png" alt="./images/1060-04-02-a.png" width="75%" height="75%">
 </p>
 
 Write a query to select the ProductName, ProductionDate and ExpirationDate.
