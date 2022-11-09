@@ -215,7 +215,7 @@ Result:
 
 SQL allows to run multiple queries or commands at the same time.
 
-The following SQL statement selects the FirstName and City columns from the customers table:
+The following SQL statement selects the `FirstName` and `City` columns from the customers table:
 
 ```sql
 SELECT FirstName FROM customers;
