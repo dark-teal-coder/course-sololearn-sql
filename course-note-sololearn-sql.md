@@ -63,7 +63,7 @@ A **table** stores and displays data in a structured format consisting of column
 
 Databases often contain multiple tables, each designed for a specific purpose. For example, imagine creating a database table of names and telephone numbers.
 
-First, we would set up columns with the titles *FirstName*, *LastName* and *TelephoneNumber*.
+First, we would set up columns with the titles `FirstName`, `LastName` and `TelephoneNumber`.
 
 Each table includes its own set of fields, based on the data it will store.
 
