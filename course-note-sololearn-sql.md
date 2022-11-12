@@ -171,7 +171,7 @@ Result:
 
 The ```SELECT``` statement is used to select data from a database.
 
-The result is stored in a result table, which is called the `result-set`.
+The result is stored in a result table, which is called the **result-set**.
 
 A **query** may retrieve information from selected columns or from all columns in the table.
 
