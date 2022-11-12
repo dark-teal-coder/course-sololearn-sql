@@ -416,7 +416,7 @@ This would produce the following result:
     <img src="./images/1060-05-01-p03-a.png" alt="./images/1060-05-01-p03-a.png" width="50%" height="50%">
 </p>
 
-> :warning: The reason that it produces results starting from `ID` number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
+> :warning: The reason that it produces results starting from ID number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
 
 &nbsp;
 
