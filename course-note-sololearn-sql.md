@@ -448,7 +448,7 @@ Write a query to show only the unique checks that are given to the customer.
 
 8 people are registered for an online course, but only the first 4 of them are able to participate.
 
-Here is the Participants table:
+Here is the `Participants` table:
 
 <p align="center">
     <img src="./images/1060-05-03-a.png" alt="./images/1060-05-03-a.png" width="50%" height="50%">
@@ -473,8 +473,8 @@ In SQL, you can provide the table name prior to the column name, by separating t
 The following statements are equivalent:
 
 ```sql
-SELECT City FROM customers;
-SELECT customers.City FROM customers;
+SELECT City FROM Customers;
+SELECT Customers.City FROM Customers;
 ```
 
 The term for the above-mentioned syntax is called the "fully qualified name" of that column.
@@ -483,12 +483,12 @@ The term for the above-mentioned syntax is called the "fully qualified name" of 
 
 #### Order By
 
-```ORDER BY``` is used with ```SELECT``` to **sort** the returned data.
+`ORDER BY` is used with `SELECT` to **sort** the returned data.
 
-The following example sorts our customers table by the FirstName column.
+The following example sorts our `Customers` table by the `FirstName` column.
 
 ```sql
-SELECT * FROM customers
+SELECT * FROM Customers
 ORDER BY FirstName;
 ```
 
@@ -498,13 +498,13 @@ Result:
     <img src="./images/1060-06-01-p02-a.png" alt="./images/1060-06-01-p02-a.png" width="50%" height="50%">
 </p>
 
-As you can see, the rows are ordered alphabetically by the FirstName column.
+As you can see, the rows are ordered alphabetically by the `FirstName` column.
 
 > :warning: By default, the ORDER BY keyword sorts the results in ascending order.
 
 #### Sorting Multiple Columns
 
-ORDER BY can sort retrieved data by multiple columns. When using ORDER BY with more than one column, separate the list of columns to follow ORDER BY with commas.
+`ORDER BY` can sort retrieved data by multiple columns. When using `ORDER BY` with more than one column, separate the list of columns to follow `ORDER BY` with commas.
 
 Here is the customers table, showing the following records:
 
@@ -512,14 +512,14 @@ Here is the customers table, showing the following records:
     <img src="./images/1060-06-01-p03-a.png" alt="./images/1060-06-01-p03-a.png" width="50%" height="50%">
 </p>
 
-To order by LastName and Age:
+To order by `LastName` and `Age`:
 
 ```sql
-SELECT * FROM customers
+SELECT * FROM Customers
 ORDER BY LastName, Age;
 ```
 
-This ORDER BY statement returns the following result:
+This `ORDER BY` statement returns the following result:
 
 <p align="center">
     <img src="./images/1060-06-01-p03-b.png" alt="./images/1060-06-01-p03-b.png" width="50%" height="50%">
