@@ -187,16 +187,16 @@ FROM table_name
 - **column_list** includes one or more columns from which data is retrieved
 - **table_name** is the name of the table from which the information is retrieved
 
-**Below is the data from our customers table:**
+Below is the data from our `Customers` table:
 
 <p align="center">
     <img src="./images/1060-02-01-p04-a.png" alt="./images/1060-02-01-p04-a.png" width="50%" height="50%">
 </p>
 
-The following SQL statement selects the FirstName from the customers table:
+The following SQL statement selects the `FirstName` from the `Customers` table:
 
 ```sql
-SELECT FirstName FROM customers
+SELECT FirstName FROM Customers
 ```
 
 Result:
@@ -215,11 +215,11 @@ Result:
 
 SQL allows to run multiple queries or commands at the same time.
 
-The following SQL statement selects the `FirstName` and `City` columns from the customers table:
+The following SQL statement selects the `FirstName` and `City` columns from the `Customers` table:
 
 ```sql
-SELECT FirstName FROM customers;
-SELECT City FROM customers;
+SELECT FirstName FROM Customers;
+SELECT City FROM Customers;
 ```
 
 Result:
@@ -245,9 +245,9 @@ SQL is case **insensitive**.
 The following statements are equivalent and will produce the same result:
 
 ```sql
-select City from customers;
-SELECT City FROM customers;
-sElEct City From customers;
+select City from Customers;
+SELECT City FROM Customers;
+sElEct City From Customers;
 ```
 
 > :warning: It is common practice to write all SQL commands in **upper-case**.
@@ -263,7 +263,7 @@ For example, the following query is absolutely correct.
 ```sql
 SELECT        City
 
-FROM customers;
+FROM Customers;
 ```
 
 However, it is recommended to avoid unnecessary white spaces and lines.
@@ -276,7 +276,7 @@ However, it is recommended to avoid unnecessary white spaces and lines.
 
 #### Selecting Multiple Columns
 
-As previously mentioned, the SQL SELECT statement retrieves records from tables in your SQL database.
+As previously mentioned, the SQL `SELECT` statement retrieves records from tables in your SQL database.
 
 You can select multiple table columns at once.
 
@@ -284,7 +284,7 @@ Just list the column names, separated by **commas**
 
 ```sql
 SELECT FirstName, LastName, City
-FROM customers;
+FROM Customers;
 ```
 
 Result:
@@ -297,12 +297,12 @@ Result:
 
 #### Selecting All Columns
 
-To retrieve all of the information contained in your table, place an **asterisk (\*)** sign after the SELECT command, rather than typing in each column names separately.
+To retrieve all of the information contained in your table, place an **asterisk (\*)** sign after the `SELECT` command, rather than typing in each column names separately.
 
-The following SQL statement selects all of the columns in the customers table:
+The following SQL statement selects all of the columns in the `Customers` table:
 
 ```sql
-SELECT * FROM customers;
+SELECT * FROM Customers;
 ```
 
 Result:
@@ -327,9 +327,9 @@ You are given the following 'Products' list:
     <img src="./images/1060-04-02-a.png" alt="./images/1060-04-02-a.png" width="75%" height="75%">
 </p>
 
-Write a query to select the ProductName, ProductionDate and ExpirationDate.
+Write a query to select the `ProductName`, `ProductionDate` and `ExpirationDate`.
 
-> :warning: Use the SELECT statement and separate the required columns by commas.
+> :warning: Use the `SELECT` statement and separate the required columns by commas.
 
 #### Solution 4.2
 
@@ -343,25 +343,25 @@ Write a query to select the ProductName, ProductionDate and ExpirationDate.
 
 In situations in which you have multiple duplicate records in a table, it might make more sense to return only unique records, instead of fetching the duplicates.
 
-The SQL ```DISTINCT``` keyword is used in conjunction with SELECT to eliminate all duplicate records and return only unique ones.
+The SQL `DISTINCT` keyword is used in conjunction with `SELECT` to eliminate all duplicate records and return only unique ones.
 
-The basic syntax of DISTINCT is as follows:
+The basic syntax of `DISTINCT` is as follows:
 
 ```sql
 SELECT DISTINCT column_name1, column_name2
 FROM table_name;
 ```
 
-See the customers table below:
+See the `Customers` table below:
 
 <p align="center">
     <img src="./images/1060-05-01-p01-a.png" alt="./images/1060-05-01-p01-a.png" width="50%" height="50%">
 </p>
 
-Note that there are duplicate City names. The following SQL statement selects only distinct values from the City column:
+Note that there are duplicate `City` names. The following SQL statement selects only distinct values from the `City` column:
 
 ```sql
-SELECT DISTINCT City FROM customers;
+SELECT DISTINCT City FROM Customers;
 ```
 
 This would produce the following result. Duplicate entries have been removed.
@@ -370,13 +370,13 @@ This would produce the following result. Duplicate entries have been removed.
     <img src="./images/1060-05-01-p01-b.png" alt="./images/1060-05-01-p01-b.png" width="50%" height="50%">
 </p>
 
-> :warning: The DISTINCT keyword only fetches the unique values.
+> :warning: The `DISTINCT` keyword only fetches the unique values.
 
 #### The LIMIT Keyword 1
 
-By default, all results that satisfy the conditions specified in the SQL statement are returned. However, sometimes we need to retrieve just a subset of records. In MySQL, this is accomplished by using the LIMIT keyword.
+By default, all results that satisfy the conditions specified in the SQL statement are returned. However, sometimes we need to retrieve just a subset of records. In MySQL, this is accomplished by using the `LIMIT` keyword.
 
-The syntax for LIMIT is as follows:
+Syntax:
 
 ```sql
 SELECT column_list
@@ -384,11 +384,11 @@ FROM table_name
 LIMIT [number of records];
 ```
 
-For example, we can retrieve the first five records from the customers table.
+For example, we can retrieve the first five records from the `Customers` table.
 
 ```sql
 SELECT ID, FirstName, LastName, City
-FROM customers LIMIT 5;
+FROM Customers LIMIT 5;
 ```
 
 This would produce the following result:
@@ -407,7 +407,7 @@ In the following example, we pick up four records, starting from the third posit
 
 ```sql
 SELECT ID, FirstName, LastName, City
-FROM customers OFFSET 3 LIMIT 4;
+FROM Customers OFFSET 3 LIMIT 4;
 ```
 
 This would produce the following result:
@@ -424,7 +424,7 @@ This would produce the following result:
 
 #### The DISTINCT Keyword
 
-At the conclusion of a bank transaction, 6 checks are printed -- 3 originals for the bank, and 3 copies for the customer.
+At the conclusion of a bank transaction, 6 checks are printed - 3 originals for the bank, and 3 copies for the customer.
 
 Here is the list of all the checks named Operation
 
