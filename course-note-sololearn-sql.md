@@ -429,7 +429,7 @@ At the conclusion of a bank transaction, 6 checks are printed - 3 originals for 
 Here is the list of all the checks named `Operation`:
 
 <p align="center">
-    <img src="./images/1060-05-02-a.png" alt="./images/1060-05-02-a.png" width="50%" height="50%">
+    <img src="./images/1060-05-02-a.png" alt="./images/1060-05-02-a.png" width="80%" height="80%">
 </p>
 
 Write a query to show only the unique checks that are given to the customer.
