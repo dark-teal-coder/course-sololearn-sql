@@ -82,7 +82,7 @@ The primary key's main features:
 - It must contain a `UNIQUE` value for each row.
 - It cannot contain `NULL` values.
 
-For example, our table contains a record for each name in a phone book. The unique **ID** number would be a good choice for a primary key in the table, as there is always the chance for more than one person to have the same name.
+For example, our table contains a record for each name in a phone book. The unique `ID` number would be a good choice for a primary key in the table, as there is always the chance for more than one person to have the same name.
 
 <p align="center">
     <img src="./images/1060-01-01-p03-a.png" alt="./images/1060-01-01-p03-a.png" width="50%" height="50%">
@@ -416,7 +416,7 @@ This would produce the following result:
     <img src="./images/1060-05-01-p03-a.png" alt="./images/1060-05-01-p03-a.png" width="50%" height="50%">
 </p>
 
-> :warning: The reason that it produces results starting from ID number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
+> :warning: The reason that it produces results starting from `ID` number four, and not three, is that MySQL starts counting from zero, meaning that the offset of the first row is 0, not 1.
 
 &nbsp;
 
