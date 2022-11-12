@@ -426,7 +426,7 @@ This would produce the following result:
 
 At the conclusion of a bank transaction, 6 checks are printed - 3 originals for the bank, and 3 copies for the customer.
 
-Here is the list of all the checks named Operation
+Here is the list of all the checks named `Operation`:
 
 <p align="center">
     <img src="./images/1060-05-02-a.png" alt="./images/1060-05-02-a.png" width="50%" height="50%">
