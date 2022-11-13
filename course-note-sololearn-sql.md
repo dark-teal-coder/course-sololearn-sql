@@ -119,9 +119,9 @@ SQL can:
 
 #### Basic SQL Commands 1
 
-The SQL ```SHOW``` statement displays information contained in the database and its tables. This helpful tool lets you keep track of your database contents and remind yourself about the structure of your tables.
+The SQL `SHOW` statement displays information contained in the database and its tables. This helpful tool lets you keep track of your database contents and remind yourself about the structure of your tables.
 
-For example, the ```SHOW DATABASES``` command lists the databases managed by the server.
+For example, the `SHOW DATABASES` command lists the databases managed by the server.
 
 ```sql
 SHOW DATABASES
@@ -133,22 +133,22 @@ Throughout the tutorial we will be using the MySQL engine and the PHPMyAdmin too
 
 #### Basic SQL Commands 2
 
-The ```SHOW TABLES``` command is used to display all of the tables in the currently selected MySQL database.
+The `SHOW TABLES` command is used to display all of the tables in the currently selected MySQL database.
 
 <p align="center">
     <img src="./images/1060-02-01-p02-a.png" alt="./images/1060-02-01-p02-a.png" width="50%" height="50%">
 </p>
 
-> :warning: For our example, we have created a database, `my_database`, with a table called `customers`.
+> :warning: For our example, we have created a database, `my_database`, with a table called `Customers`.
 
 #### Basic SQL Commands 3
 
-```SHOW COLUMNS``` displays information about the columns in a given table.
+`SHOW COLUMNS` displays information about the columns in a given table.
 
-The following example displays the columns in our `customers` table:
+The following example displays the columns in our `Customers` table:
 
 ```sql
-SHOW COLUMNS FROM customers
+SHOW COLUMNS FROM Customers
 ```
 
 Result:
@@ -165,7 +165,7 @@ Result:
 - **Default**: default value assigned to the column
 - **Extra**: may contain any additional information that is available about a given column
 
-> :warning: The columns for the `customers` table have also been created using the PHPMyAdmin tool.
+> :warning: The columns for the `Customers` table have also been created using the PHPMyAdmin tool.
 
 #### SELECT Statement
 
@@ -205,7 +205,7 @@ Result:
     <img src="./images/1060-02-01-p04-b.png" alt="./images/1060-02-01-p04-b.png" width="50%" height="50%">
 </p>
 
-> :warning: A SELECT statement retrieves zero or more rows from one or more database tables.
+> :warning: A `SELECT` statement retrieves zero or more rows from one or more database tables.
 
 &nbsp;
 
@@ -434,7 +434,7 @@ Here is the list of all the checks named `Operation`:
 
 Write a query to show only the unique checks that are given to the customer.
 
-> :warning: Use the DISTINCT statement to return the unique values of mentioned column.
+> :warning: Use the `DISTINCT` statement to return the unique values of mentioned column.
 
 #### Solution 5.2
 
@@ -456,7 +456,7 @@ Here is the `Participants` table:
 
 Select the first four participants from the given list.
 
-> :warning: The LIMIT keyword can help you.
+> :warning: The `LIMIT` keyword can help you.
 
 #### Solution 5.3
 
@@ -525,9 +525,9 @@ This `ORDER BY` statement returns the following result:
     <img src="./images/1060-06-01-p03-b.png" alt="./images/1060-06-01-p03-b.png" width="50%" height="50%">
 </p>
 
-As we have two Smiths, they will be ordered by the Age column in ascending order.
+As we have two Smiths, they will be ordered by the `Age` column in ascending order.
 
-> :warning: The ORDER BY command starts ordering in the same sequence as the columns. It will order by the first column listed, then by the second, and so on.
+> :warning: The `ORDER BY` command starts ordering in the same sequence as the columns. It will order by the first column listed, then by the second, and so on.
 
 &nbsp;
 
@@ -545,7 +545,7 @@ Here is the table of Players:
 
 Sort the players by losses to derive the leaderboard.
 
-> :warning: Recall the ORDER BY keyword.
+> :warning: Recall the `ORDER BY` keyword.
 
 #### Solution 6.2
 
@@ -578,12 +578,12 @@ Question 03: Why use primary keys?
 - [ ] To guarantee the uniqueness of a row
 - [ ] Just for fun
 
-Question 04: Drag and drop from the options below to select distinct names from the ''students'' table, ordered by name.
+Question 04: Drag and drop from the options below to select distinct names from the `Students` table, ordered by name.
 
 ```sql
-SELECT _____ name
-_____ students
-_____ name;
+SELECT _____ Name
+_____ Students
+_____ Name;
 ```
 
 - [ ] ```BY```
@@ -611,7 +611,7 @@ Here is the cakes table:
 
 Write a query to sort the cakes by calorie count and select the first 3 cakes from the list to offer the customer.
 
-> :warning: Try to combine ORDER BY and LIMIT keywords.
+> :warning: Try to combine `ORDER BY` and `LIMIT` keywords.
 
 #### Solution 8
 
@@ -631,9 +631,9 @@ Write a query to sort the cakes by calorie count and select the first 3 cakes fr
 
 #### The WHERE Statement
 
-The WHERE clause is used to extract only those records that fulfill a specified criterion.
+The `WHERE` clause is used to extract only those records that fulfill a specified criterion.
 
-The syntax for the WHERE clause:
+The syntax for the `WHERE` clause:
 
 ```sql
 SELECT column_list
@@ -647,7 +647,7 @@ Consider the following table:
     <img src="./images/1060-09-01-p01-a.png" alt="./images/1060-09-01-p01-a.png" width="50%" height="50%">
 </p>
 
-In the above table, to SELECT a specific record:
+In the above table, to `SELECT` a specific record:
 
 ```sql
 SELECT * FROM customers
@@ -660,13 +660,13 @@ Result:
     <img src="./images/1060-09-01-p01-b.png" alt="./images/1060-09-01-p01-b.png" width="50%" height="50%">
 </p>
 
-> :warning: The WHERE clause is used to extract only those records that fulfill a specified criterion.
+> :warning: The `WHERE` clause is used to extract only those records that fulfill a specified criterion.
 
 #### SQL Operators
 
-Comparison Operators and Logical Operators are used in the WHERE clause to filter the data to be selected.
+Comparison Operators and Logical Operators are used in the `WHERE` clause to filter the data to be selected.
 
-The following comparison operators can be used in the WHERE clause:
+The following comparison operators can be used in the `WHERE` clause:
 
 <p align="center">
     <img src="./images/1060-09-01-p02-a.png" alt="./images/1060-09-01-p02-a.png" width="50%" height="50%">
@@ -689,9 +689,9 @@ Result:
 
 #### The BETWEEN Operator
 
-The BETWEEN operator selects values within a range. The first value must be lower bound and the second value, the upper bound.
+The `BETWEEN` operator selects values within a range. The first value must be lower bound and the second value, the upper bound.
 
-The syntax for the BETWEEN clause is as follows:
+The syntax for the `BETWEEN` clause is as follows:
 
 ```sql
 SELECT column_name(s)
@@ -718,7 +718,7 @@ Result:
 
 When working with text columns, surround any text that appears in the statement with single quotation marks (').
 
-The following SQL statement selects all records in which the City is equal to 'New York'.
+The following SQL statement selects all records in which the `City` is equal to `New York`.
 
 ```sql
 SELECT ID, FirstName, LastName, City
@@ -746,7 +746,7 @@ You are given the following table named staff:
 
 Write a query to output the names of employees whose salaries are between 1500 and 1900.
 
-> :warning: Combine the WHERE statement with the BETWEEN operator!
+> :warning: Combine the `WHERE` statement with the `BETWEEN` operator!
 
 #### Solution 9.2
 
@@ -766,9 +766,9 @@ The following operators can be used:
     <img src="./images/1060-10-01-p01-a.png" alt="./images/1060-10-01-p01-a.png" width="50%" height="50%">
 </p>
 
-When retrieving data using a SELECT statement, use logical operators in the WHERE clause to combine multiple conditions.
+When retrieving data using a `SELECT` statement, use logical operators in the `WHERE` clause to combine multiple conditions.
 
-If you want to select rows that satisfy all of the given conditions, use the logical operator, AND.
+If you want to select rows that satisfy all of the given conditions, use the logical operator, `AND`.
 
 <p align="center">
     <img src="./images/1060-10-01-p01-b.png" alt="./images/1060-10-01-p01-b.png" width="50%" height="50%">
@@ -792,15 +792,15 @@ This results in the following output:
 
 #### OR
 
-If you want to select rows that satisfy at least one of the given conditions, you can use the logical OR operator.
+If you want to select rows that satisfy at least one of the given conditions, you can use the logical `OR` operator.
 
-The following table describes how the logical OR operator functions:
+The following table describes how the logical `OR` operator functions:
 
 <p align="center">
     <img src="./images/1060-10-01-p02-a.png" alt="1060-10-01-p02-a.png" width="50%" height="50%">
 </p>
 
-For example, if you want to find the customers who live either in New York or Chicago, the query would look like this:
+For example, if you want to find the customers who live either in `New York` or `Chicago`, the query would look like this:
 
 ```sql
 SELECT * FROM customers
@@ -813,11 +813,11 @@ Result:
     <img src="./images/1060-10-01-p02-b.png" alt="1060-10-01-p02-b.png" width="50%" height="50%">
 </p>
 
-> :warning: You can OR two or more conditions.
+> :warning: You can `OR` two or more conditions.
 
 #### Combining AND & OR
 
-The SQL AND and OR conditions may be combined to test multiple conditions in a query.
+The SQL `AND` and `OR` conditions may be combined to test multiple conditions in a query.
 
 These two operators are called conjunctive operators.
 
@@ -829,7 +829,7 @@ Consider the following table:
     <img src="./images/1060-10-01-p03-a.png" alt="1060-10-01-p03-a.png" width="50%" height="50%">
 </p>
 
-The statement below selects all customers from the city "New York" AND with the age equal to "30" OR “35":
+The statement below selects all customers from the city `New York` `AND` with the age equal to `30` OR `35`:
 
 ```sql
 SELECT * FROM customers
@@ -857,9 +857,9 @@ You are given the following films table with details about superhero movies:
     <img src="./images/1060-10-02-a.png" alt="./images/1060-10-02-a.png" width="50%" height="50%">
 </p>
 
-Write a query to output the names of all of the films which were produced by Marvel Studios in 2010 or later, sorted by the 'name' column.
+Write a query to output the names of all of the films which were produced by Marvel Studios in 2010 or later, sorted by the `Name` column.
 
-> :warning: Use the AND operator to combine two or more conditions.
+> :warning: Use the `AND` operator to combine two or more conditions.
 
 #### Solution 10.2
 
@@ -871,11 +871,11 @@ Write a query to output the names of all of the films which were produced by Mar
 
 #### The IN Operator 1
 
-The IN operator is used when you want to compare a column with more than one value.
+The `IN` operator is used when you want to compare a column with more than one value.
 
 For example, you might need to select all customers from New York, Los Angeles, and Chicago.
 
-With the OR condition, your SQL would look like this:
+With the `OR` condition, your SQL would look like this:
 
 ```sql
 SELECT * FROM customers
@@ -890,11 +890,11 @@ Result:
     <img src="./images/1060-11-01-p01-a.png" alt="1060-11-01-p01-a.png" width="50%" height="50%">
 </p>
 
-> :warning: The IN operator is used when you want to compare a column with more than one value.
+> :warning: The `IN` operator is used when you want to compare a column with more than one value.
 
 #### The IN Operator 2
 
-You can achieve the same result with a single IN condition, instead of the multiple OR conditions:
+You can achieve the same result with a single `IN` condition, instead of the multiple `OR` conditions:
 
 ```sql
 SELECT * FROM customers
@@ -911,9 +911,9 @@ This would also produce the same result:
 
 #### The NOT IN Operator
 
-The NOT IN operator allows you to exclude a list of specific values from the result set.
+The `NOT IN` operator allows you to exclude a list of specific values from the result set.
 
-If we add the NOT keyword before IN in our previous query, customers living in those cities will be excluded:
+If we add the `NOT` keyword before IN in our previous query, customers living in those cities will be excluded:
 
 ```sql
 SELECT * FROM customers
@@ -926,7 +926,7 @@ Result:
     <img src="./images/1060-11-01-p03-a.png" alt="1060-11-01-p03-a.png" width="50%" height="50%">
 </p>
 
-> :warning: The NOT IN operator allows you to exclude a list of specific values from the result set.
+> :warning: The `NOT IN` operator allows you to exclude a list of specific values from the result set.
 
 &nbsp;
 
@@ -942,7 +942,7 @@ You are sorting football teams by leagues and given the following table named te
 
 Write a query to output the team names and the countries of all teams that have played in La Liga (Spain), Premier League (England) and Bundesliga (Germany)․
 
-> :warning: Use the IN operator.
+> :warning: Use the `IN` operator.
 
 #### Solution 11.2
 
@@ -954,9 +954,9 @@ Write a query to output the team names and the countries of all teams that have 
 
 #### The CONCAT Function
 
-The CONCAT function is used to concatenate two or more text values and returns the concatenating string.
+The `CONCAT` function is used to concatenate two or more text values and returns the concatenating string.
 
-Let's concatenate the FirstName with the City, separating them with a comma:
+Let's concatenate the `FirstName` with the `City`, separating them with a comma:
 
 ```sql
 SELECT CONCAT(FirstName, ', ' , City) FROM customers;
@@ -968,13 +968,13 @@ Result:
     <img src="./images/1060-12-01-p01-a.png" alt="1060-12-01-p01-a.png" width="50%" height="50%">
 </p>
 
-> :warning: The CONCAT() function takes two or more parameters.
+> :warning: The `CONCAT()` function takes two or more parameters.
 
 #### The AS Keyword
 
-A concatenation results in a new column. The default column name will be the CONCAT function.
+A concatenation results in a new column. The default column name will be the `CONCAT` function.
 
-You can assign a custom name to the resulting column using the AS keyword:
+You can assign a custom name to the resulting column using the `AS` keyword:
 
 ```sql
 SELECT CONCAT(FirstName,', ', City) AS new_column
@@ -991,7 +991,7 @@ And when you run the query, the column name appears to be changed.
 
 #### Arithmetic Operators
 
-Arithmetic operators perform arithmetical operations on numeric operands. The Arithmetic operators include addition (+), subtraction (-), multiplication (*) and division (/).
+Arithmetic operators perform arithmetical operations on numeric operands. The Arithmetic operators include addition (`+`), subtraction (`-`), multiplication (`*`) and division (`/`).
 
 The following employees table shows employee names and salaries:
 
@@ -1031,7 +1031,7 @@ Each employee receives a bonus once a year. The bonus for each employee is equal
 
 Write a query to output the firstname and lastname columns into one column named fullname separated by space, and the total annual salary for each employee keeping in mind bonuses named 'total'. Sort by the 'total' column.
 
-> :warning: Use the AS keyword and the CONCAT function!
+> :warning: Use the `AS` keyword and the `CONCAT` function!
 
 #### Solution 12.2
 
@@ -1043,15 +1043,15 @@ Write a query to output the firstname and lastname columns into one column named
 
 #### The UPPER Function
 
-The UPPER function converts all letters in the specified string to uppercase.
+The `UPPER()` function converts all letters in the specified string to uppercase.
 
-The LOWER function converts the string to lowercase.
+The `LOWER()` function converts the string to lowercase.
 
-The following SQL query selects all LastNames as uppercase:
+The following SQL query selects all `LastNames` as uppercase:
 
 ```sql
 SELECT FirstName, UPPER(LastName) AS LastName
-FROM employees;
+FROM Employees;
 ```
 
 Result:
@@ -1064,9 +1064,9 @@ Result:
 
 #### SQRT and AVG
 
-The SQRT function returns the square root of given value in the argument.
+The `SQRT()` function returns the square root of given value in the argument.
 
-Let's calculate the square root of each Salary:
+Let's calculate the square root of each `Salary`:
 
 ```sql
 SELECT Salary, SQRT(Salary)
@@ -1079,7 +1079,7 @@ Result:
     <img src="./images/1060-13-01-p02-a.png" alt="1060-13-01-p02-a.png" width="50%" height="50%">
 </p>
 
-Similarly, the AVG function returns the average value of a numeric column:
+Similarly, the `AVG()` function returns the average value of a numeric column:
 
 ```sql
 SELECT AVG(Salary) FROM employees;
@@ -1091,11 +1091,11 @@ Result:
     <img src="./images/1060-13-01-p02-b.png" alt="1060-13-01-p02-b.png" width="50%" height="50%">
 </p>
 
-> :warning: Another way to do the SQRT is to use POWER with the 1/2 exponent. However, SQRT seems to work faster than POWER in this case.
+> :warning: Another way to do the `SQRT()` is to use `POWER()` with the 1/2 exponent. However, `SQRT()` seems to work faster than `POWER()` in this case.
 
 #### The SUM function
 
-The SUM function is used to calculate the sum for a column's values.
+The `SUM()` function is used to calculate the sum for a column's values.
 
 For example, to get the sum of all of the salaries in the employees table, our SQL query would look like this:
 
@@ -1117,7 +1117,7 @@ Result:
 
 #### AVG
 
-You are given the following table sam_grades, which shows Sam's exam scores.
+You are given the following table Sam_Grades, which shows Sam's exam scores.
 
 <p align="center">
     <img src="./images/1060-13-02-a.png" alt="1060-13-02-a.png" width="50%" height="50%">
@@ -1125,7 +1125,7 @@ You are given the following table sam_grades, which shows Sam's exam scores.
 
 Write a query to output the average of Sam's exam scores for the first semester.
 
-> :warning: Use the AVG() function!
+> :warning: Use the `AVG()` function!
 
 #### Solution 13.2
 
@@ -1161,7 +1161,7 @@ Result:
     <img src="./images/1060-14-01-p01-a.png" alt="1060-14-01-p01-a.png" width="50%" height="50%">
 </p>
 
-> :warning: The DESC keyword sorts results in descending order. Similarly, ASC sorts the results in ascending order.
+> :warning: The `DESC` keyword sorts results in descending order. Similarly, `ASC` sorts the results in ascending order.
 
 #### Subqueries 2
 
@@ -1195,9 +1195,9 @@ Here is the `Foods` table:
     <img src="./images/1060-14-02-a.png" alt="1060-14-02-a.png" width="50%" height="50%">
 </p>
 
-Help Monica lose weight by writing a query to choose the foods, whose fat percentages are lower than the average from the "Foods" table. Then show the resulting table.
+Help Monica lose weight by writing a query to choose the foods, whose fat percentages are lower than the average from the `Foods` table. Then show the resulting table.
 
-> :warning: Use the AVG() function.
+> :warning: Use the `AVG()` function.
 
 #### Solution 14.2
 
@@ -1209,7 +1209,7 @@ Help Monica lose weight by writing a query to choose the foods, whose fat percen
 
 #### The Like Operator
 
-The LIKE keyword is useful when specifying a search condition within your WHERE clause.
+The `LIKE` keyword is useful when specifying a search condition within your `WHERE` clause.
 
 ```sql
 SELECT column_name(s)
@@ -1217,9 +1217,9 @@ FROM table_name
 WHERE column_name LIKE pattern;
 ```
 
-SQL pattern matching enables you to use `_` to match any single character and "%" to match an arbitrary number of characters (including zero characters).
+SQL pattern matching enables you to use `_` to match any single character and `%` to match an arbitrary number of characters (including zero characters).
 
-For example, to select employees whose FirstNames begin with the letter A, you would use the following query:
+For example, to select employees whose `FirstName`s begin with the letter A, you would use the following query:
 
 ```sql
 SELECT * FROM employees
@@ -1232,7 +1232,7 @@ Result:
     <img src="./images/1060-15-01-p01-a.png" alt="1060-15-01-p01-a.png" width="50%" height="50%">
 </p>
 
-As another example, the following SQL query selects all employees with a LastName ending with the letter "s":
+As another example, the following SQL query selects all employees with a `LastName` ending with the letter "s":
 
 ```sql
 SELECT * FROM employees
@@ -1245,11 +1245,11 @@ Result:
     <img src="./images/1060-15-01-p01-b.png" alt="1060-15-01-p01-b.png" width="50%" height="50%">
 </p>
 
-> :warning: The % wildcard can be used multiple times within the same pattern.
+> :warning: The `%` wildcard can be used multiple times within the same pattern.
 
 #### The MIN Function
 
-The MIN function is used to return the minimum value of an expression in a SELECT statement.
+The `MIN()` function is used to return the minimum value of an expression in a `SELECT` statement.
 
 For example, you might wish to know the minimum salary among the employees.
 
@@ -1281,7 +1281,7 @@ Here is the desserts menu:
 
 Write a query to output only chocolate desserts.
 
-> :warning: Use the LIKE operator, and don't forget about "%".
+> :warning: Use the `LIKE` operator, and don't forget about `%`.
 
 #### Solution 15.2
 
@@ -1291,18 +1291,18 @@ Write a query to output only chocolate desserts.
 
 ### 16.1 Lesson: Module 2 Quiz
 
-Question 01: Fill in the blanks to select all values from the "students" table in which the field "university" equals "MIT".
+Question 01: Fill in the blanks to select all values from the `Students` table in which the field `University` equals `MIT`.
 
 ```sql
 SELECT * FROM _____
 WHERE _____ = 'MIT';
 ```
 
-Question 02: Rearrange the code to select students from MIT and Stanford, and order the results by the "university" column.
+Question 02: Rearrange the code to select students from MIT and Stanford, and order the results by the `University` column.
 
-- [ ] ```FROM students WHERE university```
-- [ ] ```SELECT name, university```
-- [ ] ```ORDER BY university;```
+- [ ] ```FROM Students WHERE University```
+- [ ] ```SELECT Name, University```
+- [ ] ```ORDER BY University;```
 - [ ] ```IN('Stanford', 'MIT')```
 
 Question 03: Which keyword is the correct one for custom columns?
@@ -1318,14 +1318,14 @@ Question 04: What is the name of the aggregate function for calculating the sum?
 - [ ] ```SQRT```
 - [ ] ```AVG```
 
-Question 05: Drag and drop from the options below to select name and age from ''students'', where age is greater than the average of all ages. Use a subquery to calculate the average value of age.
+Question 05: Drag and drop from the options below to select name and age from `Students`, where age is greater than the average of all ages. Use a subquery to calculate the average value of age.
 
 ```sql
-_____ name, age
-FROM students
-_____ age >
-(SELECT _____(age)
-FROM students)
+_____ Name, Age
+FROM Students
+_____ Age >
+(SELECT _____(Age)
+FROM Students)
 ```
 
 - [ ] ```SELECT```
@@ -1340,15 +1340,15 @@ FROM students)
 
 #### Apartments
 
-You want to rent an apartment and have the following table named Apartments:
+You want to rent an apartment and have the following table named `Apartments`:
 
 <p align="center">
     <img src="./images/1060-17-a.png" alt="1060-17-a.png" width="50%" height="50%">
 </p>
 
-Write a query to output the apartments whose prices are greater than the average and are also not rented, sorted by the 'Price' column.
+Write a query to output the apartments whose prices are greater than the average and are also not rented, sorted by the `Price` column.
 
-> :warning: Recall the AVG keyword.
+> :warning: Recall the `AVG` keyword.
 
 #### Solution 17
 
@@ -1396,7 +1396,7 @@ In order to be able to select the corresponding data from both tables, we will n
 
 #### Joining Tables 3
 
-To join the two tables, specify them as a comma-separated list in the FROM clause:
+To join the two tables, specify them as a comma-separated list in the `FROM` clause:
 
 ```sql
 SELECT customers.ID, customers.Name, orders.Name, orders.Amount
@@ -1405,9 +1405,9 @@ WHERE customers.ID=orders.Customer_ID
 ORDER BY customers.ID;
 ```
 
-> :warning: Each table contains "ID" and "Name" columns, so in order to select the correct ID and Name, fully qualified names are used.
+> :warning: Each table contains `ID` and `Name` columns, so in order to select the correct `ID` and `Name`, fully qualified names are used.
 
-Note that the WHERE clause "joins" the tables on the condition that the ID from the customers table should be equal to the customer_ID of the orders table.
+Note that the `WHERE` clause "joins" the tables on the condition that the `ID` from the `Customers` table should be equal to the Customer_ID of the `Orders` table.
 
 Result:
 
@@ -1417,7 +1417,7 @@ Result:
 
 The returned data shows customer orders and their corresponding amount.
 
-> :warning: Specify multiple table names in the FROM by comma-separating them.
+> :warning: Specify multiple table names in the `FROM` by comma-separating them.
 
 &nbsp;
 
@@ -1427,13 +1427,13 @@ The returned data shows customer orders and their corresponding amount.
 
 You are given the following students and teachers tables:
 
-- `students` (with their teachers ID's):
+- `Students` (with their teachers ID's):
 
 <p align="center">
     <img src="./images/1060-18-02-a.png" alt="1060-18-02-a.png" width="50%" height="50%">
 </p>
 
-- `teachers`:
+- `Teachers`:
 
 <p align="center">
     <img src="./images/1060-18-02-b.png" alt="1060-18-02-b.png" width="50%" height="50%">
@@ -1441,7 +1441,7 @@ You are given the following students and teachers tables:
 
 Write a query to output all of the students with their teachers' last names in one table, sorted by students ID.
 
-> :warning: The column with teachers' last names should be named "teacher" -- recall the AS keyword.
+> :warning: The column with teachers' last names should be named "teacher" - recall the `AS` keyword.
 
 #### Solution 18.2
 
@@ -1457,7 +1457,7 @@ Custom names can be used for tables as well. You can shorten the join statements
 
 ```sql
 SELECT ct.ID, ct.Name, ord.Name, ord.Amount
-FROM customers AS ct, orders AS ord
+FROM Customers AS ct, Orders AS ord
 WHERE ct.ID=ord.Customer_ID
 ORDER BY ct.ID;
 ```
@@ -1466,13 +1466,13 @@ ORDER BY ct.ID;
 
 #### Types of Join
 
-The following are the types of JOIN that can be used in MySQL:
+The following are the types of `JOIN` that can be used in MySQL:
 
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
+- `INNER JOIN`
+- `LEFT JOIN`
+- `RIGHT JOIN`
 
-INNER JOIN is equivalent to JOIN. It returns rows when there is a match between the tables.
+`INNER JOIN` is equivalent to `JOIN`. It returns rows when there is a match between the tables.
 
 Syntax:
 
@@ -1482,9 +1482,9 @@ FROM table1 INNER JOIN table2
 ON table1.column_name=table2.column_name;
 ```
 
-> :warning: Note the ON keyword for specifying the inner join condition.
+> :warning: Note the `ON` keyword for specifying the inner join condition.
 
-The image below demonstrates how INNER JOIN works:
+The image below demonstrates how `INNER JOIN` works:
 
 <p align="center">
     <img src="./images/1060-19-01-p02-a.png" alt="1060-19-01-p02-a.png" width="50%" height="50%">
@@ -1494,11 +1494,11 @@ The image below demonstrates how INNER JOIN works:
 
 #### LEFT JOIN
 
-The LEFT JOIN returns all rows from the left table, even if there are no matches in the right table.
+The `LEFT JOIN` returns all rows from the left table, even if there are no matches in the right table.
 
-This means that if there are no matches for the ON clause in the table on the right, the join will still return the rows from the first table in the result.
+This means that if there are no matches for the `ON` clause in the table on the right, the join will still return the rows from the first table in the result.
 
-The basic syntax of LEFT JOIN is as follows:
+The basic syntax of `LEFT JOIN` is as follows:
 
 ```sql
 SELECT table1.column1, table2.column2...
@@ -1506,9 +1506,9 @@ FROM table1 LEFT OUTER JOIN table2
 ON table1.column_name = table2.column_name;
 ```
 
-> :warning: The OUTER keyword is optional, and can be omitted.
+> :warning: The `OUTER` keyword is optional, and can be omitted.
 
-The image below demonstrates how LEFT JOIN works:
+The image below demonstrates how `LEFT JOIN` works:
 
 <p align="center">
     <img src="./images/1060-19-01-p03-a.png" alt="1060-19-01-p03-a.png" width="50%" height="50%">
@@ -1516,13 +1516,13 @@ The image below demonstrates how LEFT JOIN works:
 
 Consider the following tables.
 
-customers:
+`Customers`:
 
 <p align="center">
     <img src="./images/1060-19-01-p03-b.png" alt="1060-19-01-p03-b.png" width="50%" height="50%">
 </p>
 
-items:
+`Items`:
 
 <p align="center">
     <img src="./images/1060-19-01-p03-c.png" alt="1060-19-01-p03-c.png" width="50%" height="50%">
@@ -1531,9 +1531,9 @@ items:
 The following SQL statement will return all customers, and the items they might have:
 
 ```sql
-SELECT customers.Name, items.Name
-FROM customers LEFT OUTER JOIN items
-ON customers.ID=items.Seller_id;
+SELECT Customers.Name, Items.Name
+FROM Customers LEFT OUTER JOIN Items
+ON Customers.ID=Items.Seller_id;
 ```
 
 Result:
@@ -1544,17 +1544,17 @@ Result:
 
 The result set contains all the rows from the left table and matching data from the right table.
 
-> :warning: If no match is found for a particular row, NULL is returned.
+> :warning: If no match is found for a particular row, `NULL` is returned.
 
 #### RIGHT JOIN
 
-The RIGHT JOIN returns all rows from the right table, even if there are no matches in the left table.
+The `RIGHT JOIN` returns all rows from the right table, even if there are no matches in the left table.
 
 <p align="center">
     <img src="./images/1060-19-01-p04-a.png" alt="1060-19-01-p04-a.png" width="50%" height="50%">
 </p>
 
-The basic syntax of RIGHT JOIN is as follows:
+The basic syntax of `RIGHT JOIN` is as follows:
 
 ```sql
 SELECT table1.column1, table2.column2...
@@ -1562,13 +1562,13 @@ FROM table1 RIGHT OUTER JOIN table2
 ON table1.column_name = table2.column_name;
 ```
 
-> :warning: Again, the OUTER keyword is optional, and can be omitted.
+> :warning: Again, the `OUTER` keyword is optional, and can be omitted.
 
-Consider the same example from our previous lesson, but this time with a RIGHT JOIN:
+Consider the same example from our previous lesson, but this time with a `RIGHT JOIN`:
 
 ```sql
-SELECT customers.Name, items.Name FROM customers
-RIGHT JOIN items ON customers.ID=items.Seller_id;
+SELECT Customers.Name, Items.Name FROM Customers
+RIGHT JOIN Items ON Customers.ID=Items.Seller_id;
 ```
 
 Result:
@@ -1577,7 +1577,7 @@ Result:
     <img src="./images/1060-19-01-p04-b.png" alt="1060-19-01-p04-b.png" width="50%" height="50%">
 </p>
 
-The RIGHT JOIN returns all the rows from the right table (items), even if there are no matches in the left table (customers).
+The `RIGHT JOIN` returns all the rows from the right table (items), even if there are no matches in the left table (customers).
 
 > :warning: There are other types of joins in the SQL language, but they are not supported by MySQL.
 
@@ -1589,13 +1589,13 @@ The RIGHT JOIN returns all the rows from the right table (items), even if there 
 
 You are working at a supermarket and you need to arrange products by categories. You are given the following tables:
 
-- `products`:
+- `Products`:
 
 <p align="center">
     <img src="./images/1060-19-02-a.png" alt="1060-19-02-a.png" width="50%" height="50%">
 </p>
 
-- `categories`:
+- `Categories`:
 
 <p align="center">
     <img src="./images/1060-19-02-b.png" alt="1060-19-02-b.png" width="50%" height="50%">
@@ -1605,7 +1605,7 @@ Each product has a category.
 
 Write a query to output all products with their categories (productname-price-categoryname) in one table.
 
-> :warning: Don't forget about the ON keyword while using INNER JOIN.
+> :warning: Don't forget about the `ON` keyword while using `INNER JOIN`.
 
 #### Solution 19.2
 
@@ -1619,21 +1619,21 @@ Write a query to output all products with their categories (productname-price-ca
 
 Occasionally, you might need to combine data from multiple tables into one comprehensive dataset. This may be for tables with similar data within the same database or maybe there is a need to combine similar data across databases or even across servers.
 
-To accomplish this, use the UNION and UNION ALL operators.
+To accomplish this, use the `UNION` and `UNION ALL` operators.
 
-UNION combines multiple datasets into a single dataset, and removes any existing duplicates.
+`UNION` combines multiple datasets into a single dataset, and removes any existing duplicates.
 
-UNION ALL combines multiple datasets into one dataset, but does not remove duplicate rows.
+`UNION ALL` combines multiple datasets into one dataset, but does not remove duplicate rows.
 
-> :warning: UNION ALL is faster than UNION, as it does not perform the duplicate removal operation over the data set.
+> :warning: `UNION ALL` is faster than `UNION`, as it does not perform the duplicate removal operation over the data set.
 
 #### UNION
 
-The UNION operator is used to combine the result-sets of two or more SELECT statements.
+The `UNION` operator is used to combine the result-sets of two or more `SELECT` statements.
 
-All SELECT statements within the UNION must have the same number of columns. The columns must also have the same data types. Also, the columns in each SELECT statement must be in the same order.
+All `SELECT` statements within the `UNION` must have the same number of columns. The columns must also have the same data types. Also, the columns in each `SELECT` statement must be in the same order.
 
-The syntax of UNION is as follows:
+The syntax of `UNION` is as follows:
 
 ```sql
 SELECT column_name(s) FROM table1
