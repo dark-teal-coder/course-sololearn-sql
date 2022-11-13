@@ -1641,13 +1641,13 @@ UNION
 SELECT column_name(s) FROM table2;
 ```
 
-Here is the First of two tables:
+Here is the `First` of two tables:
 
 <p align="center">
     <img src="./images/1060-20-01-p02-a.png" alt="1060-20-01-p02-a.png" width="50%" height="50%">
 </p>
 
-And here is the Second:
+And here is the `Second`:
 
 <p align="center">
     <img src="./images/1060-20-01-p02-b.png" alt="1060-20-01-p02-b.png" width="50%" height="50%">
@@ -1668,21 +1668,21 @@ The resulting table will look like this one:
 > :warning: As you can see, the duplicates have been removed.
 
 **TIP**:
-If your columns don't match exactly across all queries, you can use a NULL (or any other) value such as:
+If your columns don't match exactly across all queries, you can use a `NULL` (or any other) value such as:
 
 ```sql
-SELECT FirstName, LastName, Company FROM businessContacts
+SELECT FirstName, LastName, Company FROM BusinessContacts
 UNION
-SELECT FirstName, LastName, NULL FROM otherContacts;
+SELECT FirstName, LastName, NULL FROM OtherContacts;
 ```
 
-> :warning: The UNION operator is used to combine the result-sets of two or more SELECT statements.
+> :warning: The `UNION` operator is used to combine the result-sets of two or more `SELECT` statements.
 
 #### UNION ALL
 
-UNION ALL selects all rows from each table and combines them into a single table.
+`UNION` ALL selects all rows from each table and combines them into a single table.
 
-The following SQL statement uses UNION ALL to select data from the First and Second tables:
+The following SQL statement uses `UNION ALL` to select data from the `First` and `Second` tables:
 
 ```sql
 SELECT ID, FirstName, LastName, City FROM First
@@ -1718,7 +1718,7 @@ FIDE wants to hold a major chess tournament and has decided to include players f
     <img src="./images/1060-20-02-b.png" alt="1060-20-02-b.png" width="50%" height="50%">
 </p>
 
-Write a query to merge 'NorwayChess' and 'TataSteel' tables. Then order the merged table by 'Rating' in descending order and show the final table of participants.
+Write a query to merge `NorwayChess` and `TataSteel` tables. Then order the merged table by `Rating` in descending order and show the final table of participants.
 
 > :warning: Remember, you need to get a table without duplicates.
 
@@ -1732,9 +1732,9 @@ Write a query to merge 'NorwayChess' and 'TataSteel' tables. Then order the merg
 
 #### Inserting Data 1
 
-SQL tables store data in rows, one row after another. The INSERT INTO statement is used to add new rows of data to a table in the database.
+SQL tables store data in rows, one row after another. The `INSERT INTO` statement is used to add new rows of data to a table in the database.
 
-The SQL INSERT INTO syntax is as follows:
+The SQL `INSERT INTO` syntax is as follows:
 
 ```sql
 INSERT INTO table_name
@@ -1743,7 +1743,7 @@ VALUES (value1, value2, value3,...);
 
 > :warning: Make sure the order of the values is in the same order as the columns in the table.
 
-Consider the following Employees table:
+Consider the following `Employees` table:
 
 <p align="center">
     <img src="./images/1060-21-01-p01-a.png" alt="1060-21-01-p01-a.png" width="50%" height="50%">
@@ -1765,11 +1765,11 @@ Result:
     <img src="./images/1060-21-01-p01-b.png" alt="1060-21-01-p01-b.png" width="50%" height="50%">
 </p>
 
-> :warning: When inserting records into a table using the SQL INSERT statement, you must provide a value for every column that does not have a default value, or does not support NULL.
+> :warning: When inserting records into a table using the SQL `INSERT` statement, you must provide a value for every column that does not have a default value, or does not support `NULL`.
 
 #### Inserting Data 2
 
-Alternatively, you can specify the table's column names in the INSERT INTO statement:
+Alternatively, you can specify the table's column names in the `INSERT INTO` statement:
 
 ```sql
 INSERT INTO table_name (column1, column2, column3, ...,columnN)
@@ -1808,7 +1808,7 @@ Result:
     <img src="./images/1060-21-01-p03-a.png" alt="1060-21-01-p03-a.png" width="50%" height="50%">
 </p>
 
-> :warning: The Age column for that row automatically became 0, as that is its default value.
+> :warning: The `Age` column for that row automatically became 0, as that is its default value.
 
 &nbsp;
 
@@ -1831,9 +1831,9 @@ You plan to add two more vehicles to your garage:
 7, 'Porsche', 'Panamera', 2020
 ```
 
-Write a query to insert the new cars into your table named 'Garage'. Then show the table with the added records.
+Write a query to insert the new cars into your table named `Garage`. Then show the table with the added records.
 
-> :warning: Use the INSERT statement to perform the operation.
+> :warning: Use the `INSERT` statement to perform the operation.
 
 #### Solution 21.2
 
@@ -1845,9 +1845,9 @@ Write a query to insert the new cars into your table named 'Garage'. Then show t
 
 #### Updating Data 1
 
-The UPDATE statement allows us to alter data in the table.
+The `UPDATE` statement allows us to alter data in the table.
 
-The basic syntax of an UPDATE query with a WHERE clause is as follows:
+The basic syntax of an `UPDATE` query with a `WHERE` clause is as follows:
 
 ```sql
 UPDATE table_name
@@ -1855,13 +1855,13 @@ SET column1=value1, column2=value2, ...
 WHERE condition;
 ```
 
-You specify the column and its new value in a comma-separated list after the SET keyword.
+You specify the column and its new value in a comma-separated list after the `SET` keyword.
 
-> :warning: If you omit the WHERE clause, all records in the table will be updated!
+> :warning: If you omit the `WHERE` clause, all records in the table will be updated!
 
 #### Updating Data 2
 
-Consider the following table called "Employees":
+Consider the following table called `Employees`:
 
 <p align="center">
     <img src="./images/1060-22-01-p02-a.png" alt="1060-22-01-p02-a.png" width="50%" height="50%">
@@ -1884,7 +1884,7 @@ Result:
 
 #### Updating Multiple Columns
 
-It is also possible to UPDATE multiple columns at the same time by comma-separating them:
+It is also possible to `UPDATE` multiple columns at the same time by comma-separating them:
 
 ```sql
 UPDATE Employees
@@ -1899,11 +1899,11 @@ Result:
     <img src="./images/1060-22-01-p03-a.png" alt="1060-22-01-p03-a.png" width="50%" height="50%">
 </p>
 
-> :warning: You can specify the column order any way you like in the SET clause.
+> :warning: You can specify the column order any way you like in the `SET` clause.
 
 #### Deleting Data
 
-The DELETE statement is used to remove data from your table. DELETE queries work much like UPDATE queries.
+The `DELETE` statement is used to remove data from your table. `DELETE` queries work much like `UPDATE` queries.
 
 ```sql
 DELETE FROM table_name
@@ -1924,7 +1924,7 @@ Result:
     <img src="./images/1060-22-01-p04-a.png" alt="1060-22-01-p04-a.png" width="50%" height="50%">
 </p>
 
-> :warning: If you omit the WHERE clause, all records in the table will be deleted! The DELETE statement removes the data from the table permanently.
+> :warning: If you omit the `WHERE` clause, all records in the table will be deleted! The `DELETE` statement removes the data from the table permanently.
 
 &nbsp;
 
@@ -1932,7 +1932,7 @@ Result:
 
 #### Deleting Data
 
-You are manager in the supermarket. Here is the `products` table showing a field for each item, along with the ExpireDate with the count of days remaining before item expiration.
+You are manager in the supermarket. Here is the `Products` table showing a field for each item, along with the ExpireDate with the count of days remaining before item expiration.
 
 <p align="center">
     <img src="./images/1060-22-02-a.png" alt="1060-22-02-a.png" width="50%" height="50%">
@@ -1940,9 +1940,9 @@ You are manager in the supermarket. Here is the `products` table showing a field
 
 You need to get rid of all the expired products.
 
-Delete from the ‘products’ table all of the items whose 'ExpireDate' is less than 1 and show the table without any expired items.
+Delete from the `Products` table all of the items whose `ExpireDate` is less than 1 and show the table without any expired items.
 
-> :warning: The DELETE statement removes the data from the table permanently.
+> :warning: The `DELETE` statement removes the data from the table permanently.
 
 #### Solution 22.2
 
@@ -1958,13 +1958,13 @@ A single database can house hundreds of tables, each playing its own unique role
 
 SQL tables are comprised of table rows and columns. Table columns are responsible for storing many different types of data, including numbers, texts, dates, and even files.
 
-The CREATE TABLE statement is used to create a new table.
+The `CREATE TABLE` statement is used to create a new table.
 
 > :warning: Creating a basic table involves naming the table and defining its columns and each column's data type.
 
 #### Creating a Table 1
 
-The basic syntax for the CREATE TABLE statement is as follows:
+The basic syntax for the `CREATE TABLE` statement is as follows:
 
 ```sql
 CREATE TABLE table_name
@@ -1985,9 +1985,9 @@ columnN data_type(size)
 
 #### Creating a Table 2
 
-Assume that you want to create a table called "Users" that consists of four columns: UserID, LastName, FirstName, and City.
+Assume that you want to create a table called `Users` that consists of four columns: `UserID`, `LastName`, `FirstName`, and `City`.
 
-Use the following CREATE TABLE statement:
+Use the following `CREATE TABLE` statement:
 
 ```sql
 CREATE TABLE Users
@@ -2005,30 +2005,30 @@ CREATE TABLE Users
 
 Data types specify the type of data for a particular column.
 
-If a column called "LastName" is going to hold names, then that particular column should have a "varchar" (variable-length character) data type.
+If a column called `LastName` is going to hold names, then that particular column should have a `VARCHAR` (variable-length character) data type.
 
 The most common data types:
 
 - Numeric
-  - INT - A normal-sized integer that can be signed or unsigned.
-  - FLOAT(M,D) - A floating-point number that cannot be unsigned. You can optionally define the display length (M) and the number of decimals (D).
-  - DOUBLE(M,D) - A double precision floating-point number that cannot be unsigned. You can optionally define the display length (M) and the number of decimals (D).
+  - `INT` - A normal-sized integer that can be signed or unsigned.
+  - `FLOAT(M,D)` - A floating-point number that cannot be unsigned. You can optionally define the display length (M) and the number of decimals (D).
+  - `DOUBLE(M,D)` - A double precision floating-point number that cannot be unsigned. You can optionally define the display length (M) and the number of decimals (D).
 - Date and Time
-  - DATE - A date in YYYY-MM-DD format.
-  - DATETIME - A date and time combination in YYYY-MM-DD HH:MM:SS format.
-  - TIMESTAMP - A timestamp, calculated from midnight, January 1, 1970
-  - TIME - Stores the time in HH:MM:SS format.
+  - `DATE` - A date in YYYY-MM-DD format.
+  - `DATETIME` - A date and time combination in YYYY-MM-DD HH:MM:SS format.
+  - `TIMESTAMP` - A timestamp, calculated from midnight, January 1, 1970
+  - `TIME` - Stores the time in HH:MM:SS format.
 - String Type
-  - CHAR(M) - Fixed-length character string. Size is specified in parenthesis. Max 255 bytes.
-  - VARCHAR(M) - Variable-length character string. Max size is specified in parenthesis.
-  - BLOB - "Binary Large Objects" and are used to store large amounts of binary data, such as images or other types of files.
-  - TEXT - Large amount of text data.
+  - `CHAR(M)` - Fixed-length character string. Size is specified in parenthesis. Max 255 bytes.
+  - `VARCHAR(M)` - Variable-length character string. Max size is specified in parenthesis.
+  - `BLOB` - "Binary Large Objects" and are used to store large amounts of binary data, such as images or other types of files.
+  - `TEXT` - Large amount of text data.
 
 > :warning: Choosing the correct data type for your columns is the key to good database design.
 
 #### Primary Key
 
-The UserID is the best choice for our Users table's primary key.
+The `UserID` is the best choice for our Users table's primary key.
 
 Define it as a primary key during table creation, using the PRIMARY KEY keyword.
 
@@ -2043,7 +2043,7 @@ CREATE TABLE Users
 );
 ```
 
-> :warning: Specify the column name in the parentheses of the PRIMARY KEY keyword.
+> :warning: Specify the column name in the parentheses of the `PRIMARY KEY` keyword.
 
 #### Creating a Table
 
@@ -2053,7 +2053,7 @@ Now, when we run the query, our table will be created in the database.
     <img src="./images/1060-23-01-p06-a.png" alt="1060-23-01-p06-a.png" width="50%" height="50%">
 </p>
 
-> :warning: You can now use INSERT INTO queries to insert data into the table.
+> :warning: You can now use `INSERT INTO` queries to insert data into the table.
 
 &nbsp;
 
@@ -2079,7 +2079,7 @@ Write a query to create this table and insert the following top 3 players:
 
 Finally, show the resulting table.
 
-> :warning: Recall the INSERT statement to add the required data to the table.
+> :warning: Recall the `INSERT` statement to add the required data to the table.
 
 #### Solution 23.2
 
@@ -2095,13 +2095,13 @@ SQL constraints are used to specify rules for table data.
 
 The following are commonly used SQL constraints:
 
-- NOT NULL - Indicates that a column cannot contain any NULL value.
-- UNIQUE - Does not allow to insert a duplicate value in a column. The UNIQUE constraint maintains the uniqueness of a column in a table. More than one UNIQUE column can be used in a table.
-- PRIMARY KEY - Enforces the table to accept unique data for a specific column and this constraint create a unique index for accessing the table faster.
-- CHECK - Determines whether the value is valid or not from a logical expression.
-- DEFAULT - While inserting data into a table, if no value is supplied to a column, then the column gets the value set as DEFAULT.
+- `NOT NULL` - Indicates that a column cannot contain any NULL value.
+- `UNIQUE` - Does not allow to insert a duplicate value in a column. The UNIQUE constraint maintains the uniqueness of a column in a table. More than one UNIQUE column can be used in a table.
+- `PRIMARY KEY` - Enforces the table to accept unique data for a specific column and this constraint create a unique index for accessing the table faster.
+- `CHECK` - Determines whether the value is valid or not from a logical expression.
+- `DEFAULT` - While inserting data into a table, if no value is supplied to a column, then the column gets the value set as DEFAULT.
 
-For example, the following means that the name column disallows NULL values.
+For example, the following means that the name column disallows `NULL` values.
 
 ```sql
 name varchar(100) NOT NULL
@@ -2115,9 +2115,9 @@ Auto-increment allows a unique number to be generated when a new record is inser
 
 Often, we would like the value of the primary key field to be created automatically every time a new record is inserted.
 
-By default, the starting value for AUTO_INCREMENT is 1, and it will increment by 1 for each new record.
+By default, the starting value for `AUTO_INCREMENT` is 1, and it will increment by 1 for each new record.
 
-Let's set the UserID field to be a primary key that automatically generates a new value:
+Let's set the `UserID` field to be a primary key that automatically generates a new value:
 
 ```sql
 UserID int NOT NULL AUTO_INCREMENT,
@@ -2139,7 +2139,7 @@ PRIMARY KEY(id)
 );
 ```
 
-The following SQL enforces that the "id", "username", and "password" columns do not accept NULL values. We also define the "id" column to be an auto-increment primary key field.
+The following SQL enforces that the `id`, `username`, and `password` columns do not accept `NULL` values. We also define the `id` column to be an auto-increment primary key field.
 
 Here is the result:
 
@@ -2147,7 +2147,7 @@ Here is the result:
     <img src="./images/1060-24-01-p03-a.png" alt="1060-24-01-p03-a.png" width="50%" height="50%">
 </p>
 
-> :warning: When inserting a new record into the Users table, it's not necessary to specify a value for the id column; a unique new value will be added automatically.
+> :warning: When inserting a new record into the `Users` table, it's not necessary to specify a value for the id column; a unique new value will be added automatically.
 
 &nbsp;
 
@@ -2155,17 +2155,17 @@ Here is the result:
 
 #### ALTER TABLE
 
-The ALTER TABLE command is used to add, delete, or modify columns in an existing table.
+The `ALTER TABLE` command is used to add, delete, or modify columns in an existing table.
 
-You would also use the ALTER TABLE command to add and drop various constraints on an existing table.
+You would also use the `ALTER TABLE` command to add and drop various constraints on an existing table.
 
-Consider the following table called People:
+Consider the following table called `People`:
 
 <p align="center">
     <img src="./images/1060-25-01-p01-a.png" alt="1060-25-01-p01-a.png" width="50%" height="50%">
 </p>
 
-The following SQL code adds a new column named DateOfBirth
+The following SQL code adds a new column named `DateOfBirth`
 
 ```sql
 ALTER TABLE People ADD DateOfBirth date;
@@ -2178,11 +2178,11 @@ Result:
     <img src="./images/1060-25-01-p01-b.png" alt="1060-25-01-p01-b.png" width="50%" height="50%">
 </p>
 
-> :warning: All rows will have the default value in the newly added column, which, in this case, is NULL.
+> :warning: All rows will have the default value in the newly added column, which, in this case, is `NULL`.
 
 #### Dropping
 
-The following SQL code demonstrates how to delete the column named DateOfBirth in the People table.
+The following SQL code demonstrates how to delete the column named `DateOfBirth` in the `People` table.
 
 ```sql
 ALTER TABLE People
@@ -2190,7 +2190,7 @@ DROP COLUMN DateOfBirth;
 SELECT * from People;
 ```
 
-The People table will now look like this:
+The `People` table will now look like this:
 
 <p align="center">
     <img src="./images/1060-25-01-p02-a.png" alt="1060-25-01-p02-a.png" width="50%" height="50%">
@@ -2198,7 +2198,7 @@ The People table will now look like this:
 
 > :warning: The column, along with all of its data, will be completely removed from the table.
 
-To delete the entire table, use the DROP TABLE command:
+To delete the entire table, use the `DROP TABLE` command:
 
 ```sql
 DROP TABLE People;
@@ -2208,7 +2208,7 @@ DROP TABLE People;
 
 #### Renaming
 
-The ALTER TABLE command is also used to rename columns:
+The `ALTER TABLE` command is also used to rename columns:
 
 ```sql
 ALTER TABLE People
@@ -2216,7 +2216,7 @@ RENAME FirstName TO name;
 SELECT * from People;
 ```
 
-This query will rename the column called FirstName to name.
+This query will rename the column called `FirstName` to name.
 
 Result:
 
@@ -2226,13 +2226,13 @@ Result:
 
 Renaming Tables
 
-You can rename the entire table using the RENAME command:
+You can rename the entire table using the `RENAME` command:
 
 ```sql
 RENAME TABLE People TO Users;
 ```
 
-> :warning: This will rename the table People to Users.
+> :warning: This will rename the table `People` to `Users`.
 
 &nbsp;
 
@@ -2250,7 +2250,7 @@ Jessica has a list of the cities she has visited:
 
 She is going to add the most attractive places she visited in each of the cities.
 
-Add a new column 'AttractivePlace' and update the values:
+Add a new column `AttractivePlace` and update the values:
 
 - 'Belem Tower' for Lisbon
 - 'Plaza Mayor' for Madrid
@@ -2258,7 +2258,7 @@ Add a new column 'AttractivePlace' and update the values:
 
 Then show the resulting table.
 
-> :warning: Use the ALTER TABLE command to add a new column and the UPDATE command to update the values of the newly generated fields.
+> :warning: Use the `ALTER TABLE` command to add a new column and the `UPDATE` command to update the values of the newly generated fields.
 
 #### Solution 25.2
 
@@ -2270,7 +2270,7 @@ Then show the resulting table.
 
 #### Views
 
-In SQL, a VIEW is a virtual table that is based on the result-set of an SQL statement.
+In SQL, a `VIEW` is a virtual table that is based on the result-set of an SQL statement.
 
 A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
 
@@ -2289,7 +2289,7 @@ FROM table_name
 WHERE condition;
 ```
 
-> :warning: The SELECT query can be as complex as you need it to be. It can contain multiple JOINS and other commands.
+> :warning: The `SELECT` query can be as complex as you need it to be. It can contain multiple `JOINS` and other commands.
 
 #### Creating Views
 
@@ -2299,7 +2299,7 @@ Consider the Employees table, which contains the following records:
     <img src="./images/1060-26-01-p02-a.png" alt="1060-26-01-p02-a.png" width="50%" height="50%">
 </p>
 
-Let's create a view that displays each employee's FirstName and Salary.
+Let's create a view that displays each employee's `FirstName` and `Salary`.
 
 ```sql
 CREATE VIEW List AS
@@ -2335,7 +2335,7 @@ FROM table_name
 WHERE condition;
 ```
 
-The example below updates our List view to select also the LastName:
+The example below updates our List view to select also the `LastName`:
 
 ```sql
 CREATE OR REPLACE VIEW List AS
@@ -2349,13 +2349,13 @@ Result:
     <img src="./images/1060-26-01-p03-a.png" alt="1060-26-01-p03-a.png" width="50%" height="50%">
 </p>
 
-You can delete a view with the DROP VIEW command.
+You can delete a view with the `DROP VIEW` command.
 
 ```sql
 DROP VIEW List;
 ```
 
-> :warning: It is sometimes easier to drop a table and recreate it instead of using the ALTER TABLE statement to change the table’s definition.
+> :warning: It is sometimes easier to drop a table and recreate it instead of using the `ALTER TABLE` statement to change the table’s definition.
 
 &nbsp;
 
@@ -2371,9 +2371,9 @@ Here is the users table with details:
     <img src="./images/1060-26-02-a.png" alt="1060-26-02-a.png" width="50%" height="50%">
 </p>
 
-Write a query to create a view to show only 'acc_id' and 'status' columns and then show that view.
+Write a query to create a view to show only `acc_id` and `status` columns and then show that view.
 
-> :warning: Don't forget to name the view and use the AS keyword.
+> :warning: Don't forget to name the view and use the `AS` keyword.
 
 #### Solution 26.2
 
@@ -2390,10 +2390,10 @@ Question 01: Rearrange to select all student names and university names (use lef
 - [ ] ```ON students.university id=universities.id```
 - [ ] ```LEFT OUTER JOIN universities```
 
-Question 02: Drag and drop from the options below to insert a data item into the "people" table.
+Question 02: Drag and drop from the options below to insert a data item into the `People` table.
 
 ```sql
-_____ _____ people
+_____ _____ People
 _____ ('John Smith', '1', 22);
 ```
 
@@ -2403,10 +2403,10 @@ _____ ('John Smith', '1', 22);
 - [ ] ```SET```
 - [ ] ```INTO```
 
-Question 03: Drag and drop from the options below to update the "people" table.
+Question 03: Drag and drop from the options below to update the `People` table.
 
 ```sql
-_____ people
+_____ People
 _____ name='Jordan'
 WHERE id=147;
 ```
@@ -2417,7 +2417,7 @@ WHERE id=147;
 - [ ] ```SET```
 - [ ] ```INTO```
 
-Question 04: Fill in the blanks to create a table with two columns: "id" as a primary key integer, and "name" of type varchar.
+Question 04: Fill in the blanks to create a table with two columns: `id` as a primary key integer, and `name` of type `varchar`.
 
 ```sql
 CREATE TABLE(
@@ -2431,10 +2431,10 @@ CREATE TABLE(
 - [ ] ```id```
 - [ ] ```varchar```
 
-Question 05: Rearrange to remove the column "age" from the "people" table.
+Question 05: Rearrange to remove the column `age` from the `People` table.
 
 - [ ] ```age```
-- [ ] ```people```
+- [ ] ```People```
 - [ ] ```DROP COLUMN```
 - [ ] ```ALTER TABLE```
 
@@ -2445,7 +2445,7 @@ Question 06: Which choice is the correct command for changing the name of a tabl
 - [ ] ```SELECT```
 - [ ] ```CHANGE NAME```
 
-Question 07: Drag and drop from the options below to create a view named ''most_abs'' for the students with the greatest number of absences.
+Question 07: Drag and drop from the options below to create a view named `most_abs` for the students with the greatest number of absences.
 
 ```sql
 _____ _____ most_abs _____
@@ -2462,7 +2462,7 @@ LIMIT 10;
 - [ ] ```VIEW```
 - [ ] ```SELECT```
 
-Question 08: Drag and drop from the options below to delete the table "students" from the database.
+Question 08: Drag and drop from the options below to delete the table `students` from the database.
 
 ```sql
 _____ _____ _____
@@ -2475,7 +2475,7 @@ _____ _____ _____
 - [ ] ```AS```
 - [ ] ```students```
 
-Question 09: Drag and drop from the options below to remove the column "temp" from the table "students".
+Question 09: Drag and drop from the options below to remove the column `temp` from the table `students`.
 
 ```sql
 _____ TABLE students
@@ -2512,7 +2512,7 @@ name - "Slim", type - "Giraffe", country_id - 1
 Add him to the Animals table.
 2) You want to make a complete list of the animals for the zoo’s visitors. Write a query to output a new table with each animal's name, type and country fields, sorted by countries.
 
-> :warning: Recall INSERT and INNER JOIN keywords.
+> :warning: Recall `INSERT` and `INNER JOIN` keywords.
 
 #### Solution 28
 
@@ -2530,7 +2530,7 @@ Add him to the Animals table.
 
 ### 29.1 Lesson: Challenge 1
 
-Question 01: In the "users" table of website logins and passwords, select the first 10 records in the table.
+Question 01: In the `users` table of website logins and passwords, select the first 10 records in the table.
 
 ```sql
 SELECT * _____ users
@@ -2542,7 +2542,7 @@ _____ 10
 - [ ] ```RECORDS```
 - [ ] ```LIMIT```
 
-Question 02: Drag and drop from the options below to create the table "users" to store website user logins and passwords.
+Question 02: Drag and drop from the options below to create the table `users` to store website user logins and passwords.
 
 ```sql
 _____ TABLE users (
@@ -2610,7 +2610,7 @@ Question 07: The zoo administration wants a list of animals whose age is greater
 - [ ] ```(SELECT AVG(age)```
 - [ ] ```SELECT * FROM zoo```
 
-Question 08: There are many wolves in the zoo: black wolf, white wolf, lucky wolf, little wolf. They all have 'wolf' at the end of their names. Print the ages of all of the wolves.
+Question 08: There are many wolves in the zoo: black wolf, white wolf, lucky wolf, little wolf. They all have "wolf" at the end of their names. Print the ages of all of the wolves.
 
 ```sql
 SELECT age FROM zoo
@@ -2636,7 +2636,7 @@ _____ 18 _____ 22;
 - [ ] ```TO```
 - [ ] ```BETWEEN```
 
-Question 02: Drag and drop from the options below to update the "students" table to set Jake's university to MIT. His id is 682.
+Question 02: Drag and drop from the options below to update the `students` table to set Jake's university to MIT. His id is 682.
 
 ```sql
 _____ students
@@ -2650,7 +2650,7 @@ WHERE _____=682
 - [ ] ```name```
 - [ ] ```UPDATE```
 
-Question 03: When you inserted "elephant" as a new animal, you forgot to include the elephant's age. Correct this mistake by updating the "zoo" table.
+Question 03: When you inserted `elephant` as a new animal, you forgot to include the elephant's age. Correct this mistake by updating the `zoo` table.
 
 ```sql
 _____ zoo
@@ -2664,7 +2664,7 @@ WHERE animal='elephant'
 - [ ] ```SET```
 - [ ] ```CHANGE```
 
-Question 04: Drag and drop from the options below to update the food_balance to 23 for animals whose age is greater than the average age of the animals.
+Question 04: Drag and drop from the options below to update the `food_balance` to 23 for animals whose age is greater than the average age of the animals.
 
 ```sql
 UPDATE zoo
@@ -2681,7 +2681,7 @@ FROM _____);
 - [ ] ```INSERT```
 - [ ] ```zoo```
 
-Question 05: You need your customer's names, along with the names of the cities in which they live. The names of the cities are stored in a separate table called "cities".
+Question 05: You need your customer's names, along with the names of the cities in which they live. The names of the cities are stored in a separate table called `cities`.
 
 - [ ] ```FROM customers```
 - [ ] ```RIGHT```
