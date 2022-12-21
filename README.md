@@ -15,4 +15,4 @@ This repository contains the code for the online course *"SQL"* provided by [Sol
 
 &nbsp;
 
-*1st Completion Date: Sep 04, 2022*
+*1st Completion Date: Sep 04, 2022*&emsp;
