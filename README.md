@@ -16,3 +16,7 @@ This repository contains the code for the online course *"SQL"* provided by [Sol
 &nbsp;
 
 *1st Completion Date: Sep 04, 2022*&emsp;
+
+LOG
+
+SoloLearn SQL has been depreciated when checked on Feb 17, 2023. 
