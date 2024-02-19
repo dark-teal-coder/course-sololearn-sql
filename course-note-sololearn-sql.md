@@ -26,10 +26,10 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 
 ## Table of Contents
 
-- [Basic Concepts](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#basic-concepts)
-- [Filtering, Functions, Subqueries](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#filtering-functions-subqueries)
-- [JOIN, Table Operations](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#join-table-operations)
-- [Challenges](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#challenges)
+- [01 Basic Concepts](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#01-basic-concepts)
+- [02 Filtering, Functions, Subqueries](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#02-filtering-functions-subqueries)
+- [03 JOIN, Table Operations](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#03-join-table-operations)
+- [04 Challenges](https://github.com/dark-teal-coder/course-sololearn-sql/blob/main/course-note-sololearn-sql.md#04-challenges)
 
 &nbsp;
 
@@ -37,7 +37,7 @@ This course covers an array of SQL-related topics, such as retrieving, updating 
 
 &nbsp;
 
-## Basic Concepts
+## 01 Basic Concepts
 
 &nbsp;
 
@@ -623,7 +623,7 @@ Write a query to sort the cakes by calorie count and select the first 3 cakes fr
 
 &nbsp;
 
-## Filtering, Functions, Subqueries
+## 02 Filtering, Functions, Subqueries
 
 &nbsp;
 
@@ -1360,7 +1360,7 @@ Write a query to output the apartments whose prices are greater than the average
 
 &nbsp;
 
-## JOIN, Table Operations
+## 03 JOIN, Table Operations
 
 &nbsp;
 
@@ -2524,7 +2524,7 @@ Add him to the Animals table.
 
 &nbsp;
 
-## Challenges
+## 04 Challenges
 
 &nbsp;
 
